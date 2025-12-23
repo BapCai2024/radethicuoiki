@@ -1,19 +1,19 @@
-\
 from __future__ import annotations
-import os
 import streamlit as st
+from tool.ui_common import inject_css, sidebar_settings
 
 st.set_page_config(page_title="Tool ra đề theo ma trận (TT27)", layout="wide")
+inject_css()
+sidebar_settings()
 
-st.title("Tool ra đề theo ma trận (TT27)")
-st.write("Màn hình chính là **ma trận giống Excel**. Giáo viên điền số câu theo từng ô; mức độ **khóa cứng TT27** (M1/M2/M3).")
+st.markdown('<div class="app-card">', unsafe_allow_html=True)
+st.markdown("## 🧩 Tool ra đề theo ma trận (TT27)")
+st.markdown('<div class="muted">Luồng chuẩn: <b>Chọn Lớp/Môn</b> → (dòng ngang) <b>Chủ đề–Bài–YCCĐ–Dạng/Mức–Điểm–Thêm</b> → xem trước → xuất <b>Đề</b> + <b>Bảng đặc tả</b>.</div>', unsafe_allow_html=True)
+st.markdown("</div>", unsafe_allow_html=True)
 
-st.info("Bắt đầu theo thứ tự: ① 🧩 Ma trận → ② 📚 Kho câu hỏi → ③ 📝 Tạo đề & Xuất Word.")
+st.markdown("### Bạn làm theo thứ tự")
+st.markdown("1) **🧩 Ma trận & Soạn đề**: chọn lớp/môn, xem ma trận, thêm câu theo dòng ngang hoặc sinh slot theo ma trận  \n"
+            "2) **📚 Kho câu hỏi**: upload dữ liệu câu hỏi (không AI)  \n"
+            "3) **📤 Xuất Word**: xuất Đề + Bảng đặc tả theo template")
 
-st.markdown("### Tệp mẫu đang dùng")
-tmpl_dir = os.path.join(os.path.dirname(__file__), "templates")
-for name in os.listdir(tmpl_dir):
-    st.write(f"- `{name}`")
-
-st.markdown("### Lưu ý quan trọng")
-st.markdown("- Điểm/1 câu chỉnh theo **bước 0,25**.\n- Thiếu câu đúng ô (dạng+mức+bài) → **báo thiếu**, không tự bù bằng mức khác.\n- Có trang **🧪 Tự kiểm tra** để phát hiện lỗi cấu hình sớm.")
+st.info("Ghi chú: API AI Studio chỉ để sẵn (chưa dùng). Mức độ TT27 bị khóa cứng: Biết=M1, Hiểu=M2, VD=M3.")

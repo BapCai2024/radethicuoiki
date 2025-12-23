@@ -1,6 +1,5 @@
-streamlit>=1.33
-pandas>=2.0
-numpy>=1.24
-openpyxl>=3.1
-python-docx>=1.1.0
-streamlit-aggrid>=1.0.5
+streamlit==1.39.0
+pandas==2.2.2
+numpy==2.0.1
+openpyxl==3.1.5
+python-docx==1.1.2
