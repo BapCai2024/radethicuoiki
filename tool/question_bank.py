@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from typing import List, Tuple
 import json
 import pandas as pd
+from .utils import normalize_subject, normalize_semester
 
 REQUIRED_COLS = [
     "question_id","grade","subject","semester","topic","lesson","yccd",

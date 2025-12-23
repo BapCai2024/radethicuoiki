@@ -31,10 +31,32 @@ def openai_compatible_generate(base_url: str, api_key: str, model: str, prompt: 
     except Exception:
         raise AIError("Không parse được phản hồi API.")
 
+def gemini_list_models(api_key: str, timeout: int = 25):
+    """Return list of model names that support generateContent."""
+    if not api_key:
+        raise AIError("Chưa có API key.")
+    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
+    headers = {"Content-Type": "application/json"}
+    try:
+        r = requests.get(url, headers=headers, timeout=timeout)
+    except Exception as e:
+        raise AIError(f"Lỗi mạng: {e}")
+    if r.status_code >= 400:
+        raise AIError(f"ListModels lỗi {r.status_code}: {r.text[:300]}")
+    data = r.json()
+    out = []
+    for m in data.get("models", []):
+        name = m.get("name","")
+        methods = m.get("supportedGenerationMethods", []) or []
+        if "generateContent" in methods:
+            # API returns "models/<code>"
+            out.append(name.replace("models/",""))
+    return sorted(set(out))
+
 def gemini_ai_studio_generate(api_key: str, model: str, prompt: str, timeout: int = 45) -> str:
     if not api_key:
         raise AIError("Chưa có API key.")
-    model = model or "gemini-1.5-flash"
+    model = model or "gemini-2.5-flash"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     payload = {"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.4}}

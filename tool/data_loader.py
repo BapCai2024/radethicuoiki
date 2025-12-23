@@ -1,5 +1,7 @@
 from __future__ import annotations
 import pandas as pd
+from .utils import normalize_subject, normalize_semester
+import re
 
 REQUIRED = ["grade","subject","semester","topic","lesson","yccd"]
 
@@ -10,7 +12,9 @@ def load_catalog_csv(path: str) -> pd.DataFrame:
             df[c] = ""
     df["grade"] = pd.to_numeric(df["grade"], errors="coerce").astype("Int64")
     for c in ["subject","semester","topic","lesson","yccd"]:
-        df[c] = df[c].fillna("").astype(str)
+        df[c] = df[c].fillna("").astype(str).str.strip()
+    df["subject"] = df["subject"].apply(normalize_subject)
+    df["semester"] = df["semester"].apply(normalize_semester)
     return df
 
 def try_parse_catalog_from_excel(uploaded_file) -> pd.DataFrame:
@@ -46,6 +50,8 @@ def try_parse_catalog_from_excel(uploaded_file) -> pd.DataFrame:
     df = df[REQUIRED].copy()
     df["grade"] = pd.to_numeric(df["grade"], errors="coerce").astype("Int64")
     for c in ["subject","semester","topic","lesson","yccd"]:
-        df[c] = df[c].fillna("").astype(str)
+        df[c] = df[c].fillna("").astype(str).str.strip()
+    df["subject"] = df["subject"].apply(normalize_subject)
+    df["semester"] = df["semester"].apply(normalize_semester)
     df = df.dropna(subset=["topic","lesson"], how="all")
     return df

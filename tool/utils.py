@@ -1,9 +1,57 @@
 from __future__ import annotations
 from typing import List, Tuple
+import re
+import unicodedata
 
 QTYPE_ORDER = ["MCQ", "TF", "MATCH", "FILL", "ESSAY"]
 LEVEL_ORDER = [1, 2, 3]
 LEVEL_NAME = {1: "Biết (M1)", 2: "Hiểu (M2)", 3: "Vận dụng (M3)"}
+
+def normalize_key(s: str) -> str:
+    """Normalize Vietnamese strings for matching (remove accents, lower, collapse spaces)."""
+    s = "" if s is None else str(s)
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(ch for ch in s if unicodedata.category(ch) != "Mn")
+    s = s.lower().strip()
+    s = re.sub(r"[\-_/]+", " ", s)
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+SUBJECT_ALIASES = {
+    "tin": "Tin",
+    "tin hoc": "Tin",
+    "tinhoc": "Tin",
+    "informatique": "Tin",
+    "toan": "Toán",
+    "tieng viet": "Tiếng Việt",
+    "tiengviet": "Tiếng Việt",
+    "khoa hoc": "Khoa học",
+    "lich su dia ly": "Lịch sử - Địa lý",
+    "lich su - dia ly": "Lịch sử - Địa lý",
+    "lsdl": "Lịch sử - Địa lý",
+    "dao duc": "Đạo đức",
+    "cong nghe": "Công nghệ",
+    "am nhac": "Âm nhạc",
+    "mi thuat": "Mĩ thuật",
+    "my thuat": "Mĩ thuật",
+}
+
+def normalize_subject(s: str) -> str:
+    k = normalize_key(s)
+    return SUBJECT_ALIASES.get(k, str(s).strip())
+
+def normalize_semester(s: str) -> str:
+    k = normalize_key(s)
+    # recognize HK2 first
+    if "hk2" in k or "hkii" in k or "hoc ki ii" in k or "hoc ky ii" in k or re.search(r"\b2\b", k):
+        return "HK2"
+    if "hk1" in k or "hki" in k or "hoc ki i" in k or "hoc ky i" in k or re.search(r"\b1\b", k):
+        return "HK1"
+    # fallback: keep original if already looks like HK*
+    if str(s).upper().strip().startswith("HK"):
+        return str(s).upper().strip()
+    return "HK1"
+
 
 def round_to_step(x: float, step: float = 0.25) -> float:
     if step <= 0:
