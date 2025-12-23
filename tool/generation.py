@@ -1,85 +1,80 @@
-\
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Optional, Tuple
 import random
 import pandas as pd
 
-from .utils import QTYPE_ORDER, LEVEL_ORDER, fmt_ranges
-from .matrix_template import LessonRow, MatrixTemplate
+from .utils import QTYPE_ORDER, LEVEL_ORDER
+from .matrix_template import MatrixTemplate
 from .question_bank import Bank
 
 @dataclass
-class Slot:
+class DraftItem:
     qno: int
     topic: str
     lesson: str
+    yccd: str
     qtype: str
     level: int
     points: float
     question_id: Optional[str] = None
+    stem: str = ""
 
-def build_slots(template: MatrixTemplate, points_per_qtype: Dict[str,float]) -> List[Slot]:
-    """Create slots from matrix counts. Question numbering follows row order, then qtype order, then level order."""
-    slots: List[Slot] = []
+def build_slots_from_matrix(matrix: MatrixTemplate, points_per_qtype: Dict[str,float]) -> List[DraftItem]:
+    items: List[DraftItem] = []
     qno = 1
-    for row in template.lessons:
+    for row in matrix.lessons:
         for qtype in QTYPE_ORDER:
             for level in LEVEL_ORDER:
                 n = int(row.counts.get((qtype, level), 0))
                 for _ in range(n):
-                    slots.append(Slot(
+                    items.append(DraftItem(
                         qno=qno,
                         topic=row.topic,
                         lesson=row.lesson,
+                        yccd="",
                         qtype=qtype,
                         level=level,
                         points=float(points_per_qtype.get(qtype, 0.25)),
                     ))
                     qno += 1
-    return slots
+    return items
 
-def assign_questions(slots: List[Slot], bank: Bank, grade: int, subject: str, semester: str, seed: int = 42) -> Tuple[List[Slot], List[str]]:
-    """Assign question IDs to slots with strict TT27 lock: same qtype+level. No fallback; missing => warning."""
+def _pick_question(df: pd.DataFrame, topic: str, lesson: str, yccd: str, qtype: str, level: int, used: set[str], rng: random.Random):
+    sub = df[
+        (df["topic"].astype(str)==str(topic)) &
+        (df["lesson"].astype(str)==str(lesson)) &
+        (df["qtype"].astype(str).str.upper()==str(qtype).upper()) &
+        (df["tt27_level"].astype(int)==int(level))
+    ]
+    if yccd:
+        sub2 = sub[sub["yccd"].astype(str)==str(yccd)]
+        if not sub2.empty:
+            sub = sub2
+    if sub.empty:
+        return None
+    idxs = list(sub.index)
+    rng.shuffle(idxs)
+    for idx in idxs:
+        qid = str(sub.loc[idx, "question_id"])
+        if qid not in used:
+            return sub.loc[idx]
+    return None
+
+def assign_auto(items: List[DraftItem], bank: Bank, grade: int, subject: str, semester: str, seed: int = 42) -> Tuple[List[DraftItem], List[str]]:
+    df = bank.filtered(grade, subject, semester)
     rng = random.Random(seed)
-    df = bank.df
-    sub = df[(df["grade"]==grade) & (df["subject"].str.lower()==subject.lower()) & (df["semester"].str.lower()==semester.lower())]
     warnings: List[str] = []
-    used_ids = set()
-    # Pre-bucket
-    buckets: Dict[Tuple[str,str,str,int], List[str]] = {}
-    for _, r in sub.iterrows():
-        key = (r["topic"], r["lesson"], r["qtype"], int(r["tt27_level"]))
-        buckets.setdefault(key, []).append(r["question_id"])
-    for k in buckets:
-        rng.shuffle(buckets[k])
-
-    for s in slots:
-        key = (s.topic, s.lesson, s.qtype, int(s.level))
-        cand = buckets.get(key, [])
-        chosen = None
-        while cand:
-            qid = cand.pop()
-            if qid not in used_ids:
-                chosen = qid
-                used_ids.add(qid)
-                break
-        if chosen is None:
-            warnings.append(f"Thiếu câu: {s.topic} | {s.lesson} | {s.qtype} | M{s.level} (q#{s.qno})")
-        s.question_id = chosen
-    return slots, warnings
-
-def slot_map_to_numbers(slots: List[Slot]) -> Dict[Tuple[str,str,str,int], List[int]]:
-    m: Dict[Tuple[str,str,str,int], List[int]] = {}
-    for s in slots:
-        key = (s.topic, s.lesson, s.qtype, int(s.level))
-        m.setdefault(key, []).append(s.qno)
-    return m
-
-def totals_by_cell(template: MatrixTemplate) -> Dict[Tuple[str,int], int]:
-    tot: Dict[Tuple[str,int], int] = {}
-    for row in template.lessons:
-        for qtype in QTYPE_ORDER:
-            for level in LEVEL_ORDER:
-                tot[(qtype, level)] = tot.get((qtype, level), 0) + int(row.counts.get((qtype, level), 0))
-    return tot
+    used_ids = set(i.question_id for i in items if i.question_id)
+    for it in items:
+        if it.question_id:
+            continue
+        row = _pick_question(df, it.topic, it.lesson, it.yccd, it.qtype, it.level, used_ids, rng)
+        if row is None:
+            warnings.append(f"Thiếu câu: {it.topic} | {it.lesson} | {it.qtype} | M{it.level} (q#{it.qno})")
+            continue
+        it.question_id = str(row.get("question_id",""))
+        it.stem = str(row.get("stem",""))
+        it.yccd = it.yccd or str(row.get("yccd",""))
+        used_ids.add(it.question_id)
+    return items, warnings
