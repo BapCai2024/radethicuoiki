@@ -9,7 +9,7 @@ from tool.utils import QTYPE_ORDER, LEVEL_ORDER, LEVEL_NAME, round_to_step, qtyp
 from tool.matrix_template import load_matrix_template
 from tool.question_bank import load_bank_from_upload, Bank
 from tool.data_loader import load_catalog_csv, try_parse_catalog_from_excel
-from tool.ai_provider import openai_compatible_generate, gemini_ai_studio_generate, AIError
+from tool.ai_provider import openai_compatible_generate, gemini_ai_studio_generate, gemini_list_models, AIError
 from tool.export_docx import export_spec_from_template, export_exam_docx
 
 st.set_page_config(page_title="Tool HỖ TRỢ RA ĐỀ", layout="wide")
@@ -25,7 +25,7 @@ st.session_state.setdefault("ai_mode", "Tắt")
 st.session_state.setdefault("ai_api_key", "")
 st.session_state.setdefault("ai_base_url", "https://api.openai.com")
 st.session_state.setdefault("ai_model", "gpt-4o-mini")
-st.session_state.setdefault("gemini_model", "gemini-1.5-flash")
+st.session_state.setdefault("gemini_model", "gemini-2.5-flash")
 st.session_state.setdefault("points_per_qtype", {"MCQ":0.5,"TF":0.5,"MATCH":1.0,"FILL":1.0,"ESSAY":1.0})
 
 # --- hero
@@ -48,7 +48,20 @@ with tab_soande:
     with top[0]:
         grade = st.selectbox("Lớp", [1,2,3,4,5], index=2)
     with top[1]:
-        subject = st.selectbox("Môn", ["Tin","Toán","Tiếng Việt","Khoa học","Lịch sử - Địa lý","Đạo đức","Công nghệ","Âm nhạc","Mĩ thuật"], index=0)
+    # build subject options from uploaded YCCĐ (if any) + default list
+    default_subjects = ["Tin","Toán","Tiếng Việt","Khoa học","Lịch sử - Địa lý","Đạo đức","Công nghệ","Âm nhạc","Mĩ thuật"]
+    cat0 = st.session_state.get("catalog_df")
+    dyn = []
+    try:
+        if cat0 is not None and len(cat0) > 0:
+            dyn = sorted(set(cat0["subject"].dropna().astype(str).str.strip().tolist()))
+    except Exception:
+        dyn = []
+    subject_options = []
+    for s in default_subjects + dyn:
+        if s not in subject_options:
+            subject_options.append(s)
+    subject = st.selectbox("Môn", subject_options, index=0)
     with top[2]:
         semester = st.selectbox("Học kì", ["HK1","HK2"], index=0)
     with top[3]:
@@ -80,10 +93,13 @@ with tab_soande:
 
     catalog = st.session_state["catalog_df"].copy()
     fcat = catalog[
-        (catalog["grade"].fillna(-1).astype(int) == int(grade)) &
-        (catalog["subject"].str.lower() == str(subject).lower()) &
-        (catalog["semester"].str.lower() == str(semester).lower())
-    ].copy()
+    # grade empty => dùng cho mọi lớp
+    (catalog["grade"].isna() | (catalog["grade"].fillna(-1).astype(int) == int(grade))) &
+    # subject empty => dùng cho mọi môn
+    ((catalog["subject"].astype(str).str.strip() == "") | (catalog["subject"].astype(str).str.strip().str.lower() == str(subject).strip().lower())) &
+    # semester empty => dùng cho mọi HK
+    ((catalog["semester"].astype(str).str.strip() == "") | (catalog["semester"].astype(str).str.strip().str.lower() == str(semester).strip().lower()))
+].copy()
 
     fallback_topics = sorted(fcat["topic"].dropna().astype(str).unique().tolist()) if not fcat.empty else []
     matrix = None
@@ -425,3 +441,16 @@ with tab_ai:
                 st.error(f"Test lỗi: {e}")
     with col2:
         st.info("Gợi ý: Với Streamlit Cloud, nên lưu key trong Secrets (Settings → Secrets) để an toàn.")
+st.markdown("#### Danh sách model (Gemini)")
+if st.session_state["ai_mode"] == "Gemini":
+    if st.button("📋 List models hỗ trợ generateContent", use_container_width=True):
+        try:
+            models = gemini_list_models(st.session_state["ai_api_key"])
+            if models:
+                st.success(f"Tìm thấy {len(models)} model. Gợi ý dùng: gemini-2.5-flash")
+                st.code("\n".join(models[:120]))
+            else:
+                st.warning("Không thấy model nào hỗ trợ generateContent (kiểm tra key / quyền).")
+        except Exception as e:
+            st.error(f"ListModels lỗi: {e}")
+

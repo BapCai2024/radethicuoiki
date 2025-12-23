@@ -20,3 +20,7 @@
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+
+### Sửa lỗi Gemini 404
+- Model `gemini-1.5-flash` có thể không còn hỗ trợ generateContent. V3.1 đổi mặc định sang `gemini-2.5-flash` theo danh sách model của Gemini API.
