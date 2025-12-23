@@ -10,10 +10,10 @@ def inject_css() -> None:
       div[data-testid="stSidebarHeader"] { display: none; }
 
       .block-container { padding-top: 1.1rem; padding-bottom: 2rem; }
-      h1 { font-size: 2.2rem !important; }
+      h1 { font-size: 2.35rem !important; }
       h2 { font-size: 1.6rem !important; }
       h3 { font-size: 1.25rem !important; }
-      label, .stMarkdown, .stText, .stCaption { font-size: 1.05rem; }
+      label, .stMarkdown, .stText, .stCaption { font-size: 1.12rem; }
 
       .app-hero {
         background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
@@ -22,7 +22,7 @@ def inject_css() -> None:
         padding: 18px 18px 12px 18px;
         box-shadow: 0 10px 28px rgba(15,23,42,0.06);
       }
-      .muted { color: rgba(15,23,42,0.70); font-size: 1.05rem; }
+      .muted { color: rgba(15,23,42,0.70); font-size: 1.15rem; }
       .pill {
         display:inline-block; padding:6px 12px; border-radius:999px;
         border: 1px solid rgba(15,23,42,0.12); background:#f6f7fb;
