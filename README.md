@@ -1,11 +1,22 @@
-# Tool ra đề theo ma trận (TT27) — Streamlit
+# Tool HỖ TRỢ RA ĐỀ — V3
 
-## Deploy Streamlit Cloud
-Repo đã kèm `runtime.txt` để pin Python 3.11 (tránh lỗi Python 3.13).
+## Bạn đang bị lỗi gì?
+- Ảnh bạn gửi là lỗi `ModuleNotFoundError: st_aggrid` do **page cũ** vẫn import `st_aggrid`.
+- V3 **không dùng st_aggrid** và còn **ẩn luôn menu multipage** để không còn dòng "Ma trận" / "Kho câu hỏi" ở sidebar.
 
-## Luồng
-1) 🧩 Ma trận & Soạn đề  
-2) 📚 Kho câu hỏi  
-3) 📤 Xuất Word  
+## Dữ liệu đầy đủ (YCCĐ)
+- Bạn gửi KHGD dạng `.rar` nên **Streamlit Cloud không giải nén**.
+- Hãy xuất dữ liệu YCCĐ ra **Excel/CSV** hoặc nén `.zip` rồi upload ở tab **📚 Dữ liệu**.
+- Sau khi nạp, dropdown Chủ đề/Bài/YCCĐ sẽ đầy đủ theo dữ liệu của bạn.
 
-Ghi chú: không gọi AI; có khung nhập API key để sẵn.
+## AI (API)
+- Tab ⚙️ AI hỗ trợ:
+  - OpenAI-compatible (base_url + key + model)
+  - AI Studio (Gemini) (key + model)
+- Khi kho thiếu câu đúng (dạng + mức TT27), tool sẽ tạo câu bằng AI (khóa mức).
+
+## Chạy local
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
