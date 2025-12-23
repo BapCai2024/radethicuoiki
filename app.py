@@ -48,20 +48,21 @@ with tab_soande:
     with top[0]:
         grade = st.selectbox("Lớp", [1,2,3,4,5], index=2)
     with top[1]:
-    # build subject options from uploaded YCCĐ (if any) + default list
-    default_subjects = ["Tin","Toán","Tiếng Việt","Khoa học","Lịch sử - Địa lý","Đạo đức","Công nghệ","Âm nhạc","Mĩ thuật"]
-    cat0 = st.session_state.get("catalog_df")
-    dyn = []
-    try:
-        if cat0 is not None and len(cat0) > 0:
-            dyn = sorted(set(cat0["subject"].dropna().astype(str).str.strip().tolist()))
-    except Exception:
+        # build subject options from uploaded YCCĐ (if any) + default list
+        default_subjects = ["Tin","Toán","Tiếng Việt","Khoa học","Lịch sử - Địa lý","Đạo đức","Công nghệ","Âm nhạc","Mĩ thuật"]
+        cat0 = st.session_state.get("catalog_df")
         dyn = []
-    subject_options = []
-    for s in default_subjects + dyn:
-        if s not in subject_options:
-            subject_options.append(s)
-    subject = st.selectbox("Môn", subject_options, index=0)
+        try:
+            if cat0 is not None and len(cat0) > 0 and "subject" in cat0.columns:
+                dyn = sorted(set(cat0["subject"].dropna().astype(str).str.strip().tolist()))
+        except Exception:
+            dyn = []
+        subject_options = []
+        for s in default_subjects + dyn:
+            s = str(s).strip()
+            if s and s not in subject_options:
+                subject_options.append(s)
+        subject = st.selectbox("Môn", subject_options, index=0)
     with top[2]:
         semester = st.selectbox("Học kì", ["HK1","HK2"], index=0)
     with top[3]:
