@@ -1,12 +1,1032 @@
 ﻿grade,subject,semester,topic,lesson,yccd
-3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 1: Thông tin và quyết định,
-3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 2:Xử lí thông tin,
-3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 3: Máy xử lí thông tin,
-3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 4: Làm quen với  máy tính,
-3,Tin,HK1,Chủ đề A2: Khám phá máy tính,Bài 5: Bắt đầu làm việc với máy tính,
-3,Tin,HK1,Chủ đề A2: Khám phá máy tính,Bài 6: Tư thế ngồi làm việc với máy tính,
-3,Tin,HK1,Chủ đề A2: Khám phá máy tính,Bài 7:  An toàn khi làm việc với máy tính,
-3,Tin,HK1,Chủ đề A2: Khám phá máy tính,Bài 8: Thao tác với bàn phím máy tính,
-3,Tin,HK1,Chủ đề B: Mạng máy tính và Internet,Bài 9: Xem tin tức và chương trình giải trí trên Internet,
-3,Tin,HK1,Chủ đề C1: Sắp xếp để dễ tìm,Bài 10: Sắp xếp và tìm kiếm,
-3,Tin,HK1,Chủ đề C1: Sắp xếp để dễ tìm,Bài 11: Sơ đồ hình cây,
+3,Tiếng Việt,HK1,Những trải nghiệm thú vị,Bài 1: Ngày gặp lại,"Đọc hiểu bài văn về ngày khai trường. Ôn luyện viết chữ hoa A, Ă, Â. Viết đoạn văn kể về sự việc đã tham gia."
+3,Tiếng Việt,HK1,Những trải nghiệm thú vị,Bài 2: Về thăm quê,"Đọc hiểu bài thơ về quê hương. Nhận biết và sử dụng từ ngữ chỉ sự vật, hoạt động. Viết đoạn văn kể về một hoạt động thú vị."
+3,Tiếng Việt,HK1,Những trải nghiệm thú vị,Bài 3: Cánh rừng trong nắng,Cảm nhận vẻ đẹp thiên nhiên qua bài đọc. Ôn luyện viết chữ hoa B. Mở rộng vốn từ về thiên nhiên.
+3,Tiếng Việt,HK1,Những trải nghiệm thú vị,Bài 4: Lần đầu ra biển,Đọc hiểu câu chuyện trải nghiệm. Nhận biết câu giới thiệu. Viết đoạn văn kể lại một chuyến đi.
+3,Tiếng Việt,HK1,Cổng trường rộng mở,Bài 5: Nhật kí tập bơi,Hiểu nội dung nhật kí. Ôn luyện viết chữ hoa C. Sử dụng dấu hai chấm.
+3,Tiếng Việt,HK1,Cổng trường rộng mở,Bài 6: Tập nấu ăn,Đọc hiểu văn bản hướng dẫn. Nhận biết câu nêu hoạt động. Viết đoạn văn kể về một việc làm ở nhà.
+3,Tiếng Việt,HK1,Cổng trường rộng mở,Bài 7: Mùa hè lấp lánh,"Cảm nhận niềm vui mùa hè. Ôn luyện viết chữ hoa D, Đ. Mở rộng vốn từ về nhà trường."
+3,Tiếng Việt,HK1,Cổng trường rộng mở,Bài 8: Tạm biệt mùa hè,Đọc hiểu bài thơ. Nhận biết câu nêu đặc điểm. Viết đoạn văn kể về tình cảm với thầy cô/bạn bè.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 9: Đi học vui sao,"Cảm nhận niềm vui đến trường. Ôn luyện viết chữ hoa E, Ê. Sử dụng dấu ngoặc kép."
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 10: Con đường đến trường,Miêu tả cảnh vật trên đường đi học. Mở rộng vốn từ về trường học. Viết đoạn văn tả đồ dùng học tập.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 11: Lời giải toán đặc biệt,Đọc hiểu câu chuyện về danh nhân. Ôn luyện viết chữ hoa G. Nhận biết từ ngữ chỉ đặc điểm.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài tập làm văn,Câu chuyện về sự trung thực trong học tập. Luyện tập về câu kể. Viết đoạn văn kể về một giờ học.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 13: Bàn tay cô giáo,Cảm nhận tình yêu thương của cô giáo. Ôn luyện viết chữ hoa H. Mở rộng vốn từ về thầy cô.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 14: Cuộc họp của chữ viết,Câu chuyện nhân hóa vui nhộn. Phân biệt từ chỉ sự vật và đặc điểm. Viết đoạn văn tả người.
+3,Tiếng Việt,HK1,Mái trường mến yêu,Bài 15: Thư viện,"Đọc hiểu văn bản thông tin về thư viện. Ôn luyện viết chữ hoa I, K. Luyện tập viết thông báo."
+3,Tiếng Việt,HK1,Ôn tập giữa kì 1,Bài 16: Ôn tập giữa học kì 1,"Hệ thống hóa kiến thức đọc, viết, từ và câu nửa đầu học kì 1."
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 17: Ngưỡng cửa,Cảm nhận ý nghĩa của ngôi nhà. Ôn luyện viết chữ hoa L. Từ ngữ chỉ người thân.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 18: Món quà đặc biệt,Tình cảm gia đình qua món quà. Sử dụng dấu phẩy. Viết đoạn văn tả người thân.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 19: Khi cả nhà bé tí,Bài thơ về trò chơi gia đình. Ôn luyện viết chữ hoa M. Mở rộng vốn từ về gia đình.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 20: Trò chuyện cùng mẹ,Tình cảm mẹ con. Luyện tập về câu khiến. Viết đoạn văn thể hiện tình cảm.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 21: Tia nắng bé nhỏ,Câu chuyện về lòng hiếu thảo. Ôn luyện viết chữ hoa N. Mở rộng vốn từ về họ hàng.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 22: Để cháu nắm tay ông,Tình cảm ông cháu. Luyện tập về câu cảm. Viết thư thăm hỏi người thân.
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 23: Tôi yêu em tôi,"Tình cảm anh chị em. Ôn luyện viết chữ hoa O, Ô, Ơ. Từ ngữ chỉ hoạt động, trạng thái."
+3,Tiếng Việt,HK1,Cộng đồng gắn bó,Bài 24: Bạn nhỏ trong nhà,Tình cảm với vật nuôi. Luyện tập về từ ngữ chỉ đặc điểm. Viết đoạn văn tả con vật.
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 25: Những bậc đá chạm mây,"Câu chuyện về nghị lực. Ôn luyện viết chữ hoa P. Từ ngữ chỉ thành thị, nông thôn."
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 26: Đi tìm mặt trời,Câu chuyện cổ tích. Câu hỏi và dấu chấm hỏi. Viết thư làm quen.
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 27: Những chiếc áo ấm,"Tinh thần đoàn kết, sẻ chia. Ôn luyện viết chữ hoa Q. Từ ngữ chỉ cộng đồng."
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 28: Con đường của bé,Bài thơ về nghề nghiệp. Mở rộng vốn từ về nghề nghiệp. Viết đoạn văn giới thiệu bản thân.
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 29: Ngôi nhà trong cỏ,"Tình bạn và sự giúp đỡ. Ôn luyện viết chữ hoa R. Dấu chấm, dấu chấm hỏi, dấu chấm than."
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 30: Những ngọn hải đăng,"Văn bản thông tin về hải đăng. Từ ngữ chỉ đặc điểm, tính chất. Viết thư (tiếp theo)."
+3,Tiếng Việt,HK1,Mở rộng vốn từ,Bài 31: Người làm đồ chơi,Tình yêu nghề và trẻ thơ. Ôn luyện viết chữ hoa S. Mở rộng vốn từ sáng tạo nghệ thuật.
+3,Tiếng Việt,HK1,Ôn tập cuối kì 1,Bài 32: Ôn tập cuối học kì 1,"Đánh giá tổng hợp kiến thức đọc hiểu, viết và luyện từ và câu học kì 1."
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 1: Bầu trời,"Cảm nhận vẻ đẹp bầu trời. Ôn luyện viết chữ hoa T. Từ ngữ chỉ sự vật, đặc điểm thiên nhiên."
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 2: Mưa,Bài thơ về mưa. Câu trần thuật đơn. Viết đoạn văn tả cảnh đẹp thiên nhiên.
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 3: Cóc kiện Trời,"Truyện cổ tích giải thích hiện tượng thiên nhiên. Ôn luyện viết chữ hoa U, Ư. Mở rộng vốn từ về hiện tượng tự nhiên."
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 4: Những cái tên đáng yêu,Tình yêu thiên nhiên cây cỏ. Nhân hóa. Viết đoạn văn tả cây cối.
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 5: Ngày hội rừng xanh,"Vẻ đẹp rừng xanh. Ôn luyện viết chữ hoa V. Từ ngữ chỉ màu sắc, âm thanh."
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 6: Cây gạo,Miêu tả vẻ đẹp cây gạo. Biện pháp so sánh. Viết đoạn văn tả một loài hoa.
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 7: Mặt trời xanh của tôi,Tình yêu biển đảo và thiên nhiên. Ôn luyện viết chữ hoa X. Mở rộng vốn từ về bảo vệ môi trường.
+3,Tiếng Việt,HK2,Những sắc màu thiên nhiên,Bài 8: Bầy voi rừng Trường Sơn,Vẻ đẹp hùng vĩ của thiên nhiên. Luyện tập về so sánh. Viết đoạn văn nêu tình cảm với thiên nhiên.
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 9: Lời kêu gọi toàn dân tập thể dục,Văn bản nhật dụng của Bác Hồ. Ôn luyện viết chữ hoa Y. Từ ngữ về thể thao.
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 10: Quả hồng của thỏ con,Câu chuyện về sự sẻ chia. Câu cảm thán. Viết đoạn văn kể lại một việc tốt.
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 11: Chuyện bên cửa sổ,"Tình yêu thiên nhiên và sự quan sát tinh tế. Ôn luyện chữ hoa A, M, N (kiểu 2). Từ ngữ chỉ cảm xúc."
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 12: Tay trái và tay phải,"Câu chuyện về sự đoàn kết, hỗ trợ. Dấu chấm lửng. Viết đoạn văn nêu lí do thích một nhân vật."
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 13: Mèo đi câu cá,"Bài thơ ngụ ngôn. Ôn luyện chữ hoa Q, V (kiểu 2). Từ ngữ chỉ tính cách."
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 14: Học nghề,Câu chuyện về sự kiên trì. Mở rộng vốn từ ước mơ. Viết đoạn văn về ước mơ của em.
+3,Tiếng Việt,HK2,Bài học từ cuộc sống,Bài 15: Ngày như thế nào là đẹp,Ý nghĩa của cuộc sống. Ôn luyện chữ hoa. Luyện tập về dấu câu.
+3,Tiếng Việt,HK2,Ôn tập giữa kì 2,Bài 16: Ôn tập giữa học kì 2,"Hệ thống hóa kiến thức đọc, viết, từ và câu nửa đầu học kì 2."
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 17: Đất nước là gì,Khái niệm đơn giản về đất nước. Ôn luyện viết tên riêng. Từ ngữ về đất nước.
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 18: Núi quê tôi,Vẻ đẹp quê hương. Biện pháp nhân hóa (tiếp). Viết đoạn văn tả cảnh đẹp quê hương.
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 19: Sông Hương,Vẻ đẹp của Huế. Ôn luyện viết tên riêng địa lí. Mở rộng vốn từ quê hương.
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 20: Tiếng nước mình,Tình yêu tiếng Việt. Dấu hai chấm (báo hiệu liệt kê). Viết đoạn văn giới thiệu di tích lịch sử/cảnh đẹp.
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 21: Nhà rông,Tìm hiểu văn hóa Tây Nguyên. Ôn luyện viết tên riêng. Câu hỏi tu từ (làm quen).
+3,Tiếng Việt,HK2,Đất nước ngàn năm,"Bài 22: Sự tích ông Đùng, bà Đùng",Truyện cổ tích về sự hình thành đất nước. Mở rộng vốn từ truyền thống. Viết đoạn văn kể lại truyền thuyết.
+3,Tiếng Việt,HK2,Đất nước ngàn năm,Bài 23: Hai Bà Trưng,Truyện lịch sử. Ôn luyện viết tên riêng chỉ người. Từ ngữ về bảo vệ tổ quốc.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 24: Cùng Bác qua suối,Câu chuyện về Bác Hồ. Câu khiến (ôn tập). Viết đoạn văn kể về tấm gương Bác Hồ.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 25: Ngọn lửa Ô-lim-pích,Tìm hiểu về thế vận hội. Ôn luyện viết tên nước ngoài. Từ ngữ về thể thao quốc tế.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 26: Rô-bốt ở quanh ta,Văn bản thông tin về công nghệ. Mở rộng vốn từ sáng chế. Viết tin nhắn.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 27: Thư của ông Trái Đất,Thông điệp bảo vệ môi trường. Ôn luyện viết tên riêng. Viết thư điện tử (email).
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 28: Những điều nhỏ tớ làm cho Trái Đất,Hành động bảo vệ môi trường. Từ ngữ về môi trường. Viết đoạn văn kêu gọi bảo vệ môi trường.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 29: Bác sĩ Y-éc-xanh,Danh nhân khoa học. Ôn luyện viết tên riêng nước ngoài. Mở rộng vốn từ trí tuệ.
+3,Tiếng Việt,HK2,Trái đất của chúng mình,Bài 30: Một mái nhà chung,Bài thơ về trái đất. Ôn tập về dấu câu. Viết đoạn văn nêu cảm nghĩ.
+3,Tiếng Việt,HK2,Ôn tập cuối kì 2,Bài 31: Ôn tập cuối học kì 2,Đánh giá tổng hợp năng lực Tiếng Việt cả năm học.
+3,Toán,HK1,1. Ôn tập và bổ sung,Bài 1: Ôn tập các số đến 1000,"Đọc, viết, so sánh, sắp xếp thứ tự các số trong phạm vi 1000. Phân tích cấu tạo số."
+3,Toán,HK1,1. Ôn tập và bổ sung,"Bài 2: Ôn tập phép cộng, phép trừ trong phạm vi 1000",Thực hiện thành thạo cộng trừ không nhớ và có nhớ trong phạm vi 1000. Giải toán có lời văn.
+3,Toán,HK1,1. Ôn tập và bổ sung,"Bài 3: Tìm thành phần trong phép cộng, phép trừ","Biết tìm số hạng chưa biết, số bị trừ, số trừ."
+3,Toán,HK1,1. Ôn tập và bổ sung,"Bài 4: Ôn tập bảng nhân 2; 5, bảng chia 2; 5","Củng cố bảng nhân, chia 2 và 5 đã học ở lớp 2."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 5: Bảng nhân 3, bảng chia 3","Tự lập và học thuộc bảng nhân 3, chia 3. Vận dụng vào tính toán."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 6: Bảng nhân 4, bảng chia 4","Tự lập và học thuộc bảng nhân 4, chia 4. Vận dụng vào tính toán."
+3,Toán,HK1,"2. Bảng nhân, bảng chia",Bài 7: Ôn tập hình học và đo lường,"Nhận biết điểm, đoạn thẳng, đường cong, 3 điểm thẳng hàng. Đơn vị đo độ dài, khối lượng."
+3,Toán,HK1,"2. Bảng nhân, bảng chia",Bài 8: Luyện tập chung,Củng cố kĩ năng nhân chia và hình học cơ bản.
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 9: Bảng nhân 6, bảng chia 6","Tự lập và học thuộc bảng nhân 6, chia 6. Vận dụng tính nhẩm."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 10: Bảng nhân 7, bảng chia 7","Tự lập và học thuộc bảng nhân 7, chia 7. Vận dụng tính nhẩm."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 11: Bảng nhân 8, bảng chia 8","Tự lập và học thuộc bảng nhân 8, chia 8. Vận dụng tính nhẩm."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 12: Bảng nhân 9, bảng chia 9","Tự lập và học thuộc bảng nhân 9, chia 9. Vận dụng tính nhẩm."
+3,Toán,HK1,"2. Bảng nhân, bảng chia","Bài 13: Tìm thành phần trong phép nhân, phép chia","Biết tìm thừa số, số bị chia, số chia chưa biết."
+3,Toán,HK1,"2. Bảng nhân, bảng chia",Bài 14: Luyện tập chung,Tổng hợp các bảng nhân chia từ 2 đến 9.
+3,Toán,HK1,3. Làm quen với hình phẳng...,Bài 15: Luyện tập chung,Ôn tập về tính toán và giải toán.
+3,Toán,HK1,3. Làm quen với hình phẳng...,"Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng","Nhận biết và xác định được điểm ở giữa, trung điểm của một đoạn thẳng cho trước."
+3,Toán,HK1,3. Làm quen với hình phẳng...,"Bài 17: Hình tròn. Tâm, bán kính, đường kính...","Nhận biết hình tròn, tâm, bán kính, đường kính. Biết dùng compa vẽ hình tròn."
+3,Toán,HK1,3. Làm quen với hình phẳng...,"Bài 18: Góc, góc vuông, góc không vuông",Nhận biết góc vuông và không vuông bằng mắt thường và ê-ke.
+3,Toán,HK1,3. Làm quen với hình phẳng...,"Bài 19: Hình tam giác, hình tứ giác...","Nhận biết hình tam giác, tứ giác, hình chữ nhật, hình vuông."
+3,Toán,HK1,3. Làm quen với hình phẳng...,"Bài 20: Thực hành vẽ góc vuông, vẽ đường tròn...","Kĩ năng sử dụng thước, ê-ke, compa để vẽ hình."
+3,Toán,HK1,4. Một số đơn vị đo...,Bài 21: Khối lượng trong đời sống,Làm quen với đơn vị gam (g). Chuyển đổi kg và g.
+3,Toán,HK1,4. Một số đơn vị đo...,Bài 22: Luyện tập chung,Tính toán với đơn vị đo khối lượng.
+3,Toán,HK1,4. Một số đơn vị đo...,Bài 23: Mi-li-lít,Biết đơn vị đo dung tích ml. Chuyển đổi l và ml.
+3,Toán,HK1,4. Một số đơn vị đo...,"Bài 24: Thực hành đo độ dài, khối lượng...","Thực hành cân, đo, đong, đếm trong thực tế."
+3,Toán,HK1,"5. Phép nhân, phép chia...","Bài 25: Phép chia hết, phép chia có dư",Phân biệt phép chia hết và phép chia có dư. Biết số dư luôn nhỏ hơn số chia.
+3,Toán,HK1,"5. Phép nhân, phép chia...",Bài 26: Chia số có hai chữ số cho số có một chữ số,Thực hiện đặt tính và tính chia số có 2 chữ số cho số có 1 chữ số.
+3,Toán,HK1,"5. Phép nhân, phép chia...",Bài 27: Giảm đi một số lần,Hiểu ý nghĩa của việc giảm một số đi nhiều lần (thực hiện phép chia).
+3,Toán,HK1,"5. Phép nhân, phép chia...",Bài toán giải bằng hai bước tính,Biết phân tích và giải bài toán bằng 2 bước tính (gấp/giảm/hơn/kém).
+3,Toán,HK1,"5. Phép nhân, phép chia...",Bài 29: Luyện tập chung,Củng cố kĩ năng chia và giải toán.
+3,Toán,HK1,"6. Phép nhân, phép chia... (tiếp)",Bài 30: Mi-li-mét,"Biết đơn vị đo độ dài mm. Chuyển đổi giữa m, dm, cm, mm."
+3,Toán,HK1,"6. Phép nhân, phép chia... (tiếp)","Bài 31: Hình tam giác, hình tứ giác (Chu vi)",Tính được chu vi hình tam giác và hình tứ giác (tổng độ dài các cạnh).
+3,Toán,HK1,"6. Phép nhân, phép chia... (tiếp)","Bài 32: Chu vi hình chữ nhật, hình vuông","Xây dựng và vận dụng công thức tính chu vi hình chữ nhật, hình vuông."
+3,Toán,HK1,"6. Phép nhân, phép chia... (tiếp)",Bài 33: Luyện tập chung,Ôn tập về đo lường và hình học.
+3,Toán,HK1,7. Ôn tập học kì 1,Bài 34: Thực hành và trải nghiệm...,Ứng dụng toán học vào các hoạt động thực tế.
+3,Toán,HK1,7. Ôn tập học kì 1,Bài 35: Luyện tập chung,Ôn tập tổng hợp.
+3,Toán,HK1,7. Ôn tập học kì 1,Bài 36: Ôn tập các số trong phạm vi 1000,Hệ thống hóa kiến thức số học kì 1.
+3,Toán,HK1,7. Ôn tập học kì 1,"Bài 37: Ôn tập phép cộng, phép trừ...","Hệ thống hóa kĩ năng cộng trừ, nhân chia."
+3,Toán,HK1,7. Ôn tập học kì 1,Bài 38: Ôn tập hình học và đo lường,"Hệ thống hóa kiến thức hình học, đo lường."
+3,Toán,HK1,7. Ôn tập học kì 1,Bài 39: Ôn tập chung,Đánh giá năng lực cuối kì 1.
+3,Toán,HK2,8. Các số đến 10 000,Bài 40: Các số trong phạm vi 10 000,"Đọc, viết, phân tích cấu tạo số có 4 chữ số."
+3,Toán,HK2,8. Các số đến 10 000,Bài 41: So sánh các số trong phạm vi 10 000,Biết so sánh và sắp xếp thứ tự các số có 4 chữ số.
+3,Toán,HK2,8. Các số đến 10 000,Bài 42: Luyện tập chung,Củng cố kiến thức về số có 4 chữ số.
+3,Toán,HK2,9. Các số đến 10 000 (Phép tính),"Bài 43: Cộng, trừ các số trong phạm vi 10 000","Thực hiện cộng, trừ số có 4 chữ số (không nhớ và có nhớ)."
+3,Toán,HK2,9. Các số đến 10 000 (Phép tính),Bài 44: Luyện tập chung,Rèn kĩ năng cộng trừ.
+3,Toán,HK2,9. Các số đến 10 000 (Phép tính),Bài 45: Tháng - Năm,"Biết xem lịch, mối quan hệ giữa ngày, tuần, tháng, năm."
+3,Toán,HK2,9. Các số đến 10 000 (Phép tính),Bài 46: Luyện tập chung,Giải toán về thời gian.
+3,Toán,HK2,10. Các số đến 10 000 (Nhân chia),Bài 47: Nhân số có bốn chữ số với số có một chữ số,Thực hiện phép nhân số có 4 chữ số với số có 1 chữ số (có nhớ).
+3,Toán,HK2,10. Các số đến 10 000 (Nhân chia),Bài 48: Chia số có bốn chữ số cho số có một chữ số,Thực hiện phép chia số có 4 chữ số cho số có 1 chữ số.
+3,Toán,HK2,10. Các số đến 10 000 (Nhân chia),Bài 49: Luyện tập chung,Củng cố nhân chia trong phạm vi 10 000.
+3,Toán,HK2,11. Các số đến 100 000,Bài 50: Diện tích của một hình,Làm quen với khái niệm diện tích. So sánh diện tích các hình.
+3,Toán,HK2,11. Các số đến 100 000,Bài 51: Xăng-ti-mét vuông,Biết đơn vị đo diện tích cm2.
+3,Toán,HK2,11. Các số đến 100 000,"Bài 52: Diện tích hình chữ nhật, diện tích hình vuông","Xây dựng và vận dụng công thức tính diện tích hình chữ nhật, hình vuông."
+3,Toán,HK2,11. Các số đến 100 000,Bài 53: Luyện tập chung,Tính diện tích các hình đã học.
+3,Toán,HK2,11. Các số đến 100 000,Bài 54: Các số trong phạm vi 100 000,"Đọc, viết, so sánh số có 5 chữ số."
+3,Toán,HK2,11. Các số đến 100 000,Bài 55: Luyện tập chung,Củng cố về số có 5 chữ số.
+3,Toán,HK2,"12. Phép cộng, trừ trong phạm vi 100 000","Bài 56: Cộng, trừ các số trong phạm vi 100 000",Thực hiện cộng trừ số có 5 chữ số.
+3,Toán,HK2,"12. Phép cộng, trừ trong phạm vi 100 000",Bài 57: Luyện tập chung,Rèn kĩ năng tính toán và giải toán.
+3,Toán,HK2,"12. Phép cộng, trừ trong phạm vi 100 000",Bài 58: Tiền Việt Nam,"Nhận biết các mệnh giá tiền giấy/polymer. Tính toán, đổi tiền đơn giản."
+3,Toán,HK2,"12. Phép cộng, trừ trong phạm vi 100 000",Bài 59: Luyện tập chung,Giải bài toán thực tế liên quan đến tiền tệ.
+3,Toán,HK2,"13. Nhân, chia trong phạm vi 100 000",Bài 60: Nhân số có năm chữ số với số có một chữ số,Thực hiện phép nhân số có 5 chữ số với số có 1 chữ số.
+3,Toán,HK2,"13. Nhân, chia trong phạm vi 100 000",Bài 61: Chia số có năm chữ số cho số có một chữ số,Thực hiện phép chia số có 5 chữ số cho số có 1 chữ số.
+3,Toán,HK2,"13. Nhân, chia trong phạm vi 100 000",Bài 62: Luyện tập chung,Củng cố nhân chia phạm vi 100 000.
+3,Toán,HK2,14. Một số yếu tố thống kê,"Bài 63: Thu thập, phân loại, ghi chép số liệu",Bước đầu làm quen với thống kê số liệu đơn giản.
+3,Toán,HK2,14. Một số yếu tố thống kê,Bài 64: Bảng số liệu thống kê,Biết đọc và nhận xét thông tin trên bảng số liệu.
+3,Toán,HK2,14. Một số yếu tố thống kê,Bài 65: Khả năng xảy ra của một sự kiện,"Làm quen với yếu tố xác suất (Chắc chắn, Có thể, Không thể)."
+3,Toán,HK2,14. Một số yếu tố thống kê,Bài 66: Thực hành và trải nghiệm...,Thu thập số liệu và rút ra nhận xét.
+3,Toán,HK2,15. Ôn tập cuối năm,Bài 67: Ôn tập số và phép tính,Hệ thống hóa kiến thức số học cả năm.
+3,Toán,HK2,15. Ôn tập cuối năm,Bài 68: Ôn tập hình học và đo lường,"Hệ thống hóa kiến thức hình học, đo lường."
+3,Toán,HK2,15. Ôn tập cuối năm,Bài 69: Ôn tập yếu tố thống kê và xác suất,Hệ thống hóa kiến thức thống kê.
+3,Toán,HK2,15. Ôn tập cuối năm,Bài 70: Ôn tập chung,Đánh giá tổng hợp năng lực Toán 3.
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 1: Tự nhiên và công nghệ,Phân biệt được đối tượng tự nhiên và sản phẩm công nghệ. Nêu được vai trò của sản phẩm công nghệ.
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 2: Sử dụng đèn học,"Nhận biết các bộ phận của đèn học. Biết cách sử dụng đèn học an toàn, đúng tư thế."
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 3: Sử dụng quạt điện,"Nhận biết các loại quạt điện và bộ phận chính. Biết sử dụng quạt điện an toàn, tiết kiệm."
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 4: Sử dụng máy thu thanh,Nêu được tác dụng của máy thu thanh (radio). Biết chọn kênh và điều chỉnh âm lượng phù hợp.
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 5: Sử dụng máy thu hình,Nhận biết các kênh truyền hình phù hợp lứa tuổi. Biết sử dụng TV đúng cách và khoa học.
+3,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 6: An toàn với môi trường công nghệ trong gia đình,Nhận diện các tình huống mất an toàn điện/đồ gia dụng. Biết cách phòng tránh tai nạn thương tích.
+3,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 7: Dụng cụ và vật liệu làm thủ công,"Nhận biết và sử dụng đúng cách các dụng cụ: kéo, hồ dán, thước, giấy thủ công... đảm bảo an toàn."
+3,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 8: Làm đồ dùng học tập,"Vận dụng kĩ năng cắt, dán, gấp để làm một đồ dùng học tập đơn giản (thước kẻ, ống bút...)."
+3,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 9: Làm biển báo giao thông,Nhận biết một số biển báo giao thông. Thực hành làm mô hình biển báo giao thông từ giấy/bìa.
+3,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 10: Làm đồ chơi,"Lựa chọn vật liệu để làm một món đồ chơi đơn giản (chóng chóng, diều, xe đồ chơi...)."
+3,Công nghệ,HK2,2. Thủ công kĩ thuật,Dự án: Làm đồ dùng cá nhân,"Lên ý tưởng và thực hiện làm một sản phẩm cá nhân (nhãn vở, thẻ tên...)."
+3,Công nghệ,HK2,Tổng kết,Ôn tập cuối năm,"Trưng bày, giới thiệu sản phẩm thủ công. Đánh giá kĩ năng sử dụng công nghệ gia đình."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 1: Thông tin và quyết định,Nhận biết được thông tin và quyết định. Nêu được ví dụ về vai trò của thông tin trong việc ra quyết định.
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 2: Các dạng thông tin thường gặp,"Nhận biết được 3 dạng thông tin cơ bản: văn bản, âm thanh, hình ảnh."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 3: Xử lí thông tin,Hiểu sơ lược về quá trình xử lí thông tin (Thu nhận -> Xử lí -> Kết quả). Nêu được ví dụ minh hoạ.
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 4: Máy tính - những người bạn mới,"Nhận diện và gọi tên đúng các bộ phận cơ bản của máy tính (thân máy, màn hình, bàn phím, chuột)."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 5: Làm việc với máy tính,Biết cách ngồi đúng tư thế khi làm việc với máy tính. Biết cách khởi động và tắt máy tính an toàn.
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 6: Sử dụng chuột máy tính,"Biết cầm chuột đúng cách. Thực hiện được các thao tác cơ bản: di chuyển, nháy chuột, nháy đúp chuột."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 7: Bàn phím máy tính,"Nhận biết khu vực chính của bàn phím và chức năng các phím cơ bản (Enter, Cách, Xóa...)."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 8: Cách đặt ngón tay gõ phím,Biết quy tắc đặt tay trên hàng phím cơ sở. Thực hành đặt tay đúng vị trí.
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 9: Gõ phím với phần mềm,"Sử dụng phần mềm luyện gõ để thực hành gõ các phím ở hàng cơ sở, hàng trên, hàng dưới."
+3,Tin,HK1,Chủ đề A: Máy tính và em,Bài 10: An toàn về điện khi sử dụng máy tính,Nhận biết các nguy cơ mất an toàn điện. Tuân thủ quy tắc an toàn khi sử dụng thiết bị điện tử.
+3,Tin,HK1,Chủ đề B: Mạng máy tính và Internet,Bài 11: Khám phá thông tin trên Internet,Biết Internet là kho thông tin khổng lồ. Truy cập được một trang web đơn giản theo hướng dẫn.
+3,Tin,HK1,Chủ đề B: Mạng máy tính và Internet,Bài 12: Thông tin tìm được trên Internet,Nhận biết được thông tin trên Internet rất đa dạng (phù hợp và không phù hợp).
+3,Tin,HK1,Chủ đề B: Mạng máy tính và Internet,Bài 13: Thông tin cá nhân và gia đình,Biết bảo vệ thông tin cá nhân. Không tuỳ tiện cung cấp thông tin cho người lạ trên mạng.
+3,Tin,HK1,Ôn tập,Bài 14: Ôn tập cuối học kì 1,"Hệ thống hóa kiến thức về thông tin, máy tính và Internet. Thực hành kĩ năng sử dụng chuột và bàn phím."
+3,Tin,HK2,Chủ đề C: Tổ chức lưu trữ...,Bài 15: Sắp xếp và tìm kiếm,Hiểu lợi ích của việc sắp xếp đồ vật/dữ liệu hợp lí để dễ tìm kiếm.
+3,Tin,HK2,Chủ đề C: Tổ chức lưu trữ...,Bài 16: Làm quen với thư mục,"Biết khái niệm thư mục. Thực hiện tạo mới, đổi tên thư mục."
+3,Tin,HK2,Chủ đề C: Tổ chức lưu trữ...,Bài 17: Sơ đồ hình cây,"Nhận biết cấu trúc cây thư mục. Biết thư mục mẹ, thư mục con."
+3,Tin,HK2,Chủ đề C: Tổ chức lưu trữ...,Bài 18: Thực hành với tệp và thư mục,Thực hiện các thao tác quản lí tệp và thư mục đơn giản.
+3,Tin,HK2,"Chủ đề D: Đạo đức, pháp luật...",Bài 19: Bản quyền và sự tôn trọng,Bước đầu hiểu về quyền tác giả. Biết tôn trọng sản phẩm số của người khác.
+3,Tin,HK2,Chủ đề E: Ứng dụng tin học,Bài 20: Làm quen với phần mềm trình chiếu,Khởi động phần mềm trình chiếu. Nhận diện giao diện làm việc chính.
+3,Tin,HK2,Chủ đề E: Ứng dụng tin học,Bài 21: Trang trình chiếu của em,Tạo được trang chiếu mới. Nhập văn bản đơn giản vào trang chiếu.
+3,Tin,HK2,Chủ đề E: Ứng dụng tin học,Bài 22: Đưa hình ảnh vào trang chiếu,Chèn được hình ảnh minh hoạ vào bài trình chiếu. Thay đổi kích thước ảnh.
+3,Tin,HK2,Chủ đề E: Ứng dụng tin học,Bài 23: Tạo bài trình chiếu về thế giới tự nhiên,Vận dụng kiến thức để tạo một bài trình chiếu hoàn chỉnh (3-4 slide) về chủ đề tự nhiên.
+3,Tin,HK2,Chủ đề F: Giải quyết vấn đề...,Bài 24: Các công việc thực hiện theo thứ tự,Nhận biết được các việc cần làm theo trình tự nhất định (thuật toán tuần tự).
+3,Tin,HK2,Chủ đề F: Giải quyết vấn đề...,Bài 25: Chia việc lớn thành việc nhỏ,Biết cách chia một nhiệm vụ phức tạp thành các bước nhỏ hơn để dễ thực hiện.
+3,Tin,HK2,Chủ đề F: Giải quyết vấn đề...,Bài 26: Làm quen với cách chơi trò chơi logic,"Thực hành chơi các trò chơi tư duy trên máy tính (như Block, Dots...)."
+3,Tin,HK2,Chủ đề F: Giải quyết vấn đề...,Bài 27: Thực hành giải quyết vấn đề,Vận dụng tư duy logic để giải quyết các bài toán/tình huống đơn giản.
+3,Tin,HK2,Tổng kết,Bài 28: Ôn tập cuối năm,Tổng kết toàn bộ kiến thức Tin học 3. Đánh giá năng lực sử dụng máy tính cơ bản.
+4,Toán,HK1,1. Ôn tập và bổ sung,Bài 1: Ôn tập các số đến 100 000,"Đọc, viết, so sánh được các số đến 100 000. Phân tích cấu tạo số."
+4,Toán,HK1,1. Ôn tập và bổ sung,Bài 2: Ôn tập các phép tính trong phạm vi 100 000,"Thực hiện thành thạo cộng, trừ, nhân, chia (trong phạm vi đã học). Tính nhẩm và tính giá trị biểu thức."
+4,Toán,HK1,1. Ôn tập và bổ sung,"Bài 3: Số chẵn, số lẻ","Nhận biết được số chẵn, số lẻ dựa vào chữ số tận cùng."
+4,Toán,HK1,1. Ôn tập và bổ sung,Bài 4: Biểu thức chứa chữ,Làm quen với biểu thức chứa 1 chữ. Tính được giá trị của biểu thức chứa chữ khi thay chữ bằng số.
+4,Toán,HK1,1. Ôn tập và bổ sung,Bài 5: Giải bài toán có ba bước tính,Phân tích đề bài và giải được bài toán bằng 3 bước tính.
+4,Toán,HK1,1. Ôn tập và bổ sung,Bài 6: Luyện tập chung,Củng cố kiến thức về số và phép tính đã học.
+4,Toán,HK1,2. Góc và đơn vị đo,"Bài 7: Đo góc, đơn vị đo góc",Nhận biết thước đo góc. Biết cách đo góc bằng thước (đơn vị độ).
+4,Toán,HK1,2. Góc và đơn vị đo,"Bài 8: Góc nhọn, góc tù, góc bẹt","Nhận biết và phân biệt góc nhọn, góc tù, góc bẹt qua hình ảnh trực quan."
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 9: Luyện tập chung,Thực hành đo và nhận diện các loại góc.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 10: Số có sáu chữ số. Số 1 000 000,"Đọc, viết được số có 6 chữ số và số 1 triệu. Nhận biết hàng và lớp (lớp đơn vị, lớp nghìn)."
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 11: Hàng và lớp,Xác định được vị trí các hàng trong lớp đơn vị và lớp nghìn.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 12: Các số trong phạm vi lớp triệu,"Đọc, viết được các số đến lớp triệu (triệu, chục triệu, trăm triệu)."
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 13: Làm tròn số đến hàng trăm nghìn,Biết cách làm tròn số tự nhiên đến hàng trăm nghìn (quy tắc làm tròn).
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 14: So sánh các số có nhiều chữ số,Vận dụng quy tắc so sánh số để sắp xếp thứ tự các số lớn.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 15: Làm quen với dãy số tự nhiên,Nhận biết đặc điểm của dãy số tự nhiên.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 16: Luyện tập chung,Củng cố kiến thức về số tự nhiên lớp lớn.
+4,Toán,HK1,2. Góc và đơn vị đo,"Bài 17: Yến, tạ, tấn","Nhận biết và chuyển đổi được các đơn vị đo khối lượng: yến, tạ, tấn."
+4,Toán,HK1,2. Góc và đơn vị đo,"Bài 18: Đề-xi-mét vuông, mét vuông, mi-li-mét vuông",Nhận biết và chuyển đổi được các đơn vị đo diện tích này.
+4,Toán,HK1,2. Góc và đơn vị đo,"Bài 19: Giây, thế kỉ",Biết mối quan hệ giữa giây và phút; thế kỉ và năm. Xác định được một năm thuộc thế kỉ nào.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 20: Thực hành và trải nghiệm sử dụng một số đơn vị đo,Ước lượng và đo lường trong thực tế.
+4,Toán,HK1,2. Góc và đơn vị đo,Bài 21: Luyện tập chung,Giải toán liên quan đến số đo đại lượng.
+4,Toán,HK1,"3. Phép cộng, trừ",Bài 22: Phép cộng các số có nhiều chữ số,Biết đặt tính và thực hiện phép cộng các số lớn (có nhớ).
+4,Toán,HK1,"3. Phép cộng, trừ",Bài 23: Phép trừ các số có nhiều chữ số,Biết đặt tính và thực hiện phép trừ các số lớn.
+4,Toán,HK1,"3. Phép cộng, trừ",Bài 24: Tính chất giao hoán và kết hợp của phép cộng,"Vận dụng tính chất để tính nhanh, tính thuận tiện."
+4,Toán,HK1,"3. Phép cộng, trừ",Bài 25: Tìm hai số biết tổng và hiệu của hai số đó,"Giải được bài toán dạng ""Tổng - Hiệu"" (vẽ sơ đồ)."
+4,Toán,HK1,"3. Phép cộng, trừ",Bài 26: Luyện tập chung,"Củng cố kĩ năng cộng, trừ và giải toán."
+4,Toán,HK1,4. Đường thẳng vuông góc...,Bài 27: Hai đường thẳng vuông góc,Nhận biết và vẽ được hai đường thẳng vuông góc (dùng ê-ke).
+4,Toán,HK1,4. Đường thẳng vuông góc...,Bài 28: Hai đường thẳng song song,Nhận biết và vẽ được hai đường thẳng song song.
+4,Toán,HK1,4. Đường thẳng vuông góc...,Bài 29: Thực hành vẽ hai đường thẳng vuông góc/song song,Kĩ năng sử dụng thước và ê-ke.
+4,Toán,HK1,4. Đường thẳng vuông góc...,Bài 30: Thực hành và trải nghiệm vẽ hai đường thẳng,"Ứng dụng vẽ hình chữ nhật, hình vuông."
+4,Toán,HK1,"5. Phép nhân, chia","Bài 31: Hình bình hành, hình thoi","Nhận biết đặc điểm (cạnh, góc) của hình bình hành, hình thoi."
+4,Toán,HK1,"5. Phép nhân, chia",Bài 32: Luyện tập chung,Ôn tập hình học.
+4,Toán,HK1,6. Ôn tập học kì 1,Bài 33: Ôn tập các số đến lớp triệu,Hệ thống hoá kiến thức về số.
+4,Toán,HK1,6. Ôn tập học kì 1,Bài 34: Ôn tập phép tính với số tự nhiên,Hệ thống hoá kĩ năng tính toán.
+4,Toán,HK1,6. Ôn tập học kì 1,Bài 35: Ôn tập hình học,Hệ thống hoá kiến thức hình học.
+4,Toán,HK1,6. Ôn tập học kì 1,Bài 36: Ôn tập đo lường,Hệ thống hoá đơn vị đo lường.
+4,Toán,HK1,6. Ôn tập học kì 1,Bài 37: Ôn tập chung,Đánh giá tổng quát năng lực cuối kì 1.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 38: Nhân với số có một chữ số,Thực hiện nhân số có nhiều chữ số với số có 1 chữ số.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 39: Chia cho số có một chữ số,Thực hiện chia số có nhiều chữ số cho số có 1 chữ số.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 40: Tính chất giao hoán và kết hợp của phép nhân,Vận dụng tính chất để tính thuận tiện.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)","Bài 41: Nhân, chia với 10, 100, 1000...",Biết quy tắc nhân/chia nhẩm nhanh.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 42: Tính chất phân phối của phép nhân...,Vận dụng tính chất nhân một số với một tổng/hiệu để tính nhanh.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 43: Nhân với số có hai chữ số,Biết đặt tính và tính nhân với số có 2 chữ số.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 44: Chia cho số có hai chữ số,Biết đặt tính và ước lượng thương khi chia cho số có 2 chữ số.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 45: Thực hành và trải nghiệm ước lượng...,Ứng dụng tính toán vào thực tế.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 46: Tìm số trung bình cộng,Hiểu ý nghĩa và biết cách tính số trung bình cộng.
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài toán liên quan đến rút về đơn vị,Giải thành thạo bài toán rút về đơn vị (kiểu 2 - phép chia).
+4,Toán,HK2,"7. Phép nhân, chia (tiếp)",Bài 48: Luyện tập chung,"Củng cố kĩ năng nhân, chia và giải toán."
+4,Toán,HK2,8. Phân số,Bài 49: Dãy số liệu thống kê,"Biết thu thập, đọc và nhận xét dãy số liệu."
+4,Toán,HK2,8. Phân số,Bài 50: Biểu đồ cột,Biết đọc và vẽ biểu đồ cột đơn giản.
+4,Toán,HK2,8. Phân số,Bài 51: Số lần xuất hiện của một sự kiện,Làm quen với xác suất thực nghiệm.
+4,Toán,HK2,8. Phân số,Bài 52: Luyện tập chung,Xử lý số liệu thống kê.
+4,Toán,HK2,8. Phân số,Bài 53: Khái niệm phân số,"Nhận biết phân số, tử số, mẫu số. Đọc, viết phân số."
+4,Toán,HK2,8. Phân số,Bài 54: Phân số và phép chia số tự nhiên,Viết thương của phép chia dưới dạng phân số.
+4,Toán,HK2,8. Phân số,Bài 55: Tính chất cơ bản của phân số,Hiểu tính chất nhân/chia cả tử và mẫu với cùng một số.
+4,Toán,HK2,8. Phân số,Bài 56: Rút gọn phân số,Biết cách đưa phân số về dạng tối giản.
+4,Toán,HK2,8. Phân số,Bài 57: Quy đồng mẫu số các phân số,Thực hiện quy đồng mẫu số hai phân số.
+4,Toán,HK2,8. Phân số,Bài 58: So sánh phân số,So sánh phân số cùng mẫu và khác mẫu số.
+4,Toán,HK2,8. Phân số,Bài 59: Luyện tập chung,Củng cố khái niệm và tính chất phân số.
+4,Toán,HK2,9. Phép tính với phân số,Bài 60: Phép cộng phân số,Cộng hai phân số cùng mẫu và khác mẫu.
+4,Toán,HK2,9. Phép tính với phân số,Bài 61: Phép trừ phân số,Trừ hai phân số cùng mẫu và khác mẫu.
+4,Toán,HK2,9. Phép tính với phân số,Bài 62: Luyện tập chung,Rèn kĩ năng cộng trừ phân số.
+4,Toán,HK2,9. Phép tính với phân số,Bài 63: Phép nhân phân số,"Thực hiện nhân tử với tử, mẫu với mẫu."
+4,Toán,HK2,9. Phép tính với phân số,Bài 64: Phép chia phân số,Thực hiện nhân phân số thứ nhất với phân số thứ hai đảo ngược.
+4,Toán,HK2,9. Phép tính với phân số,Bài 65: Tìm phân số của một số,Giải bài toán tìm giá trị phân số của một số.
+4,Toán,HK2,9. Phép tính với phân số,Bài 66: Luyện tập chung,Tổng hợp 4 phép tính với phân số.
+4,Toán,HK2,9. Phép tính với phân số,Bài 67: Ôn tập số tự nhiên,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 68: Ôn tập phép tính với số tự nhiên,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 69: Ôn tập phân số,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 70: Ôn tập phép tính với phân số,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 71: Ôn tập hình học và đo lường,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 72: Ôn tập một số yếu tố thống kê...,Ôn tập cuối năm.
+4,Toán,HK2,10. Ôn tập cuối năm,Bài 73: Ôn tập chung,Ôn tập cuối năm.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 1: Điều kì diệu,Đọc hiểu bài thơ. LTVC: Danh từ. Viết: Đoạn văn nêu ý kiến.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 2: Thi nhạc,"Hiểu nội dung câu chuyện. LTVC: Danh từ chung, danh từ riêng."
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 3: Anh em sinh đôi,Cảm nhận sự khác biệt thú vị. Viết: Tìm ý cho đoạn văn nêu ý kiến.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 4: Công chúa và người dẫn chuyện,LTVC: Luyện tập về danh từ. Viết: Viết đoạn văn nêu ý kiến.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 5: Thằn lằn xanh và tắc kè,Đọc hiểu truyện đồng thoại. LTVC: Động từ.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 6: Nghệ sĩ trống,Cảm nhận niềm đam mê nghệ thuật. Viết: Báo cáo thảo luận nhóm.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 7: Những bức chân dung,LTVC: Luyện tập về động từ. Viết: Lập dàn ý báo cáo.
+4,Tiếng Việt,HK1,Mỗi người một vẻ,Bài 8: Đò ngang,LTVC: Tính từ. Viết: Viết báo cáo thảo luận nhóm.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 9: Bầu trời trong quả trứng,LTVC: Luyện tập về tính từ. Viết: Viết bài văn thuật lại sự việc.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 10: Tiếng nói của cỏ cây,Ý thức bảo vệ môi trường. LTVC: Dấu gạch ngang.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 11: Tập làm văn,Câu chuyện hài hước về bài văn tả cây. Viết: Lập dàn ý thuật lại sự việc.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 12: Nhà phát minh 6 tuổi,LTVC: Luyện tập về dấu gạch ngang. Viết: Viết bài văn thuật lại sự việc.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 13: Con vẹt xanh,LTVC: Dấu ngoặc kép. Viết: Luyện tập thuật lại sự việc.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 14: Chân trời cuối phố,LTVC: Luyện tập về dấu ngoặc kép.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 15: Gặt chữ trên non,Bài thơ về lớp học vùng cao. LTVC: Cách dùng từ điển.
+4,Tiếng Việt,HK1,Trải nghiệm và khám phá,Bài 16: Trước ngày xa quê,Ôn tập giữa kì 1.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 17: Vẽ màu,LTVC: Biện pháp nhân hóa. Viết: Đoạn văn tưởng tượng.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 18: Đồng cỏ nở hoa,LTVC: Luyện tập về nhân hóa.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 19: Thanh âm của núi,Viết: Luyện tập viết đoạn văn tưởng tượng.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 20: Bầu trời mùa thu,LTVC: Dấu ngoặc đơn.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 21: Làm thỏ con bằng giấy,Đọc văn bản hướng dẫn. Viết: Viết hướng dẫn các bước làm một sản phẩm.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 22: Bức tường có nhiều phép lạ,LTVC: Luyện tập về dấu ngoặc đơn.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 23: Bét-tô-ven và Bản xô-nát Ánh trăng,Câu chuyện về danh nhân âm nhạc. LTVC: Luyện tập về tính từ.
+4,Tiếng Việt,HK1,Niềm vui sáng tạo,Bài 24: Người tìm đường lên các vì sao,Tấm gương Xi-ôn-cốp-xki. Viết: Viết thư.
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 25: Bay cùng sau sau,LTVC: Tìm hiểu về câu. Viết: Luyện tập viết thư.
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 26: Con trai người làm vườn,LTVC: Hai thành phần chính của câu (CN-VN).
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 27: Nếu em có một khu vườn,Viết: Luyện tập viết thư (thăm hỏi).
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 28: Bốn mùa mơ ước,LTVC: Chủ ngữ trong câu kể.
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 29: Ở Vương quốc Tương Lai,Kịch bản văn học. Viết: Viết thư (cảm ơn/xin lỗi).
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 30: Cánh chim nhỏ,LTVC: Vị ngữ trong câu kể.
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 31: Nếu chúng mình có phép lạ,Bài thơ về ước mơ trẻ thơ.
+4,Tiếng Việt,HK1,Chắp cánh ước mơ,Bài 32: Anh Ba,Ôn tập cuối học kì 1.
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 1: Hải thượng lãn ông,"LTVC: Câu chủ đề của đoạn văn. Viết: Đoạn văn nêu tình cảm, cảm xúc."
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 2: Vệt phấn trên mặt bàn,Câu chuyện về tình bạn. LTVC: Dấu gạch ngang (liệt kê).
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 3: Ông Bụt đã đến,"Lòng nhân ái. Viết: Lập dàn ý nêu tình cảm, cảm xúc."
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 4: Quả ngọt cuối mùa,Tình mẫu tử. LTVC: Luyện tập về câu chủ đề.
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 5: Tờ báo tường của tôi,LTVC: Trạng ngữ. Viết: Viết đoạn văn nêu tình cảm (về người).
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 6: Tiếng ru,"Bài thơ về tình yêu thương. LTVC: Trạng ngữ chỉ thời gian, nơi chốn."
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 7: Con muốn làm một cái cây,Viết: Viết đoạn văn nêu tình cảm (về nhân vật).
+4,Tiếng Việt,HK2,Sống để yêu thương,Bài 8: Trên khóm tre đầu ngõ,"LTVC: Trạng ngữ chỉ nguyên nhân, mục đích."
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 9: Sự tích thành Cổ Loa,Truyền thuyết lịch sử. Viết: Bài văn kể lại câu chuyện truyền thuyết/cổ tích.
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 10: Tiếng non ngàn,Vẻ đẹp thiên nhiên. LTVC: Dấu ngoặc kép (tên tác phẩm).
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,"Bài 11: Chùm thơ: Về Làng, Mùa thu",LTVC: Trạng ngữ chỉ phương tiện. Viết: Lập dàn ý kể chuyện.
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 12: Chiều sông Hậu,LTVC: Lựa chọn từ ngữ. Viết: Viết bài văn kể chuyện.
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 13: Cây vườn nhà Bác,LTVC: Mở rộng vốn từ về Quê hương.
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 14: Trong lời mẹ hát,LTVC: Luyện tập về lựa chọn từ ngữ.
+4,Tiếng Việt,HK2,Vẻ đẹp quê hương,Bài 15: Người thầy thuốc của nhân dân,Ôn tập giữa kì 2.
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 16: Ngựa biên phòng,LTVC: Dấu gạch ngang (nối từ). Viết: Bài văn miêu tả con vật.
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 17: Cây đa quê hương,LTVC: Trạng ngữ (ôn tập).
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 18: Bước vinh quang,Viết: Quan sát con vật.
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 19: Khúc ca dòng sông,LTVC: Luyện tập về dấu câu.
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 20: Quê hương,Viết: Lập dàn ý miêu tả con vật.
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 21: Anh hùng Lao động Trần Đại Nghĩa,"Tấm gương yêu nước. LTVC: Từ ngữ chỉ người, vật, hoạt động."
+4,Tiếng Việt,HK2,Vì một thế giới bình yên,Bài 22: Bè xuôi sông La,Viết: Viết bài văn miêu tả con vật.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 23: Hơn một nghìn ngày vòng quanh trái đất,Ma-gien-lăng. LTVC: Mở rộng vốn từ Du lịch. Viết: Hướng dẫn sử dụng sản phẩm.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 24: Dòng sông mặc áo,LTVC: Trạng ngữ (củng cố).
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 25: Buổi sáng ở Hòn Gai,Viết: Viết giấy hướng dẫn sử dụng.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 26: Một kì quan thế giới,Vịnh Hạ Long. LTVC: Lựa chọn từ ngữ.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 27: Lễ hội đèn lồng,LTVC: Mở rộng vốn từ về Lễ hội.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 28: Chợ nổi Cà Mau,Viết: Thuật lại sự việc.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 29: Đường đi Sa Pa,Ôn tập cuối năm.
+4,Tiếng Việt,HK2,Khám phá thế giới,Bài 30: Cánh chim báo tin vui,Ôn tập tổng hợp.
+4,Khoa học,HK1,1. Chất,Bài 1: Tính chất của nước và nước với cuộc sống,"Nêu được một số tính chất của nước (không màu, không mùi, không vị, hòa tan một số chất...). Nêu được vai trò của nước trong đời sống và sản xuất."
+4,Khoa học,HK1,1. Chất,Bài 2: Sự chuyển thể của nước,"Quan sát và mô tả được sự chuyển thể của nước (lỏng, khí, rắn). Vẽ được sơ đồ vòng tuần hoàn của nước trong tự nhiên."
+4,Khoa học,HK1,1. Chất,Bài 3: Ô nhiễm nguồn nước và bảo vệ nguồn nước,Nêu được nguyên nhân gây ô nhiễm nguồn nước và tác hại của nó. Thực hiện được một số việc làm bảo vệ nguồn nước và sử dụng tiết kiệm nước.
+4,Khoa học,HK1,1. Chất,Bài 4: Thành phần và tính chất của không khí,"Quan sát và làm thí nghiệm để xác định được không khí có ở xung quanh và có tính chất gì. Nêu được thành phần chính của không khí (niter, oxygen, carbon dioxide...)."
+4,Khoa học,HK1,1. Chất,Bài 5: Vai trò của không khí và bảo vệ môi trường không khí,Trình bày được vai trò của không khí đối với sự cháy và sự sống. Nêu được nguyên nhân gây ô nhiễm không khí và biện pháp bảo vệ.
+4,Khoa học,HK1,1. Chất,Bài 6: Ôn tập chủ đề Chất,Hệ thống hoá kiến thức về nước và không khí. Vận dụng kiến thức giải thích các hiện tượng thực tế liên quan đến nước và không khí.
+4,Khoa học,HK1,2. Năng lượng,Bài 7: Ánh sáng và sự truyền ánh sáng,Thực hiện thí nghiệm để biết ánh sáng truyền theo đường thẳng. Phân biệt được vật phát sáng và vật được chiếu sáng.
+4,Khoa học,HK1,2. Năng lượng,Bài 8: Vật dẫn nhiệt và vật cách nhiệt,Làm thí nghiệm để nhận biết vật dẫn nhiệt tốt và vật dẫn nhiệt kém. Kể tên và nêu ứng dụng của vật dẫn nhiệt và vật cách nhiệt trong đời sống.
+4,Khoa học,HK1,2. Năng lượng,Bài 9: Sự lan truyền âm thanh,"Nêu được ví dụ chứng tỏ âm thanh lan truyền qua không khí, chất lỏng, chất rắn. Nhận biết được âm thanh yếu đi khi lan truyền ra xa nguồn âm."
+4,Khoa học,HK1,2. Năng lượng,Bài 10: Âm thanh trong cuộc sống,Nêu được vai trò của âm thanh trong đời sống. Nhận biết được tác hại của tiếng ồn và thực hiện các biện pháp phòng chống tiếng ồn.
+4,Khoa học,HK1,2. Năng lượng,Bài 11: Ôn tập chủ đề Năng lượng,"Củng cố kiến thức về ánh sáng, nhiệt và âm thanh. Giải thích được một số ứng dụng kĩ thuật đơn giản liên quan đến năng lượng."
+4,Khoa học,HK1,3. Thực vật và động vật,Bài 12: Nhiệt độ và sự phát triển của cây và động vật,"Nêu được ảnh hưởng của nhiệt độ đến sự sống và phát triển của thực vật, động vật. Nêu được ví dụ về cách chống nóng, chống rét cho cây trồng, vật nuôi."
+4,Khoa học,HK1,3. Thực vật và động vật,Bài 13: Nhu cầu sống của thực vật và động vật,"Trình bày được nhu cầu về nước, ánh sáng, không khí, thức ăn của thực vật và động vật."
+4,Khoa học,HK1,3. Thực vật và động vật,Bài 14: Chăm sóc cây trồng và vật nuôi,"Thực hiện được một số việc làm đơn giản để chăm sóc cây trồng (tưới nước, bắt sâu...) và vật nuôi (cho ăn, vệ sinh...)."
+4,Khoa học,HK1,3. Thực vật và động vật,Bài 15: Ôn tập chủ đề Thực vật và động vật,Tổng hợp kiến thức về nhu cầu sống của sinh vật. Vận dụng kiến thức vào thực tiễn chăm sóc và bảo vệ sinh vật.
+4,Khoa học,HK2,4. Nấm,Bài 16: Nấm men và nấm mốc,"Quan sát và nhận biết được hình dạng của nấm men, nấm mốc. Nêu được ích lợi và tác hại của chúng (làm bia, rượu, làm hỏng thực phẩm...)."
+4,Khoa học,HK2,4. Nấm,Bài 17: Nấm ăn và nấm độc,Phân biệt được một số loại nấm ăn được và nấm độc. Biết cách phòng tránh ngộ độc nấm.
+4,Khoa học,HK2,4. Nấm,Bài 18: Ôn tập chủ đề Nấm,Hệ thống hoá kiến thức về các loại nấm. Có ý thức bảo quản thực phẩm để tránh nấm mốc.
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 19: Các chất dinh dưỡng cần thiết cho cơ thể,"Kể tên các nhóm chất dinh dưỡng (bột đường, đạm, béo, vitamin, khoáng chất). Nêu được vai trò của từng nhóm chất đối với cơ thể."
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 20: Ăn uống cân bằng,"Biết cách lựa chọn thực phẩm để có bữa ăn cân bằng, hợp lý. Nhận biết tháp dinh dưỡng."
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 21: Phòng tránh một số bệnh do thiếu hoặc thừa chất dinh dưỡng,"Nêu được nguyên nhân và cách phòng tránh một số bệnh (suy dinh dưỡng, béo phì, bướu cổ...)."
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 22: An toàn trong ăn uống,Nêu được các biện pháp giữ vệ sinh an toàn thực phẩm. Biết cách phòng tránh ngộ độc thức ăn.
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 23: Phòng tránh đuối nước,Nhận biết các tình huống nguy hiểm có thể dẫn đến đuối nước. Nêu và thực hiện được các quy tắc an toàn khi bơi hoặc ở gần vùng nước.
+4,Khoa học,HK2,5. Con người và sức khoẻ,Bài 24: Ôn tập chủ đề Con người và sức khoẻ,Củng cố kiến thức về dinh dưỡng và an toàn. Xây dựng thói quen ăn uống khoa học và kĩ năng phòng tránh tai nạn thương tích.
+4,Khoa học,HK2,6. Sinh vật và môi trường,Bài 25: Chuỗi thức ăn trong tự nhiên,Vẽ và mô tả được sơ đồ chuỗi thức ăn đơn giản trong tự nhiên (bắt đầu từ thực vật). Nêu được vai trò của thực vật trong chuỗi thức ăn.
+4,Khoa học,HK2,6. Sinh vật và môi trường,Bài 26: Vai trò của chuỗi thức ăn,Giải thích được mối quan hệ giữa các sinh vật trong chuỗi thức ăn. Nêu được hậu quả nếu một mắt xích trong chuỗi thức ăn bị phá vỡ.
+4,Khoa học,HK2,6. Sinh vật và môi trường,Bài 27: Ôn tập chủ đề Sinh vật và môi trường,Tổng kết về mối quan hệ dinh dưỡng trong tự nhiên. Có ý thức bảo vệ cân bằng sinh thái.
+4,Khoa học,HK2,Tổng kết,Bài 28: Ôn tập cuối năm,Hệ thống hoá toàn bộ kiến thức Khoa học lớp 4. Vận dụng tổng hợp kiến thức để giải quyết vấn đề thực tiễn.
+4,Lịch sử - Địa lý,HK1,Mở đầu,Bài 1: Làm quen với phương tiện học tập môn Lịch sử và Địa lí,"Biết cách sử dụng bản đồ, lược đồ, biểu đồ, tranh ảnh và hiện vật để khai thác thông tin lịch sử, địa lí."
+4,Lịch sử - Địa lý,HK1,1. Địa phương em,Bài 2: Địa phương em (Tỉnh/Thành phố nơi HS đang sống),"Xác định được vị trí địa lí, một số đặc điểm thiên nhiên và nét văn hóa đặc trưng của địa phương mình. Mô tả được một số hoạt động kinh tế ở địa phương."
+4,Lịch sử - Địa lý,HK1,2. Trung du và miền núi Bắc Bộ,Bài 3: Thiên nhiên vùng Trung du và miền núi Bắc Bộ,"Xác định được vị trí địa lí, đặc điểm địa hình, khí hậu của vùng trên bản đồ. Nêu được ảnh hưởng của thiên nhiên đến đời sống và sản xuất."
+4,Lịch sử - Địa lý,HK1,2. Trung du và miền núi Bắc Bộ,Bài 4: Dân cư và hoạt động sản xuất ở vùng Trung du và miền núi Bắc Bộ,"Kể tên được một số dân tộc sinh sống ở vùng (Kinh, H'mông, Dao, Thái...). Nêu được một số hoạt động sản xuất chủ yếu (trồng chè, khai thác khoáng sản, thủy điện)."
+4,Lịch sử - Địa lý,HK1,2. Trung du và miền núi Bắc Bộ,Bài 5: Đền Hùng và lễ giỗ Tổ Hùng Vương,Xác định được vị trí khu di tích Đền Hùng. Kể lại được truyền thuyết Hùng Vương và ý nghĩa của ngày Giỗ Tổ.
+4,Lịch sử - Địa lý,HK1,2. Trung du và miền núi Bắc Bộ,Bài 6: Một số nét văn hoá ở vùng Trung du và miền núi Bắc Bộ,"Mô tả được một số nét văn hóa đặc sắc như chợ phiên, lễ hội lồng tồng, xòe Thái, nhà sàn."
+4,Lịch sử - Địa lý,HK1,3. Đồng bằng Bắc Bộ,Bài 7: Thiên nhiên vùng Đồng bằng Bắc Bộ,"Xác định được vị trí và đặc điểm địa hình, sông ngòi của vùng Đồng bằng Bắc Bộ. Nêu được vai trò của hệ thống đê điều."
+4,Lịch sử - Địa lý,HK1,3. Đồng bằng Bắc Bộ,Bài 8: Dân cư và hoạt động sản xuất ở vùng Đồng bằng Bắc Bộ,"Nêu được đặc điểm dân cư đông đúc và nguồn lao động dồi dào. Kể tên một số hoạt động sản xuất (trồng lúa, làng nghề thủ công)."
+4,Lịch sử - Địa lý,HK1,3. Đồng bằng Bắc Bộ,Bài 9: Một số nét văn hoá ở vùng Đồng bằng Bắc Bộ,"Mô tả được nét đẹp văn hóa của hội Lim, múa rối nước, tín ngưỡng thờ Mẫu."
+4,Lịch sử - Địa lý,HK1,3. Đồng bằng Bắc Bộ,Bài 10: Thăng Long – Hà Nội,Xác định được vị trí của Thăng Long - Hà Nội. Kể lại được sự kiện dời đô của Lý Công Uẩn. Nêu được một số tên gọi khác của Hà Nội qua các thời kì.
+4,Lịch sử - Địa lý,HK1,3. Đồng bằng Bắc Bộ,Bài 11: Văn Miếu – Quốc Tử Giám,Mô tả được kiến trúc và chức năng của Văn Miếu - Quốc Tử Giám (trường đại học đầu tiên của Việt Nam).
+4,Lịch sử - Địa lý,HK1,Tổng kết,Bài 12: Ôn tập học kì 1,"Hệ thống hóa kiến thức về các vùng đã học (Trung du MN Bắc Bộ, Đồng bằng Bắc Bộ)."
+4,Lịch sử - Địa lý,HK2,4. Duyên hải miền Trung,Bài 13: Thiên nhiên vùng Duyên hải miền Trung,"Nêu được đặc điểm địa hình (hẹp ngang), khí hậu (khắc nghiệt, bão lũ) và vai trò của biển đối với vùng."
+4,Lịch sử - Địa lý,HK2,4. Duyên hải miền Trung,Bài 14: Dân cư và hoạt động sản xuất ở vùng Duyên hải miền Trung,"Trình bày được đặc điểm phân bố dân cư và các ngành kinh tế biển (đánh bắt, du lịch, làm muối)."
+4,Lịch sử - Địa lý,HK2,4. Duyên hải miền Trung,Bài 15: Một số nét văn hoá ở vùng Duyên hải miền Trung,"Mô tả được vẻ đẹp của Cố đô Huế, Phố cổ Hội An và các lễ hội miền biển (Lễ hội Cầu Ngư)."
+4,Lịch sử - Địa lý,HK2,4. Duyên hải miền Trung,Bài 16: Cố đô Huế,Xác định vị trí Cố đô Huế. Mô tả được một số công trình kiến trúc tiêu biểu và nhã nhạc cung đình Huế.
+4,Lịch sử - Địa lý,HK2,4. Duyên hải miền Trung,Bài 17: Phố cổ Hội An,"Nêu được giá trị lịch sử, văn hóa và kiến trúc của Phố cổ Hội An (Di sản văn hóa thế giới)."
+4,Lịch sử - Địa lý,HK2,5. Tây Nguyên,Bài 18: Thiên nhiên vùng Tây Nguyên,"Xác định vị trí và đặc điểm địa hình cao nguyên xếp tầng, đất đỏ bazan của Tây Nguyên."
+4,Lịch sử - Địa lý,HK2,5. Tây Nguyên,Bài 19: Dân cư và hoạt động sản xuất ở vùng Tây Nguyên,"Kể tên các dân tộc (Ba Na, Ê Đê, Gia Rai...). Nêu được thế mạnh về trồng cây công nghiệp (cà phê, cao su) và thủy điện."
+4,Lịch sử - Địa lý,HK2,5. Tây Nguyên,Bài 20: Một số nét văn hoá ở vùng Tây Nguyên,"Mô tả được Không gian văn hóa Cồn chiêng Tây Nguyên, nhà Rông và lễ hội đua voi."
+4,Lịch sử - Địa lý,HK2,5. Tây Nguyên,Bài 21: Lễ hội Cồng chiêng Tây Nguyên,Tìm hiểu chi tiết về giá trị và ý nghĩa của Cồng chiêng trong đời sống tinh thần người dân Tây Nguyên.
+4,Lịch sử - Địa lý,HK2,6. Nam Bộ,Bài 22: Thiên nhiên vùng Nam Bộ,"Nêu được đặc điểm sông ngòi chằng chịt, đất đai màu mỡ của Đồng bằng sông Cửu Long và đặc điểm vùng Đông Nam Bộ."
+4,Lịch sử - Địa lý,HK2,6. Nam Bộ,Bài 23: Dân cư và hoạt động sản xuất ở vùng Nam Bộ,"Trình bày được đặc điểm vựa lúa, vựa trái cây, vựa thủy sản lớn nhất cả nước và vùng công nghiệp phát triển."
+4,Lịch sử - Địa lý,HK2,6. Nam Bộ,Bài 24: Một số nét văn hoá ở vùng Nam Bộ,"Mô tả được nét văn hóa sông nước (chợ nổi), đờn ca tài tử và tính cách hào sảng của người dân Nam Bộ."
+4,Lịch sử - Địa lý,HK2,6. Nam Bộ,Bài 25: Thành phố Hồ Chí Minh,"Xác định vị trí và vai trò là trung tâm kinh tế, văn hóa, giáo dục lớn nhất cả nước của TP.HCM."
+4,Lịch sử - Địa lý,HK2,6. Nam Bộ,Bài 26: Địa đạo Củ Chi,Kể lại được sơ lược về lịch sử và cấu trúc độc đáo của hệ thống địa đạo Củ Chi trong kháng chiến.
+4,Lịch sử - Địa lý,HK2,Tổng kết,Bài 27: Ôn tập cuối năm,Hệ thống hóa toàn bộ kiến thức về các vùng miền Việt Nam. Tự hào về thiên nhiên và con người đất nước.
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 1: Lợi ích của hoa và cây cảnh,"Nêu được một số lợi ích của hoa và cây cảnh đối với đời sống (trang trí, làm sạch không khí, làm thuốc, làm quà tặng...)."
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 2: Một số loại hoa và cây cảnh phổ biến,"Nhận biết và kể tên được một số loại hoa, cây cảnh phổ biến. Mô tả được đặc điểm nổi bật của chúng (màu sắc, hình dáng)."
+4,Công nghệ,HK1,1. Công nghệ và đời sống,"Bài 3: Vật liệu và dụng cụ trồng hoa, cây cảnh trong chậu","Kể tên và nêu được tác dụng của các vật liệu (đất, giá thể, chậu) và dụng cụ (bình tưới, xẻng nhỏ) dùng để trồng hoa, cây cảnh."
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 4: Gieo hạt hoa và cây cảnh trong chậu,Trình bày được quy trình gieo hạt. Thực hiện được việc gieo hạt trong chậu đúng kĩ thuật đảm bảo an toàn.
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 5: Trồng hoa và cây cảnh trong chậu,Trình bày được các bước trồng cây con vào chậu. Thực hành trồng được một loài hoa hoặc cây cảnh trong chậu đúng kĩ thuật.
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Bài 6: Chăm sóc hoa và cây cảnh trong chậu,"Nêu được các công việc chăm sóc cơ bản (tưới nước, bón phân, tỉa lá, bắt sâu). Thực hiện được việc chăm sóc cây hằng ngày."
+4,Công nghệ,HK1,1. Công nghệ và đời sống,Ôn tập phần 1,"Hệ thống hóa kiến thức và kĩ năng trồng, chăm sóc hoa, cây cảnh. Trưng bày và giới thiệu sản phẩm của mình."
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 7: Giới thiệu bộ lắp ghép mô hình kĩ thuật,"Gọi tên và nhận diện được các chi tiết, dụng cụ trong bộ lắp ghép mô hình kĩ thuật lớp 4. Biết cách sử dụng cờ-lê, tuốc-nơ-vít để lắp và tháo ốc vít."
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 8: Lắp ghép mô hình bập bênh,"Quan sát mẫu, nhận biết được các bộ phận của bập bênh. Lựa chọn đúng chi tiết và lắp ghép được mô hình bập bênh đúng kĩ thuật, chuyển động được."
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 9: Lắp ghép mô hình robot,"Quan sát mẫu, xác định được các bộ phận của robot. Lắp ghép được mô hình robot đúng quy trình. Rèn luyện tính kiên trì và khéo léo."
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,"Bài 10: Lắp ghép mô hình tự chọn (ví dụ: cái đu, xe nôi...)",Vận dụng kiến thức đã học để tự chọn và lắp ghép một mô hình mới sáng tạo từ bộ lắp ghép. Giới thiệu được sản phẩm của mình.
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 11: Làm đèn lồng (Đồ chơi dân gian),"Biết cách làm một đồ chơi dân gian đơn giản (đèn lồng giấy). Thực hiện được các thao tác cắt, dán, gấp giấy để tạo hình sản phẩm."
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 12: Làm chuồn chuồn thăng bằng,Biết nguyên lí cân bằng đơn giản. Thực hành làm được chuồn chuồn tre hoặc giấy thăng bằng trên ngón tay.
+4,Công nghệ,HK2,2. Thủ công kĩ thuật,Bài 13: Làm diều giấy,Nêu được cấu tạo và nguyên lí bay của diều. Thực hiện được các bước làm diều giấy đơn giản và thả diều an toàn.
+4,Công nghệ,HK2,Tổng kết,Ôn tập cuối năm,"Tổng kết, đánh giá các sản phẩm thực hành kĩ thuật. Trưng bày sản phẩm sáng tạo."
+4,Tin,HK1,A. Máy tính và em,Bài 1: Các bộ phận của máy tính và tác dụng của chúng,"Nhận biết và kể tên được các bộ phận chính của máy tính (thân máy, màn hình, bàn phím, chuột). Nêu được chức năng cơ bản của từng bộ phận."
+4,Tin,HK1,A. Máy tính và em,Bài 2: Phần cứng và phần mềm máy tính,Phân biệt được phần cứng (các thiết bị vật lí) và phần mềm (chương trình máy tính). Nêu được ví dụ về phần cứng và phần mềm.
+4,Tin,HK1,A. Máy tính và em,Bài 3: Sử dụng bàn phím máy tính,"Nhận biết khu vực chính của bàn phím. Thực hiện được thao tác gõ phím đúng quy tắc (đặt tay đúng vị trí, gõ đúng ngón)."
+4,Tin,HK1,B. Mạng máy tính và Internet,Bài 4: Tìm kiếm thông tin trên Internet,"Biết sử dụng máy tìm kiếm (Google, Bing...) để tìm thông tin theo từ khoá. Xác định được thông tin phù hợp với yêu cầu tìm kiếm."
+4,Tin,HK1,B. Mạng máy tính và Internet,Bài 5: Sử dụng thông tin trên Internet,"Biết cách chọn lọc và lưu trữ thông tin tìm được (văn bản, hình ảnh) vào máy tính để sử dụng cho bài học."
+4,Tin,HK1,"C. Tổ chức lưu trữ, tìm kiếm...",Bài 6: Tổ chức thông tin trong máy tính,Hiểu khái niệm tệp tin và thư mục. Nhận biết được cây thư mục và cách tổ chức thông tin khoa học trong máy tính.
+4,Tin,HK1,"C. Tổ chức lưu trữ, tìm kiếm...",Bài 7: Thực hành thao tác với tệp và thư mục,"Thực hiện được các thao tác: Tạo mới, đổi tên, sao chép, di chuyển và xoá thư mục/tệp tin."
+4,Tin,HK1,"D. Đạo đức, pháp luật và văn hóa...",Bài 8: Tôn trọng bản quyền phần mềm,"Hiểu được phần mềm là tài sản trí tuệ. Có ý thức tôn trọng bản quyền, không sử dụng phần mềm lậu hoặc sao chép trái phép."
+4,Tin,HK1,Ôn tập,Ôn tập cuối học kì 1,"Hệ thống hoá kiến thức về phần cứng, phần mềm, Internet và quản lý tệp tin."
+4,Tin,HK2,E. Ứng dụng tin học,Bài 9: Soạn thảo văn bản tiếng Việt,"Biết sử dụng phần mềm soạn thảo (Word) để gõ tiếng Việt có dấu. Biết chọn phông chữ, cỡ chữ, kiểu chữ phù hợp."
+4,Tin,HK2,E. Ứng dụng tin học,Bài 10: Chèn hình ảnh vào văn bản,Biết cách chèn hình ảnh từ máy tính vào văn bản. Biết thay đổi kích thước và vị trí của hình ảnh trong văn bản.
+4,Tin,HK2,E. Ứng dụng tin học,Bài 11: Tạo bài trình chiếu đơn giản,Biết khởi động phần mềm trình chiếu. Tạo được trang chiếu mới và nhập nội dung văn bản đơn giản.
+4,Tin,HK2,E. Ứng dụng tin học,Bài 12: Định dạng văn bản trên trang chiếu,"Biết thay đổi phông chữ, màu chữ, cỡ chữ trên trang chiếu. Biết tạo các danh sách liệt kê trên slide."
+4,Tin,HK2,E. Ứng dụng tin học,Bài 13: Chèn hình ảnh và hiệu ứng,Biết chèn hình ảnh minh hoạ vào trang chiếu. Biết tạo hiệu ứng chuyển trang đơn giản để bài trình chiếu sinh động hơn.
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 14: Làm quen với môi trường lập trình trực quan,"Nhận biết giao diện phần mềm Scratch. Biết các khu vực chính: Sân khấu, Nhân vật, Khối lệnh, Khu vực lập trình."
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 15: Tạo chương trình đầu tiên của em,Biết cách kéo thả các khối lệnh cơ bản để điều khiển nhân vật di chuyển và nói chuyện.
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 16: Làm quen với sự kiện,"Hiểu ý nghĩa của các khối lệnh sự kiện (Khi bấm vào cờ xanh, Khi bấm phím...). Viết được chương trình tương tác đơn giản."
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 17: Điều khiển nhân vật chuyển động,"Sử dụng các khối lệnh chuyển động (Move, Turn, Go to...) để điều khiển nhân vật di chuyển theo ý muốn trên sân khấu."
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 18: Thay đổi ngoại hình nhân vật,"Biết sử dụng các khối lệnh thay đổi trang phục (Costume), thay đổi màu sắc, kích thước của nhân vật."
+4,Tin,HK2,F. Giải quyết vấn đề (Lập trình),Bài 19: Dự án: Câu chuyện của em,Vận dụng kiến thức lập trình để tạo một câu chuyện hoạt hình ngắn hoặc một hoạt cảnh đơn giản.
+4,Tin,HK2,Tổng kết,Ôn tập cuối năm,"Hệ thống hoá kiến thức về soạn thảo, trình chiếu và lập trình. Thực hành tạo sản phẩm số đơn giản."
+5,Khoa học,HK1,1. CHẤT,Bài 1: Thành phần và vai trò của đất đối với cây trồng,"- Quan sát và nêu được một số thành phần của đất (khoáng, mùn, không khí, nước, các sinh vật đất)."
+5,Khoa học,HK1,1. CHẤT,Bài 1: Thành phần và vai trò của đất đối với cây trồng,"- Trình bày được vai trò của đất đối với cây trồng (giữ rễ, cung cấp nước, dinh dưỡng,...)."
+5,Khoa học,HK1,1. CHẤT,"Bài 2: Ô nhiễm, xói mòn đất và bảo vệ môi trường đất","- Nêu được nguyên nhân, tác hại của ô nhiễm, xói mòn đất."
+5,Khoa học,HK1,1. CHẤT,"Bài 2: Ô nhiễm, xói mòn đất và bảo vệ môi trường đất",- Đề xuất và thực hiện được một số việc làm cụ thể giúp bảo vệ môi trường đất tại gia đình và địa phương.
+5,Khoa học,HK1,1. CHẤT,Bài 3: Hỗn hợp và dung dịch,- Thực hiện thí nghiệm để nhận biết và phân biệt được hỗn hợp và dung dịch.
+5,Khoa học,HK1,1. CHẤT,Bài 3: Hỗn hợp và dung dịch,- Thực hiện được thí nghiệm tách chất (muối hoặc đường) ra khỏi dung dịch bằng cách phơi nắng hoặc đun nóng.
+5,Khoa học,HK1,1. CHẤT,"Bài 4: Đặc điểm của chất ở trạng thái rắn, lỏng, khí. Sự biến đổi trạng thái của chất","- Nhận biết và nêu được đặc điểm về hình dạng, khả năng chịu nén của chất ở trạng thái rắn, lỏng, khí."
+5,Khoa học,HK1,1. CHẤT,"Bài 4: Đặc điểm của chất ở trạng thái rắn, lỏng, khí. Sự biến đổi trạng thái của chất","- Trình bày được sự biến đổi trạng thái của chất: nóng chảy, đông đặc, bay hơi, ngưng tụ qua các hiện tượng thực tế."
+5,Khoa học,HK1,1. CHẤT,Bài 5: Sự biến đổi hoá học của chất,- Phân biệt được sự biến đổi lí học (chỉ thay đổi trạng thái/hình dạng) và sự biến đổi hoá học (tạo ra chất mới) qua thí nghiệm đơn giản.
+5,Khoa học,HK1,1. CHẤT,Bài 5: Sự biến đổi hoá học của chất,- Nêu được ví dụ về sự biến đổi hoá học dưới tác dụng của nhiệt và ánh sáng.
+5,Khoa học,HK1,1. CHẤT,Bài 6: Ôn tập chủ đề Chất,- Hệ thống hoá các kiến thức đã học về chủ đề Chất.
+5,Khoa học,HK1,1. CHẤT,Bài 6: Ôn tập chủ đề Chất,- Vận dụng kiến thức để giải thích một số hiện tượng đơn giản trong đời sống liên quan đến đất và sự biến đổi chất.
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 7: Vai trò của năng lượng,"- Nêu được ví dụ chứng tỏ năng lượng cần thiết cho mọi hoạt động của con người, động vật, thực vật và máy móc."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 7: Vai trò của năng lượng,- Xác định được nguồn cung cấp năng lượng trong các hoạt động thông thường.
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 8: Sử dụng năng lượng điện,"- Kể tên được các thiết bị, máy móc sử dụng điện năng."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 8: Sử dụng năng lượng điện,"- Nêu và thực hiện được các biện pháp sử dụng điện an toàn, tiết kiệm, phòng tránh tai nạn điện."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 9: Mạch điện đơn giản. Vật dẫn điện và vật cách điện,"- Lắp được một mạch điện thắp sáng đơn giản (pin, dây dẫn, bóng đèn)."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 9: Mạch điện đơn giản. Vật dẫn điện và vật cách điện,- Làm thí nghiệm phân biệt được vật dẫn điện và vật cách điện.
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 9: Mạch điện đơn giản. Vật dẫn điện và vật cách điện,- Giải thích được sơ lược nguyên nhân bóng đèn không sáng trong mạch điện.
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 10: Năng lượng chất đốt,"- Kể tên các loại chất đốt thường dùng (rắn, lỏng, khí)."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 10: Năng lượng chất đốt,"- Nêu được cách sử dụng an toàn, tiết kiệm chất đốt và biện pháp phòng chống cháy nổ, ô nhiễm môi trường."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,"Bài 11: Sử dụng năng lượng mặt trời, năng lượng gió, năng lượng nước chảy","- Trình bày được ứng dụng của năng lượng mặt trời, gió, nước chảy (chiếu sáng, sưởi ấm, làm lạnh, phát điện...)."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,"Bài 11: Sử dụng năng lượng mặt trời, năng lượng gió, năng lượng nước chảy","- Có ý thức ưu tiên sử dụng năng lượng sạch, năng lượng tái tạo."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 12: Ôn tập chủ đề Năng lượng,"- Củng cố kiến thức về năng lượng điện, chất đốt, năng lượng tự nhiên."
+5,Khoa học,HK1,2. NĂNG LƯỢNG,Bài 12: Ôn tập chủ đề Năng lượng,- Xử lý các tình huống thực tiễn liên quan đến sử dụng năng lượng hiệu quả.
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 13: Sinh sản của thực vật có hoa,"- Chỉ và nói tên được các bộ phận của cơ quan sinh sản (nhị, nhụy) trên tranh vẽ hoặc hoa thật."
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 13: Sinh sản của thực vật có hoa,- Phân biệt được hoa đơn tính và hoa lưỡng tính.
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 13: Sinh sản của thực vật có hoa,"- Kể lại được quá trình thụ phấn, thụ tinh và sự hình thành hạt, quả."
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 14: Sự phát triển của cây con,- Quan sát và mô tả được quá trình phát triển của cây con từ hạt.
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 14: Sự phát triển của cây con,"- Kể tên được một số loại cây con có thể mọc lên từ thân, rễ hoặc lá của cây mẹ."
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 15: Sinh sản của động vật,- Phân biệt được động vật đẻ trứng và động vật đẻ con thông qua các ví dụ minh họa.
+5,Khoa học,HK1,3. THỰC VẬT VÀ ĐỘNG VẬT,Bài 15: Sinh sản của động vật,- Nêu được tầm quan trọng của sự sinh sản đối với việc duy trì nòi giống.
+5,Khoa học,HK2,3. THỰC VẬT VÀ ĐỘNG VẬT (Tiếp),Bài 16: Vòng đời và sự phát triển của động vật,"- Vẽ hoặc viết sơ đồ vòng đời của một số động vật phổ biến (bướm, ếch, chó/mèo...)."
+5,Khoa học,HK2,3. THỰC VẬT VÀ ĐỘNG VẬT (Tiếp),Bài 16: Vòng đời và sự phát triển của động vật,- So sánh và rút ra nhận xét về sự khác nhau trong vòng đời của động vật đẻ trứng (biến thái hoàn toàn/không hoàn toàn) và động vật đẻ con.
+5,Khoa học,HK2,3. THỰC VẬT VÀ ĐỘNG VẬT (Tiếp),Bài 17: Ôn tập chủ đề Thực vật và động vật,- Hệ thống hoá kiến thức về sự sinh sản và vòng đời của sinh vật.
+5,Khoa học,HK2,3. THỰC VẬT VÀ ĐỘNG VẬT (Tiếp),Bài 17: Ôn tập chủ đề Thực vật và động vật,"- Vận dụng kiến thức để thực hiện các hành động chăm sóc, bảo vệ cây trồng và vật nuôi."
+5,Khoa học,HK2,4. VI KHUẨN,Bài 18: Vi khuẩn xung quanh chúng ta,"- Nhận biết vi khuẩn là sinh vật có kích thước rất nhỏ, chỉ quan sát được bằng kính hiển vi."
+5,Khoa học,HK2,4. VI KHUẨN,Bài 18: Vi khuẩn xung quanh chúng ta,"- Nêu được sự phân bố rộng rãi của vi khuẩn trong tự nhiên (đất, nước, không khí, cơ thể sinh vật...)."
+5,Khoa học,HK2,4. VI KHUẨN,Bài 19: Vi khuẩn có ích trong chế biến thực phẩm,"- Nêu được vai trò của vi khuẩn có ích trong chế biến một số thực phẩm (lên men sữa chua, dưa cà muối, nước mắm,...)."
+5,Khoa học,HK2,4. VI KHUẨN,Bài 19: Vi khuẩn có ích trong chế biến thực phẩm,- Thực hành làm món ăn đơn giản có ứng dụng vi khuẩn (nếu điều kiện cho phép).
+5,Khoa học,HK2,4. VI KHUẨN,Bài 20: Vi khuẩn gây bệnh ở người và cách phòng tránh,"- Kể tên một số bệnh phổ biến do vi khuẩn gây ra (tả, lị, thương hàn, lao,...)."
+5,Khoa học,HK2,4. VI KHUẨN,Bài 20: Vi khuẩn gây bệnh ở người và cách phòng tránh,- Nêu con đường lây truyền và thực hiện được các biện pháp vệ sinh phòng tránh bệnh do vi khuẩn.
+5,Khoa học,HK2,4. VI KHUẨN,Bài 21: Ôn tập chủ đề Vi khuẩn,- Phân biệt được lợi ích và tác hại của vi khuẩn.
+5,Khoa học,HK2,4. VI KHUẨN,Bài 21: Ôn tập chủ đề Vi khuẩn,"- Hình thành thói quen vệ sinh ăn uống, vệ sinh cá nhân để phòng bệnh."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 22: Sự hình thành cơ thể người,- Nhận biết cơ thể người được hình thành từ sự kết hợp giữa trứng (của mẹ) và tinh trùng (của bố).
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 22: Sự hình thành cơ thể người,"- Bồi dưỡng tình cảm gia đình, biết ơn cha mẹ, trân trọng sự sống."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 23: Các giai đoạn phát triển chính của con người,"- Nêu được các giai đoạn phát triển: Dưới 3 tuổi, 3-6 tuổi, 6-10 tuổi, tuổi dậy thì, tuổi trưởng thành, tuổi già."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 23: Các giai đoạn phát triển chính của con người,- Nhận biết sự thay đổi cơ bản về sinh học và xã hội ở từng giai đoạn.
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 24: Nam và nữ,"- Phân biệt được đặc điểm sinh học cơ bản và đặc điểm xã hội (vai trò, ứng xử) giữa nam và nữ."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 24: Nam và nữ,- Có thái độ tôn trọng sự khác biệt và ủng hộ bình đẳng giới trong mọi hoạt động.
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 25: Chăm sóc sức khoẻ tuổi dậy thì,"- Nêu được những thay đổi về thể chất, tâm sinh lí ở tuổi dậy thì."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 25: Chăm sóc sức khoẻ tuổi dậy thì,"- Thực hiện được các việc làm để giữ vệ sinh cơ thể, ăn uống đủ chất, nghỉ ngơi và vận động hợp lí ở tuổi dậy thì."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 26: Phòng tránh bị xâm hại,- Nhận diện được các nguy cơ và hành vi xâm hại thân thể.
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 26: Phòng tránh bị xâm hại,"- Có kĩ năng phòng tránh, ứng phó và tìm kiếm sự hỗ trợ tin cậy khi có nguy cơ bị xâm hại."
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 27: Ôn tập chủ đề Con người và sức khoẻ,- Củng cố kiến thức về sự phát triển của con người và chăm sóc sức khoẻ sinh sản vị thành niên.
+5,Khoa học,HK2,5. CON NGƯỜI VÀ SỨC KHOẺ,Bài 27: Ôn tập chủ đề Con người và sức khoẻ,- Xử lí tình huống liên quan đến vệ sinh cá nhân và an toàn bản thân.
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 28: Chức năng của môi trường đối với sinh vật,"- Nêu được các chức năng cơ bản của môi trường: cung cấp không gian sống, thức ăn, nước uống, nơi chứa chất thải..."
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 28: Chức năng của môi trường đối với sinh vật,- Trình bày được sự phụ thuộc thiết yếu của con người và sinh vật vào môi trường.
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường,- Phân tích được tác động tích cực và tiêu cực của con người đối với môi trường sống.
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường,"- Đề xuất và thực hiện được các việc làm thiết thực để bảo vệ môi trường (trồng cây, phân loại rác, tiết kiệm tài nguyên...)."
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 30: Ôn tập chủ đề Sinh vật và môi trường,- Tổng kết kiến thức về mối quan hệ giữa sinh vật và môi trường.
+5,Khoa học,HK2,6. SINH VẬT VÀ MÔI TRƯỜNG,Bài 30: Ôn tập chủ đề Sinh vật và môi trường,- Cam kết và lan toả các hành động bảo vệ môi trường xanh - sạch - đẹp.
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,"Bài 1: Vị trí địa lí, lãnh thổ, đơn vị hành chính, Quốc kì, Quốc huy, Quốc ca","- Xác định được vị trí địa lí, phạm vi lãnh thổ, phần đất liền, các đảo, quần đảo và biển của Việt Nam trên bản đồ/lược đồ."
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,"Bài 1: Vị trí địa lí, lãnh thổ, đơn vị hành chính, Quốc kì, Quốc huy, Quốc ca","- Nêu được ý nghĩa của Quốc kì, Quốc huy, Quốc ca nước CHXHCN Việt Nam."
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,Bài 2: Thiên nhiên Việt Nam,"- Trình bày được một số đặc điểm chính của địa hình, khoáng sản, khí hậu, sông ngòi, đất và rừng Việt Nam."
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,Bài 2: Thiên nhiên Việt Nam,- Nêu được vai trò của tài nguyên thiên nhiên đối với sự phát triển kinh tế và đời sống.
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,"Bài 3: Biển, đảo Việt Nam","- Xác định được vị trí của vùng biển Việt Nam, hai quần đảo Hoàng Sa và Trường Sa trên bản đồ."
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,"Bài 3: Biển, đảo Việt Nam",- Trình bày được một số thành tựu kinh tế biển và ý nghĩa của việc bảo vệ chủ quyền biển đảo.
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,Bài 4: Dân cư và dân tộc ở Việt Nam,- Nêu được số dân và đặc điểm phân bố dân cư ở Việt Nam (sử dụng bản đồ mật độ dân số).
+5,Lịch sử - Địa lý,HK1,1. Đất nước và con người VN,Bài 4: Dân cư và dân tộc ở Việt Nam,"- Kể tên được một số dân tộc (Kinh, Tày, Thái, Mường, Ê-đê, Khơ-me,...) và tôn trọng sự đa dạng văn hóa."
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,"Bài 5: Nhà nước Văn Lang, Nhà nước Âu Lạc","- Nêu được thời gian ra đời, kinh đô và tên nước của thời Hùng Vương - An Dương Vương."
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,"Bài 5: Nhà nước Văn Lang, Nhà nước Âu Lạc","- Mô tả sơ lược đời sống vật chất và tinh thần của cư dân Văn Lang - Âu Lạc (trống đồng Đông Sơn, thành Cổ Loa)."
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,Bài 6: Vương quốc Phù Nam,- Xác định được phạm vi lãnh thổ của Vương quốc Phù Nam trên lược đồ.
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,Bài 6: Vương quốc Phù Nam,- Mô tả được một số nét chính về văn hóa (văn hóa Óc Eo) và hoạt động kinh tế của Phù Nam.
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,Bài 7: Vương quốc Chăm-pa,- Xác định được vị trí địa lí của Vương quốc Chăm-pa xưa.
+5,Lịch sử - Địa lý,HK1,2. Những quốc gia đầu tiên,Bài 7: Vương quốc Chăm-pa,- Mô tả được một số công trình kiến trúc tiêu biểu (thánh địa Mỹ Sơn) và đời sống văn hóa đặc sắc của người Chăm.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 8: Đấu tranh giành độc lập thời kì Bắc thuộc,"- Kể lại được một số cuộc khởi nghĩa tiêu biểu (Hai Bà Trưng, Bà Triệu, Lý Bí, Mai Thúc Loan, Phùng Hưng)."
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 8: Đấu tranh giành độc lập thời kì Bắc thuộc,- Trình bày được ý nghĩa chiến thắng Bạch Đằng năm 938 của Ngô Quyền.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 9: Triều Lý và việc định đô ở Thăng Long,- Nêu được sự kiện Lý Công Uẩn dời đô ra Thăng Long và đặt tên nước là Đại Việt.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 9: Triều Lý và việc định đô ở Thăng Long,- Đánh giá được vai trò của Kinh đô Thăng Long đối với sự phát triển của đất nước.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 10: Triều Trần xây dựng đất nước và kháng chiến chống quân Mông - Nguyên,"- Trình bày được những nét chính về tình hình kinh tế, xã hội thời Trần (đắp đê, Hội nghị Diên Hồng)."
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 10: Triều Trần xây dựng đất nước và kháng chiến chống quân Mông - Nguyên,- Kể lại được diễn biến sơ lược và ý nghĩa của ba lần kháng chiến chống quân xâm lược Mông - Nguyên.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 11: Khởi nghĩa Lam Sơn và Triều Hậu Lê,"- Kể lại được một số sự kiện tiêu biểu của khởi nghĩa Lam Sơn (Hội thề Lũng Nhai, chiến thắng Chi Lăng - Xương Giang)."
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 11: Khởi nghĩa Lam Sơn và Triều Hậu Lê,"- Nêu được những đóng góp của Lê Lợi, Nguyễn Trãi và những nét chính về văn hóa, giáo dục, luật pháp thời Hậu Lê (Bộ luật Hồng Đức)."
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 12: Triều Nguyễn,- Nêu được quá trình thống nhất đất nước của nhà Nguyễn.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Bài 12: Triều Nguyễn,- Mô tả được vẻ đẹp và giá trị của quần thể di tích Cố đô Huế (được UNESCO công nhận).
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Ôn tập học kì 1,- Hệ thống hóa kiến thức về địa lí Việt Nam và lịch sử Việt Nam từ nguồn gốc đến hết triều Nguyễn.
+5,Lịch sử - Địa lý,HK1,3. Xây dựng và bảo vệ đất nước,Ôn tập học kì 1,"- Rèn luyện kĩ năng sử dụng bản đồ, lược đồ và tranh ảnh lịch sử."
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 13: Cách mạng tháng Tám năm 1945,- Tường thuật lại được sự kiện Bác Hồ đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình.
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 13: Cách mạng tháng Tám năm 1945,- Nêu được ý nghĩa lịch sử của Cách mạng tháng Tám năm 1945.
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 14: Chiến dịch Điện Biên Phủ năm 1954,"- Trình bày được diễn biến chính và ý nghĩa của chiến thắng Điện Biên Phủ ""lừng lẫy năm châu, chấn động địa cầu""."
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 14: Chiến dịch Điện Biên Phủ năm 1954,"- Kể chuyện về các tấm gương anh hùng (Phan Đình Giót, Tô Vĩnh Diện,...)."
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 15: Chiến dịch Hồ Chí Minh năm 1975,- Kể lại được sự kiện xe tăng quân giải phóng tiến vào Dinh Độc Lập ngày 30/4/1975.
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 15: Chiến dịch Hồ Chí Minh năm 1975,"- Nêu được ý nghĩa của Đại thắng mùa Xuân năm 1975: Đất nước thống nhất, non sông thu về một mối."
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 16: Đất nước Đổi mới,"- Nêu được một số thành tựu tiêu biểu của công cuộc Đổi mới (kinh tế, văn hóa, xã hội, giáo dục...)."
+5,Lịch sử - Địa lý,HK2,3. Xây dựng... (Tiếp),Bài 16: Đất nước Đổi mới,"- Nhận xét được sự thay đổi của quê hương, đất nước từ khi đổi mới đến nay."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 18: Vương quốc Cam-pu-chia,"- Xác định được vị trí địa lí, thủ đô của Cam-pu-chia trên bản đồ."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 18: Vương quốc Cam-pu-chia,- Mô tả được vẻ đẹp của công trình kiến trúc Ăng-co Vát (Angkor Wat) và Biển Hồ.
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 19: Cộng hòa Dân chủ Nhân dân Lào,"- Xác định được vị trí địa lí, thủ đô của Lào trên bản đồ."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 19: Cộng hòa Dân chủ Nhân dân Lào,"- Nêu được một số nét văn hóa đặc sắc (lễ hội té nước, Thạt Luổng) và quan hệ hữu nghị Việt - Lào."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 20: Cộng hòa Nhân dân Trung Hoa,"- Xác định được vị trí, thủ đô, quy mô dân số của Trung Quốc."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 20: Cộng hòa Nhân dân Trung Hoa,"- Kể tên được một số thành tựu văn minh (Vạn Lý Trường Thành, Gốm sứ...) và cảnh quan thiên nhiên nổi tiếng."
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 21: Hiệp hội các quốc gia Đông Nam Á (ASEAN),- Kể tên được các thành viên của ASEAN.
+5,Lịch sử - Địa lý,HK2,4. Các nước láng giềng,Bài 21: Hiệp hội các quốc gia Đông Nam Á (ASEAN),"- Nêu được một số hoạt động hợp tác cơ bản của ASEAN (kinh tế, văn hóa, thể thao - SEA Games)."
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 22: Các châu lục và đại dương trên thế giới,- Xác định được vị trí của 6 châu lục và 4 đại dương trên quả địa cầu hoặc bản đồ thế giới.
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 22: Các châu lục và đại dương trên thế giới,- So sánh sơ lược diện tích của các châu lục và đại dương.
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 23: Dân số và các chủng tộc chính trên thế giới,- Nêu được quy mô dân số thế giới và sự phân bố dân cư không đều giữa các châu lục.
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 23: Dân số và các chủng tộc chính trên thế giới,"- Nhận biết được đặc điểm ngoại hình cơ bản của ba chủng tộc chính (Môn-gô-lô-it, Ơ-rô-pê-ô-it, Nê-grô-it)."
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 24: Văn minh Ai Cập,- Xác định được vị trí của Ai Cập cổ đại (lưu vực sông Nin).
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 24: Văn minh Ai Cập,"- Mô tả được các thành tựu tiêu biểu: Kim tự tháp, tượng Nhân sư, chữ tượng hình."
+5,Lịch sử - Địa lý,HK2,5. Tìm hiểu thế giới,Bài 25: Văn minh Hy Lạp,"- Nêu được những đóng góp của văn minh Hy Lạp cổ đại (Thế vận hội Olympic, đền Pác-tê-nông, kịch, triết học...)."
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Bài 26: Xây dựng thế giới xanh - sạch - đẹp,- Nêu được thực trạng môi trường thế giới hiện nay.
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Bài 26: Xây dựng thế giới xanh - sạch - đẹp,"- Đề xuất và thực hiện các hành động bảo vệ môi trường, ứng phó biến đổi khí hậu."
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Bài 27: Xây dựng thế giới hoà bình,- Trình bày được hậu quả của chiến tranh và giá trị của hòa bình.
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Bài 27: Xây dựng thế giới hoà bình,"- Biết thể hiện tinh thần đoàn kết, hữu nghị với bạn bè quốc tế."
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Ôn tập cuối năm,- Hệ thống hóa toàn bộ kiến thức đã học trong chương trình.
+5,Lịch sử - Địa lý,HK2,6. Chung tay xây dựng thế giới,Ôn tập cuối năm,- Tự hào về truyền thống lịch sử dân tộc và có ý thức hội nhập quốc tế.
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 1: Ôn tập số tự nhiên,"- Đọc, viết, so sánh, xếp thứ tự được các số tự nhiên (số lớn)."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 1: Ôn tập số tự nhiên,"- Làm tròn số tự nhiên đến hàng trăm nghìn, hàng triệu."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 2: Ôn tập các phép tính với số tự nhiên,"- Thực hiện thành thạo phép cộng, trừ, nhân, chia số tự nhiên."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 2: Ôn tập các phép tính với số tự nhiên,"- Vận dụng tính chất giao hoán, kết hợp để tính nhẩm, tính thuận tiện."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 3: Ôn tập phân số,"- Rút gọn, quy đồng mẫu số, so sánh, sắp xếp thứ tự các phân số."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 3: Ôn tập phân số,- Chuyển đổi hỗn số thành phân số và ngược lại.
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 4: Phân số thập phân,"- Nhận biết phân số thập phân (mẫu số là 10, 100, 1000...)."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 4: Phân số thập phân,- Chuyển đổi một số phân số thành phân số thập phân.
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 5: Ôn tập các phép tính với phân số,"- Thực hiện được cộng, trừ, nhân, chia hai phân số."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 5: Ôn tập các phép tính với phân số,- Giải quyết bài toán thực tế liên quan đến phân số.
+5,Toán,HK1,1. Ôn tập và bổ sung,"Bài 6: Cộng, trừ hai phân số khác mẫu số","- Thực hiện thành thạo quy đồng mẫu số để cộng, trừ phân số khác mẫu."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 7: Hỗn số,- Nhận biết hỗn số (phần nguyên và phần phân số).
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 7: Hỗn số,"- Biết đọc, viết và chuyển đổi hỗn số."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 8: Ôn tập hình học và đo lường,"- Chuyển đổi được các đơn vị đo độ dài, khối lượng."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 8: Ôn tập hình học và đo lường,"- Tính được chu vi, diện tích hình chữ nhật, hình vuông."
+5,Toán,HK1,1. Ôn tập và bổ sung,Bài 9: Luyện tập chung,"- Củng cố tổng hợp kiến thức về số tự nhiên, phân số và đo lường."
+5,Toán,HK1,2. Số thập phân,Bài 10: Khái niệm số thập phân,"- Nhận biết khái niệm số thập phân, cấu tạo số thập phân (phần nguyên, phần thập phân, hàng)."
+5,Toán,HK1,2. Số thập phân,Bài 10: Khái niệm số thập phân,"- Đọc, viết được số thập phân."
+5,Toán,HK1,2. Số thập phân,Bài 11: So sánh các số thập phân,"- Biết cách so sánh hai số thập phân (so sánh phần nguyên, rồi đến từng hàng phần thập phân)."
+5,Toán,HK1,2. Số thập phân,Bài 11: So sánh các số thập phân,- Sắp xếp các số thập phân theo thứ tự.
+5,Toán,HK1,2. Số thập phân,Bài 12: Viết số đo đại lượng dưới dạng số thập phân,"- Chuyển đổi đơn vị đo độ dài, khối lượng, diện tích sang dạng số thập phân."
+5,Toán,HK1,2. Số thập phân,Bài 13: Làm tròn số thập phân,"- Biết làm tròn số thập phân đến số tự nhiên, đến hàng phần mười, hàng phần trăm."
+5,Toán,HK1,2. Số thập phân,Bài 14: Luyện tập chung,"- Củng cố kĩ năng đọc, viết, so sánh và làm tròn số thập phân."
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 15: Ki-lô-mét vuông. Héc-ta,- Có biểu tượng về đơn vị ki-lô-mét vuông ($km^2$) và héc-ta ($ha$).
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 15: Ki-lô-mét vuông. Héc-ta,"- Chuyển đổi được giữa $m^2$, $km^2$ và $ha$."
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 16: Các đơn vị đo diện tích,- Hệ thống hoá bảng đơn vị đo diện tích.
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 16: Các đơn vị đo diện tích,- Thực hiện chuyển đổi các đơn vị đo diện tích phức tạp.
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 17: Thực hành và trải nghiệm với một số đơn vị đo đại lượng,"- Ước lượng diện tích trong thực tế (sân trường, thửa ruộng...)."
+5,Toán,HK1,3. Một số đơn vị đo diện tích,Bài 18: Luyện tập chung,- Giải bài toán thực tế liên quan đến diện tích đất đai.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 19: Phép cộng số thập phân,- Biết đặt tính và thực hiện phép cộng các số thập phân.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 19: Phép cộng số thập phân,"- Vận dụng tính chất giao hoán, kết hợp của phép cộng."
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 20: Phép trừ số thập phân,- Biết đặt tính và thực hiện phép trừ các số thập phân.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 20: Phép trừ số thập phân,"- Tìm thành phần chưa biết trong phép cộng, trừ."
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 21: Phép nhân số thập phân,- Thực hiện nhân số thập phân với số tự nhiên; nhân hai số thập phân.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 21: Phép nhân số thập phân,- Nắm được quy tắc đếm chữ số ở phần thập phân để đặt dấu phẩy ở tích.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 22: Phép chia số thập phân,- Thực hiện chia số thập phân cho số tự nhiên; chia số tự nhiên cho số tự nhiên thương là số thập phân; chia hai số thập phân.
+5,Toán,HK1,4. Các phép tính với số thập phân,"Bài 23: Nhân, chia số thập phân với 10; 100;... hoặc với 0,1; 0,01;...",- Thực hiện tính nhẩm nhanh bằng cách dời dấu phẩy sang trái hoặc phải.
+5,Toán,HK1,4. Các phép tính với số thập phân,Bài 24: Luyện tập chung,- Vận dụng 4 phép tính với số thập phân để giải toán có lời văn.
+5,Toán,HK1,5. Một số hình phẳng,Bài 25: Hình tam giác. Diện tích hình tam giác,"- Nhận biết đặc điểm hình tam giác (đáy, đường cao)."
+5,Toán,HK1,5. Một số hình phẳng,Bài 25: Hình tam giác. Diện tích hình tam giác,- Vận dụng công thức tính diện tích hình tam giác: $S = \frac{a \times h}{2}$.
+5,Toán,HK1,5. Một số hình phẳng,Bài 26: Hình thang. Diện tích hình thang,- Nhận biết đặc điểm hình thang.
+5,Toán,HK1,5. Một số hình phẳng,Bài 26: Hình thang. Diện tích hình thang,- Vận dụng công thức tính diện tích hình thang: $S = \frac{(a+b) \times h}{2}$.
+5,Toán,HK1,5. Một số hình phẳng,Bài 27: Đường tròn. Chu vi và diện tích hình tròn,"- Nhận biết đường tròn, hình tròn, bán kính, đường kính."
+5,Toán,HK1,5. Một số hình phẳng,Bài 27: Đường tròn. Chu vi và diện tích hình tròn,"- Tính chu vi ($C = d \times 3,14$) và diện tích hình tròn ($S = r \times r \times 3,14$)."
+5,Toán,HK1,5. Một số hình phẳng,"Bài 28: Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình","- Vẽ được hình tròn, tam giác."
+5,Toán,HK1,5. Một số hình phẳng,"Bài 28: Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình",- Sáng tạo hình từ các mảnh ghép hình học.
+5,Toán,HK1,5. Một số hình phẳng,Bài 29: Luyện tập chung,"- Giải các bài toán tổng hợp về chu vi, diện tích các hình phẳng đã học."
+5,Toán,HK1,6. Ôn tập học kì 1,Bài 30: Ôn tập số thập phân,- Hệ thống hoá kiến thức về số thập phân.
+5,Toán,HK1,6. Ôn tập học kì 1,Bài 31: Ôn tập các phép tính với số thập phân,"- Rèn kĩ năng tính toán cộng, trừ, nhân, chia số thập phân chính xác."
+5,Toán,HK1,6. Ôn tập học kì 1,Bài 32: Ôn tập một số hình phẳng,"- Củng cố đặc điểm hình học của tam giác, hình thang, hình tròn."
+5,Toán,HK1,6. Ôn tập học kì 1,"Bài 33: Ôn tập diện tích, chu vi một số hình phẳng","- Luyện tập tính toán chu vi, diện tích trong các tình huống đa dạng."
+5,Toán,HK1,6. Ôn tập học kì 1,Bài 34: Ôn tập đo lường,- Củng cố chuyển đổi đơn vị đo lường.
+5,Toán,HK1,6. Ôn tập học kì 1,Bài 35: Ôn tập chung,- Đánh giá tổng quát năng lực toán học cuối học kì 1.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 36: Tỉ số,- Hiểu khái niệm tỉ số của hai số.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 36: Tỉ số,- Biết viết tỉ số và vận dụng vào bài toán thực tế.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 37: Tỉ lệ bản đồ và ứng dụng,"- Hiểu ý nghĩa tỉ lệ bản đồ (1:1000, 1:10000...)."
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 37: Tỉ lệ bản đồ và ứng dụng,- Tính độ dài thật dựa vào độ dài trên bản đồ và ngược lại.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 38: Tìm hai số khi biết tổng và tỉ số của hai số đó,"- Giải bài toán ""Tổng - Tỉ"" (vẽ sơ đồ đoạn thẳng)."
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 39: Tìm hai số khi biết hiệu và tỉ số của hai số đó,"- Giải bài toán ""Hiệu - Tỉ"" (vẽ sơ đồ đoạn thẳng)."
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 40: Tìm tỉ số phần trăm của hai số,"- Biết cách tìm tỉ số phần trăm của hai số (Ví dụ: 3 : 4 = 0,75 = 75%)."
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 41: Tìm giá trị phần trăm của một số,- Giải bài toán tìm giá trị của một tỉ số phần trăm cho trước.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 41: Tìm giá trị phần trăm của một số,- Giải bài toán tìm một số khi biết giá trị phần trăm của số đó.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 42: Máy tính cầm tay,- Biết sử dụng máy tính cầm tay để thực hiện các phép tính cơ bản và tính tỉ số phần trăm.
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 43: Thực hành và trải nghiệm sử dụng máy tính cầm tay,"- Vận dụng máy tính cầm tay giải quyết các bài toán tính toán phức tạp, thực tế."
+5,Toán,HK2,7. Tỉ số và các bài toán liên quan,Bài 44: Luyện tập chung,- Củng cố kĩ năng giải toán về tỉ số và tỉ số phần trăm.
+5,Toán,HK2,8. Thể tích,Bài 45: Thể tích của một hình,- Có biểu tượng về thể tích (khoảng không gian mà vật chiếm chỗ).
+5,Toán,HK2,8. Thể tích,Bài 45: Thể tích của một hình,- So sánh thể tích các vật đơn giản.
+5,Toán,HK2,8. Thể tích,Bài 46: Xăng-ti-mét khối. Đề-xi-mét khối,"- Nhận biết đơn vị $cm^3$, $dm^3$."
+5,Toán,HK2,8. Thể tích,Bài 46: Xăng-ti-mét khối. Đề-xi-mét khối,- Mối quan hệ giữa $cm^3$ và $dm^3$.
+5,Toán,HK2,8. Thể tích,Bài 47: Mét khối,- Nhận biết đơn vị $m^3$.
+5,Toán,HK2,8. Thể tích,Bài 47: Mét khối,"- Chuyển đổi giữa các đơn vị đo thể tích ($m^3$, $dm^3$, $cm^3$)."
+5,Toán,HK2,8. Thể tích,Bài 48: Luyện tập chung,- Thực hành chuyển đổi đơn vị và so sánh thể tích.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,"Bài 49: Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",- Nhận biết hình khai triển (trải phẳng) của các hình khối cơ bản.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,"Bài 49: Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ","- Nhận biết hình trụ (đáy, mặt xung quanh)."
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 50: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật,- Vận dụng công thức tính diện tích xung quanh và toàn phần của hình hộp chữ nhật.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 51: Diện tích xung quanh và diện tích toàn phần của hình lập phương,- Vận dụng công thức tính diện tích xung quanh và toàn phần của hình lập phương.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 52: Thể tích của hình hộp chữ nhật,- Vận dụng công thức tính thể tích HHCN: $V = a \times b \times c$.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 53: Thể tích của hình lập phương,- Vận dụng công thức tính thể tích HLP: $V = a \times a \times a$.
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 54: Thực hành tính toán và ước lượng thể tích một số hình khối,"- Vận dụng kiến thức giải quyết bài toán thực tế (tính thể tích bể nước, thùng hàng...)."
+5,Toán,HK2,9. Diện tích và thể tích hình khối,Bài 55: Luyện tập chung,- Củng cố kĩ năng tính diện tích và thể tích hình khối.
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 56: Các đơn vị đo thời gian,"- Chuyển đổi các đơn vị đo thời gian (năm, tháng, tuần, ngày, giờ, phút, giây)."
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...","Bài 57: Cộng, trừ số đo thời gian","- Thực hiện phép cộng, trừ số đo thời gian (có nhớ)."
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...","Bài 58: Nhân, chia số đo thời gian","- Thực hiện phép nhân, chia số đo thời gian với một số tự nhiên."
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 59: Vận tốc,- Hiểu khái niệm vận tốc.
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 59: Vận tốc,- Tính vận tốc khi biết quãng đường và thời gian ($v = s : t$).
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 60: Quãng đường,- Tính quãng đường khi biết vận tốc và thời gian ($s = v \times t$).
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 61: Thời gian,- Tính thời gian khi biết quãng đường và vận tốc ($t = s : v$).
+5,Toán,HK2,"10. Số đo thời gian, vận tốc...",Bài 62: Luyện tập chung,"- Giải các bài toán chuyển động đều (cùng chiều, ngược chiều)."
+5,Toán,HK2,11. Một số yếu tố thống kê...,"Bài 63: Thu thập, phân loại, sắp xếp các số liệu","- Biết thu thập, kiểm đếm và phân loại dữ liệu thống kê đơn giản."
+5,Toán,HK2,11. Một số yếu tố thống kê...,Bài 64: Biểu đồ hình quạt tròn,- Đọc và hiểu thông tin trên biểu đồ hình quạt tròn.
+5,Toán,HK2,11. Một số yếu tố thống kê...,Bài 64: Biểu đồ hình quạt tròn,- Tính toán số liệu dựa trên tỉ lệ phần trăm của biểu đồ.
+5,Toán,HK2,11. Một số yếu tố thống kê...,Bài 65: Tỉ số của số lần lặp lại một sự kiện...,- Làm quen với xác suất thực nghiệm đơn giản (tỉ số giữa số lần xuất hiện và tổng số lần thử).
+5,Toán,HK2,11. Một số yếu tố thống kê...,Bài 66: Thực hành và trải nghiệm,- Thực hành thu thập số liệu và biểu diễn bằng biểu đồ.
+5,Toán,HK2,11. Một số yếu tố thống kê...,Bài 67: Luyện tập chung,- Tổng hợp kiến thức về thống kê và xác suất.
+5,Toán,HK2,12. Ôn tập cuối năm,"Bài 68: Ôn tập số tự nhiên, phân số, số thập phân",- Hệ thống hoá kiến thức số học cả năm.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 69: Ôn tập các phép tính...,- Rèn kĩ năng tính toán 4 phép tính với các loại số.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 70: Ôn tập tỉ số. Tỉ số phần trăm,- Củng cố giải toán về tỉ số và phần trăm.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 71: Ôn tập hình học,"- Ôn tập chu vi, diện tích, thể tích các hình đã học."
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 72: Ôn tập đo lường,- Ôn tập hệ thống đơn vị đo lường.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 73: Ôn tập toán chuyển động đều,- Luyện giải bài toán chuyển động.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 74: Ôn tập một số yếu tố thống kê và xác suất,- Củng cố kĩ năng đọc biểu đồ và xử lý số liệu.
+5,Toán,HK2,12. Ôn tập cuối năm,Bài 75: Ôn tập chung,- Đánh giá năng lực tổng hợp cuối cấp Tiểu học.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 1: Thanh âm của gió,"- Đọc trôi chảy, hiểu nội dung bài đọc về vẻ đẹp thiên nhiên."
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 1: Thanh âm của gió,"- Luyện từ và câu (LTVC): Nhận biết được danh từ, động từ, tính từ."
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 1: Thanh âm của gió,- Viết: Tìm hiểu cách viết bài văn tả phong cảnh.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 2: Cánh đồng hoa,- Hiểu ý nghĩa bài đọc: Tình yêu thiên nhiên và ký ức tuổi thơ.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 2: Cánh đồng hoa,- LTVC: Biết cách sử dụng đại từ (đại từ xưng hô).
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 2: Cánh đồng hoa,- Viết: Quan sát và lập dàn ý cho bài văn tả phong cảnh.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 3: Tuổi Ngựa,"- Đọc diễn cảm bài thơ; hiểu khát vọng đi xa, khám phá của bạn nhỏ."
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 3: Tuổi Ngựa,"- LTVC: Quy tắc viết tên người, tên địa lí nước ngoài."
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 3: Tuổi Ngựa,- Viết: Viết được đoạn văn tả một cảnh đẹp thiên nhiên.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 4: Bến sông tuổi thơ,- Cảm nhận được vẻ đẹp bình dị của quê hương qua bài đọc.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 4: Bến sông tuổi thơ,- LTVC: Mở rộng vốn từ về Tuổi thơ; Sử dụng đại từ để thay thế.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 4: Bến sông tuổi thơ,- Nói và nghe: Kể lại được một câu chuyện về tuổi thơ.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 5: Tiếng hạt nảy mầm,- Hiểu thông điệp: Sự sống bắt đầu từ những điều nhỏ bé.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 5: Tiếng hạt nảy mầm,- LTVC: Nhận biết và sử dụng từ đồng nghĩa.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 5: Tiếng hạt nảy mầm,- Viết: Viết bài văn tả phong cảnh (hoàn chỉnh).
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 6: Ngôi sao sân cỏ,- Hiểu nội dung: Niềm đam mê thể thao và tinh thần đồng đội.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 6: Ngôi sao sân cỏ,- LTVC: Luyện tập về từ đồng nghĩa.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 6: Ngôi sao sân cỏ,- Viết: Tìm hiểu cách viết báo cáo công việc.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 7: Bộ sưu tập độc đáo,- Đọc hiểu văn bản thông tin; biết cách tìm kiếm thông tin trong bài.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 7: Bộ sưu tập độc đáo,- LTVC: Mở rộng vốn từ về Bạn bè và Trường học.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 7: Bộ sưu tập độc đáo,- Viết: Luyện tập viết báo cáo công việc.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 8: Hành tinh kì lạ,- Đọc văn bản khoa học viễn tưởng; phát triển trí tưởng tượng.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 8: Hành tinh kì lạ,- LTVC: Luyện tập về đại từ và kết từ.
+5,Tiếng Việt,HK1,Thế giới tuổi thơ,Bài 8: Hành tinh kì lạ,- Nói và nghe: Trao đổi về một cuốn sách hoặc bộ phim đã xem.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 9: Trước cổng trời,- Cảm nhận vẻ đẹp hùng vĩ của thiên nhiên vùng cao.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 9: Trước cổng trời,- LTVC: Nhận biết và sử dụng từ đa nghĩa.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 9: Trước cổng trời,- Viết: Tìm hiểu cách viết bài văn tả người.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 10: Kì diệu rừng xanh,- Hiểu vẻ đẹp và sự phong phú của rừng xanh.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 10: Kì diệu rừng xanh,- LTVC: Luyện tập về từ đa nghĩa.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 10: Kì diệu rừng xanh,- Viết: Quan sát và tìm ý cho bài văn tả người.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 11: Hang Sơn Đoòng – những điều kì thú,- Đọc văn bản thông tin về danh lam thắng cảnh; tự hào về thiên nhiên VN.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 11: Hang Sơn Đoòng – những điều kì thú,- LTVC: Mở rộng vốn từ về Thiên nhiên.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 11: Hang Sơn Đoòng – những điều kì thú,- Nói và nghe: Giới thiệu một cảnh đẹp thiên nhiên.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 12: Những hòn đảo trên vịnh Hạ Long,- Hiểu vẻ đẹp độc đáo của Vịnh Hạ Long.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 12: Những hòn đảo trên vịnh Hạ Long,- LTVC: Từ đồng âm (nhận biết và phân biệt với từ đa nghĩa).
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 12: Những hòn đảo trên vịnh Hạ Long,- Viết: Luyện tập viết đoạn văn tả ngoại hình của người.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 13: Mầm non,- Cảm nhận sức sống tiềm tàng của thiên nhiên qua bài thơ.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 13: Mầm non,- LTVC: Luyện tập về từ đồng âm.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 13: Mầm non,"- Viết: Luyện tập viết đoạn văn tả tính cách, hoạt động của người."
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 14: Những hồ nước đẹp nhất thế giới,- Mở rộng hiểu biết về địa lí thế giới qua bài đọc.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 14: Những hồ nước đẹp nhất thế giới,- LTVC: Mở rộng vốn từ về Bảo vệ môi trường.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 14: Những hồ nước đẹp nhất thế giới,- Viết: Viết bài văn tả người (hoàn chỉnh).
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 15: Buổi sáng ở Hòn Gai,- Cảm nhận nhịp sống sôi động và vẻ đẹp của vùng biển.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 15: Buổi sáng ở Hòn Gai,"- LTVC: Ôn tập về từ loại (danh, động, tính từ)."
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 15: Buổi sáng ở Hòn Gai,- Nói và nghe: Tranh luận/Bày tỏ ý kiến về việc bảo vệ môi trường.
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 16: Cảnh đẹp non sông,"- Tổng hợp kiến thức qua các câu ca dao, tục ngữ về quê hương."
+5,Tiếng Việt,HK1,Thiên nhiên kì thú,Bài 16: Cảnh đẹp non sông,- Đánh giá kĩ năng Đọc - Hiểu và LTVC giữa kì 1.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 17: Thư gửi các học sinh,- Hiểu bức thư lịch sử của Bác Hồ: Nhiệm vụ và trách nhiệm của học sinh.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 17: Thư gửi các học sinh,- LTVC: Kết từ (quan hệ từ) - Nhận biết và sử dụng.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 17: Thư gửi các học sinh,"- Viết: Tìm hiểu cách viết đoạn văn thể hiện tình cảm, cảm xúc."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 18: Tấm gương tự học,- Hiểu giá trị của tinh thần tự học qua các tấm gương danh nhân.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 18: Tấm gương tự học,- LTVC: Luyện tập sử dụng kết từ.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 18: Tấm gương tự học,"- Viết: Viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc/câu chuyện."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 19: Trải nghiệm để sáng tạo,- Nhận thức được vai trò của trải nghiệm thực tế đối với sự sáng tạo.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 19: Trải nghiệm để sáng tạo,- LTVC: Mở rộng vốn từ về Học tập.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 19: Trải nghiệm để sáng tạo,- Nói và nghe: Kể chuyện về một tấm gương hiếu học/sáng tạo.
+5,Tiếng Việt,HK1,Trên con đường học tập,"Bài 20: ""Vua tàu thủy"" Bạch Thái Bưởi","- Khâm phục ý chí, nghị lực kinh doanh và tinh thần dân tộc."
+5,Tiếng Việt,HK1,Trên con đường học tập,"Bài 20: ""Vua tàu thủy"" Bạch Thái Bưởi",- LTVC: Dấu gạch ngang (công dụng và cách dùng).
+5,Tiếng Việt,HK1,Trên con đường học tập,"Bài 20: ""Vua tàu thủy"" Bạch Thái Bưởi","- Viết: Viết đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ/câu chuyện."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 21: Bức họa đồng quê,- Cảm nhận vẻ đẹp yên bình của làng quê qua hội họa và văn chương.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 21: Bức họa đồng quê,"- LTVC: Câu ghép (nhận biết câu đơn, câu ghép)."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 21: Bức họa đồng quê,- Viết: Tìm hiểu cách viết đoạn văn nêu ý kiến (nghị luận đơn giản).
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 22: Mùa vừng,- Hiểu giá trị của lao động và tình yêu thiên nhiên.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 22: Mùa vừng,- LTVC: Cách nối các vế câu ghép bằng kết từ.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 22: Mùa vừng,- Viết: Viết đoạn văn nêu ý kiến về một hiện tượng xã hội/học tập.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 23: Kể chuyện: Chiếc đồng hồ,"- Rút ra bài học về tính kỉ luật, đoàn kết và trách nhiệm."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 23: Kể chuyện: Chiếc đồng hồ,"- Nói và nghe: Kể lại câu chuyện đã nghe, đã đọc."
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 24: Tiếng đàn ba-la-lai-ca trên sông Đà,- Cảm nhận vẻ đẹp kì vĩ của công trình thủy điện và sức mạnh con người.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 24: Tiếng đàn ba-la-lai-ca trên sông Đà,- LTVC: Ôn tập về câu ghép.
+5,Tiếng Việt,HK1,Trên con đường học tập,Bài 24: Tiếng đàn ba-la-lai-ca trên sông Đà,- Viết: Ôn tập viết đoạn văn nêu ý kiến.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 25: Trí tưởng tượng phong phú,- Hiểu vai trò của trí tưởng tượng trong nghệ thuật và đời sống.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 25: Trí tưởng tượng phong phú,- LTVC: Mở rộng vốn từ về Nghệ thuật.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 25: Trí tưởng tượng phong phú,- Viết: Tìm hiểu cách viết bài văn miêu tả (sáng tạo).
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 26: Tiếng hát của người đá,- Cảm nhận sức mạnh cảm hóa của nghệ thuật.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 26: Tiếng hát của người đá,"- LTVC: Biện pháp tu từ so sánh, nhân hóa (ôn tập nâng cao)."
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 26: Tiếng hát của người đá,- Viết: Luyện tập viết bài văn miêu tả (kết hợp tưởng tượng).
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 27: Tranh làng Hồ,- Hiểu và trân trọng giá trị văn hóa dân gian (tranh Đông Hồ).
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 27: Tranh làng Hồ,- LTVC: Mở rộng vốn từ về Lễ hội - Văn hóa.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 27: Tranh làng Hồ,- Nói và nghe: Giới thiệu một sản phẩm nghệ thuật hoặc làng nghề.
+5,Tiếng Việt,HK1,Nghệ thuật muôn màu,Bài 28: Hộp quà màu thiên thanh,"- Ôn tập và kiểm tra đánh giá cuối học kì 1 (Đọc, Viết, LTVC)."
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 1: Tiếng hát của người đá (tiếp),- (Tiếp tục mạch bài học cuối kì 1 nếu có).
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 1: Tiếng hát của người đá (tiếp),- Mở đầu học kì 2 với các bài đọc về giá trị nhân văn.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 2: Khúc hát ru những em bé lớn trên lưng mẹ,- Đọc diễn cảm; Cảm nhận tình yêu con và tình yêu đất nước của người mẹ Tà-ôi.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 2: Khúc hát ru những em bé lớn trên lưng mẹ,"- LTVC: Nối các vế câu ghép bằng cặp kết từ (nguyên nhân-kết quả, giả thiết-kết quả)."
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 2: Khúc hát ru những em bé lớn trên lưng mẹ,- Viết: Viết chương trình hoạt động.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 3: Hạt gạo làng ta,- Hiểu giá trị của hạt gạo và công sức lao động của người nông dân.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 3: Hạt gạo làng ta,- LTVC: Nối các vế câu ghép bằng cặp từ hô ứng.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 3: Hạt gạo làng ta,- Viết: Luyện tập viết chương trình hoạt động.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 4: Hộp quà màu thiên thanh,"- Bài đọc về tình yêu thương, sự sẻ chia trong cuộc sống."
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 4: Hộp quà màu thiên thanh,- LTVC: Mở rộng vốn từ về Hạnh phúc.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 4: Hộp quà màu thiên thanh,- Nói và nghe: Kể chuyện về lòng nhân ái/việc tốt.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 5: Giỏ hoa tháng Năm,- Cảm nhận vẻ đẹp tinh tế của thiên nhiên và tình cảm con người.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 5: Giỏ hoa tháng Năm,- LTVC: Liên kết câu (phép lặp từ ngữ).
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 5: Giỏ hoa tháng Năm,- Viết: Tìm hiểu cách viết bài văn kể chuyện sáng tạo.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 6: Thư của bố,- Hiểu tình cảm gia đình sâu sắc qua bức thư.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 6: Thư của bố,- LTVC: Liên kết câu (phép thay thế từ ngữ).
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 6: Thư của bố,- Viết: Luyện tập viết bài văn kể chuyện sáng tạo (đóng vai nhân vật).
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 7: Đoàn thuyền đánh cá,- Cảm nhận vẻ đẹp tráng lệ của biển cả và khí thế lao động hăng say.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 7: Đoàn thuyền đánh cá,- LTVC: Mở rộng vốn từ về Công dân.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 7: Đoàn thuyền đánh cá,- Viết: Viết bài văn kể chuyện sáng tạo (thay đổi kết thúc chuyện).
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 8: Khu rừng của Mát,- Giáo dục ý thức bảo vệ rừng và môi trường sống.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 8: Khu rừng của Mát,- LTVC: Ôn tập về liên kết câu.
+5,Tiếng Việt,HK2,Vẻ đẹp cuộc sống,Bài 8: Khu rừng của Mát,- Nói và nghe: Thảo luận về một vấn đề xã hội (bảo vệ môi trường).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 9: Hội thổi cơm thi ở Đồng Văn,- Hiểu nét đẹp văn hóa truyền thống qua các lễ hội.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 9: Hội thổi cơm thi ở Đồng Văn,- LTVC: Dấu ngoặc kép (công dụng và cách dùng).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 9: Hội thổi cơm thi ở Đồng Văn,- Viết: Tìm hiểu cách viết bài văn tả cảnh (ôn tập và nâng cao).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 10: Những búp chè trên cây cổ thụ,- Tìm hiểu về đặc sản vùng miền (chè Shan Tuyết).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 10: Những búp chè trên cây cổ thụ,- LTVC: Dấu ngoặc đơn (công dụng và cách dùng).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 10: Những búp chè trên cây cổ thụ,"- Viết: Quan sát, lập dàn ý bài văn tả cảnh sinh hoạt/lễ hội."
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 11: Hương cốm mùa thu,- Cảm nhận hương vị đặc trưng của mùa thu Hà Nội.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 11: Hương cốm mùa thu,- LTVC: Mở rộng vốn từ về Truyền thống dân tộc.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 11: Hương cốm mùa thu,- Nói và nghe: Giới thiệu về một món ăn/đặc sản quê hương.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 12: Vũ điệu trên nền thổ cẩm,- Khám phá vẻ đẹp văn hóa của các dân tộc thiểu số.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 12: Vũ điệu trên nền thổ cẩm,"- LTVC: Biện pháp điệp từ, điệp ngữ."
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 12: Vũ điệu trên nền thổ cẩm,- Viết: Viết bài văn tả cảnh sinh hoạt (hoàn chỉnh).
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 13: Đàn t'rưng - tiếng ca đại ngàn,- Hiểu về âm nhạc và nhạc cụ truyền thống Tây Nguyên.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 13: Đàn t'rưng - tiếng ca đại ngàn,- LTVC: Ôn tập về dấu câu.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 13: Đàn t'rưng - tiếng ca đại ngàn,- Viết: Tìm hiểu cách viết đoạn văn giới thiệu nhân vật trong sách/phim.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 14: Đường quê Đồng Tháp Mười,- Cảm nhận vẻ đẹp sông nước miền Tây.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 14: Đường quê Đồng Tháp Mười,- LTVC: Mở rộng vốn từ về Du lịch - Thám hiểm.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 14: Đường quê Đồng Tháp Mười,- Viết: Viết đoạn văn giới thiệu nhân vật.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 15: Xuồng ba lá quê tôi,- Hiểu vai trò của phương tiện giao thông đặc trưng vùng sông nước.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 15: Xuồng ba lá quê tôi,- LTVC: Tổng kết vốn từ.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 15: Xuồng ba lá quê tôi,- Nói và nghe: Giới thiệu một danh lam thắng cảnh.
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 16: Về thăm Đất Mũi,"- Bài đọc tổng kết chủ điểm, khơi dậy tình yêu tổ quốc."
+5,Tiếng Việt,HK2,Hương sắc trăm miền,Bài 16: Về thăm Đất Mũi,"- Kiểm tra, đánh giá giữa học kì 2."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 17: Nghìn năm văn hiến,"- Tự hào về truyền thống khoa bảng, hiếu học của dân tộc."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 17: Nghìn năm văn hiến,"- LTVC: Ôn tập về câu (cấu tạo, phân loại)."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 17: Nghìn năm văn hiến,- Viết: Viết bài văn kể lại một câu chuyện lịch sử.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 18: Người thầy của muôn đời,- Kính trọng các bậc danh sư (Chu Văn An).
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 18: Người thầy của muôn đời,- LTVC: Ôn tập về từ loại.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 18: Người thầy của muôn đời,- Viết: Luyện tập viết bài văn kể chuyện lịch sử.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 19: Danh y Tuệ Tĩnh,- Hiểu về y đức và tài năng của danh y Việt Nam.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 19: Danh y Tuệ Tĩnh,- LTVC: Mở rộng vốn từ về Y đức - Sức khỏe.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 19: Danh y Tuệ Tĩnh,- Nói và nghe: Kể chuyện về một danh nhân lịch sử.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 20: Cụ Đồ Chiểu,- Tấm gương về nghị lực và lòng yêu nước của Nguyễn Đình Chiểu.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 20: Cụ Đồ Chiểu,- LTVC: Ôn tập các biện pháp tu từ.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 20: Cụ Đồ Chiểu,- Viết: Viết đoạn văn nêu cảm nghĩ về một nhân vật lịch sử.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 21: Anh hùng Lao động Trần Đại Nghĩa,"- Tấm gương trí thức yêu nước, cống hiến cho khoa học kĩ thuật."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 21: Anh hùng Lao động Trần Đại Nghĩa,- LTVC: Ôn tập tổng hợp.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 21: Anh hùng Lao động Trần Đại Nghĩa,- Viết: Viết đoạn văn nêu cảm nghĩ (hoàn chỉnh).
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 22: Bộ đội về làng,- Tình quân dân thắm thiết trong kháng chiến.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 22: Bộ đội về làng,- LTVC: Ôn tập tổng hợp.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 22: Bộ đội về làng,"- Viết: Lập dàn ý cho bài văn tả người (người thân, người có ảnh hưởng)."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 23: Về ngôi nhà đang xây,"- Hình ảnh đất nước đang đổi mới, phát triển."
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 23: Về ngôi nhà đang xây,- Viết: Viết bài văn tả người (hoàn chỉnh).
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 24: Việt Nam quê hương ta,- Bài thơ tổng kết về vẻ đẹp đất nước và con người VN.
+5,Tiếng Việt,HK2,Tiếp bước cha ông,Bài 24: Việt Nam quê hương ta,- Ôn tập kĩ năng đọc hiểu văn bản thơ.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài ca trái đất,"- Giáo dục tinh thần đoàn kết quốc tế, yêu chuộng hòa bình."
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài ca trái đất,- LTVC: Mở rộng vốn từ về Hòa bình - Hữu nghị.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài ca trái đất,- Viết: Tìm hiểu cách viết thư (thư điện tử/thư giấy).
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 26: Những con hạc giấy,- Câu chuyện cảm động về nạn nhân chiến tranh và khát vọng hòa bình.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 26: Những con hạc giấy,- LTVC: Ôn tập quy tắc viết tên riêng nước ngoài.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 26: Những con hạc giấy,- Viết: Luyện tập viết thư thăm hỏi/làm quen.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 27: Một người hùng thầm lặng,- Ca ngợi những đóng góp thầm lặng cho cộng đồng.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 27: Một người hùng thầm lặng,- LTVC: Tổng kết về Luyện từ và câu.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 27: Một người hùng thầm lặng,- Nói và nghe: Kể chuyện về một tấm gương người tốt việc tốt.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 28: Giờ Trái Đất,"- Nâng cao ý thức tiết kiệm năng lượng, bảo vệ trái đất."
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 28: Giờ Trái Đất,- Viết: Viết bài văn tả cây cối (ôn tập cuối cấp).
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 29: Điện thoại di động,- Tìm hiểu về công nghệ và văn hóa sử dụng điện thoại.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 29: Điện thoại di động,- Viết: Viết bài văn tả con vật (ôn tập cuối cấp).
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 30: Thành phố thông minh,- Hình dung về tương lai và sự phát triển của công nghệ.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 30: Thành phố thông minh,- Viết: Luyện tập viết các loại văn bản đã học.
+5,Tiếng Việt,HK2,Thế giới của chúng ta,Bài 30: Thành phố thông minh,- Ôn tập và Kiểm tra cuối năm học.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 1: Vai trò của công nghệ,"- Nêu được vai trò của công nghệ đối với đời sống con người (trong sinh hoạt, đi lại, thông tin liên lạc...)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 1: Vai trò của công nghệ,"- Nêu được vai trò của công nghệ đối với sản xuất (nông nghiệp, công nghiệp...)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 1: Vai trò của công nghệ,- Có ý thức sử dụng công nghệ đúng mục đích.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 2: Nhà sáng chế,- Nêu được vai trò của sáng chế đối với sự phát triển công nghệ.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 2: Nhà sáng chế,"- Kể tên được một số nhà sáng chế tiêu biểu trong nước và thế giới (Edison, Nobel, Trần Đại Nghĩa...)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 2: Nhà sáng chế,"- Nêu được một số đức tính cần có của nhà sáng chế (tò mò, kiên trì, sáng tạo)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 3: Tìm hiểu thiết kế,"- Trình bày được ý nghĩa của thiết kế kĩ thuật (giải quyết vấn đề, tạo ra sản phẩm mới)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 3: Tìm hiểu thiết kế,- Mô tả được các bước chính trong thiết kế (Hình thành ý tưởng -> Vẽ phác thảo -> Làm mẫu -> Kiểm tra).
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 4: Thiết kế sản phẩm,"- Phát hiện được nhu cầu cần thiết kế sản phẩm đơn giản trong đời sống (ví dụ: hộp đựng bút, đèn lồng, đồ chơi...)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 4: Thiết kế sản phẩm,- Vẽ phác thảo được ý tưởng thiết kế sản phẩm.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 4: Thiết kế sản phẩm,- Làm được mô hình sản phẩm đơn giản từ vật liệu tái chế hoặc vật liệu thông dụng.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 4: Thiết kế sản phẩm,- Giới thiệu được sản phẩm thiết kế của mình.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 5: Sử dụng điện thoại,"- Nêu được tác dụng của điện thoại (liên lạc, giải trí, tìm kiếm thông tin...)."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 5: Sử dụng điện thoại,- Nhận biết được các biểu tượng cơ bản trên điện thoại.
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 5: Sử dụng điện thoại,"- Thực hiện được cuộc gọi và nhắn tin an toàn, đúng cách."
+5,Công nghệ,HK1,Phần 1: Công nghệ và đời sống,Bài 5: Sử dụng điện thoại,"- Có thói quen sử dụng điện thoại văn minh, tiết kiệm, đảm bảo sức khoẻ."
+5,Công nghệ,HK2,Phần 1: Công nghệ và đời sống (Tiếp),Bài 6: Sử dụng tủ lạnh,- Nêu được tác dụng của tủ lạnh trong gia đình (bảo quản thực phẩm).
+5,Công nghệ,HK2,Phần 1: Công nghệ và đời sống (Tiếp),Bài 6: Sử dụng tủ lạnh,- Nhận biết được các ngăn của tủ lạnh và vị trí sắp xếp thực phẩm phù hợp.
+5,Công nghệ,HK2,Phần 1: Công nghệ và đời sống (Tiếp),Bài 6: Sử dụng tủ lạnh,"- Thực hiện được một số việc làm để sử dụng tủ lạnh đúng cách, an toàn và tiết kiệm điện (không mở cửa quá lâu, vệ sinh tủ...)."
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 7: Lắp ráp mô hình xe điện chạy bằng pin,"- Kể tên và nhận diện được các chi tiết, dụng cụ trong bộ lắp ghép mô hình kĩ thuật."
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 7: Lắp ráp mô hình xe điện chạy bằng pin,- Lắp ráp được mô hình xe điện chạy bằng pin theo quy trình/hướng dẫn.
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 7: Lắp ráp mô hình xe điện chạy bằng pin,- Kiểm tra và vận hành được mô hình xe chạy ổn định.
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 7: Lắp ráp mô hình xe điện chạy bằng pin,"- Rèn luyện tính cẩn thận, kiên trì và an toàn trong lao động."
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 8: Mô hình máy phát điện gió,- Hiểu sơ lược về nguyên lí hoạt động của máy phát điện gió (năng lượng gió).
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 8: Mô hình máy phát điện gió,- Lựa chọn đúng và đủ các chi tiết để lắp ghép.
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 8: Mô hình máy phát điện gió,- Lắp ráp được mô hình máy phát điện gió đúng kĩ thuật.
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 8: Mô hình máy phát điện gió,"- Có ý thức tìm hiểu về năng lượng sạch, năng lượng tái tạo."
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 9: Mô hình điện mặt trời,- Hiểu sơ lược về lợi ích của điện mặt trời (biến đổi ánh sáng thành điện năng).
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 9: Mô hình điện mặt trời,"- Lắp ráp được mô hình điện mặt trời (ví dụ: xe chạy bằng pin mặt trời, quạt dùng pin mặt trời...) từ bộ lắp ghép."
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 9: Mô hình điện mặt trời,- Vận hành thử nghiệm mô hình dưới ánh sáng.
+5,Công nghệ,HK2,Phần 2: Thủ công kĩ thuật,Bài 9: Mô hình điện mặt trời,- Hình thành ý thức bảo vệ môi trường và sử dụng năng lượng xanh.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 1: Tôi là học sinh lớp 2,"- Đọc trôi chảy, hiểu được sự thay đổi của bản thân khi lên lớp 2."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 1: Tôi là học sinh lớp 2,- Biết tự giới thiệu về mình một cách tự tin.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 1: Tôi là học sinh lớp 2,- Viết đúng chữ hoa A; nghe - viết đúng đoạn văn ngắn.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 2: Ngày hôm qua đâu rồi?,- Đọc đúng nhịp thơ; hiểu giá trị của thời gian và sự chăm chỉ.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 2: Ngày hôm qua đâu rồi?,"- Nhận biết từ ngữ chỉ sự vật (từ chỉ người, vật, thời gian)."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 2: Ngày hôm qua đâu rồi?,"- Viết đúng chữ hoa Ă, Â; viết đoạn văn kể về một việc làm ở nhà."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 3: Niềm vui của Bi và Bống,"- Hiểu ý nghĩa tình cảm anh em, sự nhường nhịn và sẻ chia."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 3: Niềm vui của Bi và Bống,"- Biết nói và đáp lời chào hỏi, chia tay lịch sự."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 3: Niềm vui của Bi và Bống,- Viết đúng chữ hoa B; nhận biết câu nêu hoạt động.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 4: Làm việc thật là vui,- Hiểu niềm vui trong lao động; biết liên hệ bản thân.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 4: Làm việc thật là vui,- Mở rộng vốn từ chỉ hoạt động của trẻ em.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 4: Làm việc thật là vui,- Viết đoạn văn kể về một việc em đã làm ở nhà hoặc ở trường.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 5: Em có xinh không?,- Hiểu rằng vẻ đẹp thực sự nằm ở hành động và tính cách.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 5: Em có xinh không?,"- Viết đúng chữ hoa C; phân biệt d/gi, s/x."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 5: Em có xinh không?,- Kể lại được câu chuyện dựa trên tranh minh họa.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 6: Một giờ học,- Nhận biết thái độ tích cực trong học tập; biết lắng nghe bạn bè.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 6: Một giờ học,"- Viết đúng chữ hoa D, Đ; nhận diện câu giới thiệu ""Ai là gì?""."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 7: Cây xấu hổ,- Hiểu đặc điểm loài cây và bài học về sự rụt rè cần khắc phục.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 7: Cây xấu hổ,"- Mở rộng vốn từ về cây cối; viết đúng chữ hoa E, Ê."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 7: Cây xấu hổ,- Viết đoạn văn ngắn tả một loài cây quen thuộc.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 8: Cầu thủ dự bị,- Hiểu tinh thần đồng đội và sự kiên trì trong thể thao.
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 8: Cầu thủ dự bị,"- Biết nói và đáp lời xin lỗi, lời an ủi."
+2,Tiếng Việt,HK1,Em lớn lên từng ngày,Bài 8: Cầu thủ dự bị,- Nhận diện tên riêng và quy tắc viết hoa tên người.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 9: Cô giáo lớp em,- Cảm nhận tình cảm thầy trò qua bài thơ; đọc diễn cảm.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 9: Cô giáo lớp em,"- Viết đúng chữ hoa G, H; mở rộng vốn từ về nhà trường."
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 10: Thời khóa biểu,- Biết cách đọc và lập thời khóa biểu đơn giản.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 10: Thời khóa biểu,- Rèn kỹ năng sắp xếp công việc khoa học.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 10: Thời khóa biểu,- Viết đoạn văn kể về một buổi đi học của em.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 11: Cái trống trường em,- Cảm nhận sự gắn bó giữa học sinh và đồ vật trong trường.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 11: Cái trống trường em,"- Viết đúng chữ hoa I, K; nhận biết từ ngữ chỉ tình cảm."
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 12: Danh sách học sinh,"- Biết đọc và tra cứu thông tin trên danh sách, bảng biểu."
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 12: Danh sách học sinh,- Nắm vững thứ tự bảng chữ cái tiếng Việt.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 13: Yêu lắm trường ơi,- Thể hiện tình yêu trường lớp; biết giữ gìn vệ sinh trường học.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 13: Yêu lắm trường ơi,"- Viết đúng chữ hoa L; sử dụng đúng dấu chấm, dấu phẩy."
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 14: Em học vẽ,- Nhận biết vẻ đẹp của lớp học qua tranh vẽ; phát triển trí tưởng tượng.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 14: Em học vẽ,- Viết đoạn văn giới thiệu một đồ dùng học tập.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 15: Cuốn sách của em,- Biết cách đọc mục lục sách; hiểu cấu tạo cơ bản của một cuốn sách.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 15: Cuốn sách của em,- Viết đúng chữ hoa M; hình thành thói quen đọc sách.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 16: Khi trang sách mở ra,- Cảm nhận thế giới kì diệu qua trang sách.
+2,Tiếng Việt,HK1,Đi học vui sao,Bài 16: Khi trang sách mở ra,- Viết đúng chữ hoa N; mở rộng vốn từ về sách và thư viện.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 17: Gọi bạn,- Hiểu tình bạn cảm động của Bê Vàng và Dê Trắng.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 17: Gọi bạn,"- Biết nói và đáp lời chúc mừng, thăm hỏi."
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 18: Tớ nhớ cậu,- Hiểu tình cảm bạn bè khi xa nhau; biết viết bưu thiếp/tin nhắn.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 18: Tớ nhớ cậu,"- Viết đúng chữ hoa O, Ô, Ơ; phân biệt câu nêu đặc điểm."
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 19: Chữ A và những người bạn,- Hiểu sự đoàn kết trong tập thể; ai cũng có giá trị riêng.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 19: Chữ A và những người bạn,- Viết đoạn văn kể về một người bạn của em.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 20: Nhím nâu kết bạn,"- Hiểu ý nghĩa của sự mạnh dạn, cởi mở trong tình bạn."
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 20: Nhím nâu kết bạn,- Viết đúng chữ hoa P; nhận biết từ ngữ chỉ tính cách.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 21: Thả diều,- Cảm nhận vẻ đẹp yên bình của trò chơi dân gian.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 21: Thả diều,- Biết viết đoạn văn tả một đồ chơi em yêu thích.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 22: Tớ là Lê-gô,- Tự giới thiệu về đồ chơi; phát huy trí tưởng tượng sáng tạo.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 22: Tớ là Lê-gô,"- Viết đúng chữ hoa Q; sử dụng từ ngữ chỉ màu sắc, hình dáng."
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 23: Rồng rắn lên mây,- Biết cách chơi và mô tả trò chơi dân gian.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 23: Rồng rắn lên mây,- Nói và đáp lời từ chối một cách lịch sự.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 24: Nặn đồ chơi,- Cảm nhận niềm vui khi tự tay làm ra sản phẩm.
+2,Tiếng Việt,HK1,Niềm vui tuổi thơ,Bài 24: Nặn đồ chơi,- Viết đúng chữ hoa R; viết đoạn văn hướng dẫn làm đồ chơi đơn giản.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 25: Sự tích hoa tỉ muội,- Hiểu ý nghĩa câu chuyện về tình chị em khăng khít.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 25: Sự tích hoa tỉ muội,- Viết đoạn văn kể về người thân (anh/chị/em) trong gia đình.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 26: Em mang về yêu thương,- Cảm nhận niềm vui khi gia đình có thêm thành viên mới.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 26: Em mang về yêu thương,- Viết đúng chữ hoa S; mở rộng vốn từ về họ hàng.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 27: Mẹ,- Cảm nhận tình yêu bao la của mẹ; biết nói lời yêu thương.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 27: Mẹ,- Luyện tập viết tin nhắn cho người thân.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 28: Trò chơi của bố,- Hiểu vai trò của người bố trong gia đình.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 28: Trò chơi của bố,"- Viết đúng chữ hoa T; biết đặt câu hỏi ""Vì sao?""."
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 29: Cánh cửa nhớ bà,- Cảm nhận nỗi nhớ và lòng biết ơn đối với bà.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 29: Cánh cửa nhớ bà,- Viết đoạn văn tả một đồ vật gắn với kỉ niệm gia đình.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 30: Thương ông,"- Hiểu tình cảm ông cháu; biết quan tâm, chăm sóc người già."
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 30: Thương ông,"- Viết đúng chữ hoa U, Ư; sử dụng dấu chấm than."
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 31: Ánh sáng của yêu thương,- Hiểu sức mạnh của tình yêu thương gia đình (câu chuyện Edison).
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 31: Ánh sáng của yêu thương,- Viết đoạn văn nêu tình cảm của em với người thân.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 32: Chơi chong chóng,- Cảm nhận niềm vui gia đình qua trò chơi giản dị.
+2,Tiếng Việt,HK1,Mái ấm gia đình,Bài 32: Chơi chong chóng,- Viết đúng chữ hoa V; ôn tập các kiểu câu đã học.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 1: Chuyện bốn mùa,"- Nhận biết đặc điểm riêng của Xuân, Hạ, Thu, Đông."
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 1: Chuyện bốn mùa,- Biết dùng từ ngữ chỉ thời tiết; viết đúng chữ hoa X.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 2: Mùa nước nổi,- Hiểu vẻ đẹp thiên nhiên đặc trưng vùng Nam Bộ.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 2: Mùa nước nổi,- Viết đoạn văn miêu tả một cảnh đẹp hoặc một mùa.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 3: Họa mi hót,- Cảm nhận vẻ đẹp của âm thanh thiên nhiên.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 3: Họa mi hót,- Viết đúng chữ hoa Y; mở rộng vốn từ về loài chim.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 4: Tết đến rồi,- Hiểu phong tục ngày Tết cổ truyền; biết viết lời chúc Tết.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 4: Tết đến rồi,"- Mở rộng vốn từ về lễ hội, mùa xuân."
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 5: Giọt nước và biển lớn,- Hiểu quy luật tự nhiên (nước chảy ra biển); sự đoàn kết.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 5: Giọt nước và biển lớn,- Viết đoạn văn kể về một chuyến đi chơi/dã ngoại.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 6: Mùa vàng,- Cảm nhận vẻ đẹp của cánh đồng lúa chín và lao động ngày mùa.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 6: Mùa vàng,- Viết đúng tên riêng địa lí Việt Nam.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 7: Hạt thóc,- Hiểu giá trị của hạt gạo và công sức lao động.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 7: Hạt thóc,"- Biết sử dụng biện pháp so sánh đơn giản (như, là)."
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 8: Lũy tre,- Cảm nhận vẻ đẹp thân thuộc của làng quê Việt Nam.
+2,Tiếng Việt,HK1,Vẻ đẹp quanh em,Bài 8: Lũy tre,- Viết đoạn văn tả cảnh vật làng quê hoặc nơi em ở.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 9: Vè chim,- Đọc thuộc bài vè; nhận biết đặc điểm các loài chim.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 9: Vè chim,- Viết đúng chữ hoa A (kiểu 2); mở rộng vốn từ về thiên nhiên.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 10: Khủng long,- Tìm hiểu về loài vật đã tuyệt chủng; khơi gợi trí tò mò khoa học.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 10: Khủng long,- Viết đoạn văn giới thiệu về một loài vật.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 11: Sự tích cây thì là,- Hiểu nguồn gốc tên gọi loài cây qua truyện dân gian.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 11: Sự tích cây thì là,"- Biết nói và đáp lời đồng ý, lời từ chối."
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 12: Bờ tre đón khách,- Hiểu mối quan hệ cộng sinh trong tự nhiên.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 12: Bờ tre đón khách,- Viết đúng chữ hoa M (kiểu 2); nhân hóa sự vật.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 13: Tiếng chổi tre,- Biết ơn những người lao động thầm lặng (cô lao công).
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 13: Tiếng chổi tre,- Viết đoạn văn thể hiện lòng biết ơn/kính trọng.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 14: Cỏ non cười rồi,"- Hình thành ý thức bảo vệ môi trường, cây xanh."
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 14: Cỏ non cười rồi,- Viết đúng chữ hoa N (kiểu 2); thực hành viết biển báo.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 15: Những con sao biển,- Hiểu ý nghĩa của việc cứu giúp các sinh vật bé nhỏ.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 15: Những con sao biển,- Kể lại được câu chuyện đã nghe/đọc về bảo vệ môi trường.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 16: Tạm biệt cánh cam,- Thể hiện tình yêu thương động vật; không giam hãm thú vật.
+2,Tiếng Việt,HK2,Hành tinh xanh của em,Bài 16: Tạm biệt cánh cam,- Viết đúng chữ hoa Q (kiểu 2); viết tin nhắn.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 17: Những cách chào độc đáo,- Hiểu sự đa dạng văn hóa qua các cách chào hỏi.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 17: Những cách chào độc đáo,- Thực hành chào hỏi phù hợp trong các tình huống.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 18: Thư viện biết đi,- Hiểu vai trò của thư viện và sách đối với cộng đồng.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 18: Thư viện biết đi,- Viết đúng chữ hoa V (kiểu 2); giới thiệu sách.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 19: Cảm ơn anh Hà Mã,- Biết nhận lỗi và sửa lỗi; biết cảm ơn chân thành.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 19: Cảm ơn anh Hà Mã,- Viết đoạn văn thuật lại một tình huống giao tiếp.
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 20: Từ chú bồ câu đến Internet,"- Hiểu sự phát triển của phương tiện giao tiếp (thư, email)."
+2,Tiếng Việt,HK2,Giao tiếp và kết nối,Bài 20: Từ chú bồ câu đến Internet,- Biết cách viết thư điện tử (email) đơn giản.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 21: Mai An Tiêm,"- Ca ngợi đức tính tự lập, kiên trì của người Việt xưa."
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 21: Mai An Tiêm,- Kể lại câu chuyện Mai An Tiêm theo tranh.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 22: Thư trung thu,- Hiểu tình cảm của Bác Hồ dành cho thiếu nhi.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 22: Thư trung thu,- Viết đoạn văn kể về hoạt động Đội hoặc Sao nhi đồng.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 23: Bóp nát quả cam,- Ca ngợi lòng yêu nước của người anh hùng nhỏ tuổi Trần Quốc Toản.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 23: Bóp nát quả cam,"- Mở rộng vốn từ về phẩm chất con người (dũng cảm, kiên cường)."
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 24: Chiếc rễ đa tròn,- Hiểu tình yêu thương của Bác Hồ với thiên nhiên và thiếu nhi.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 24: Chiếc rễ đa tròn,- Viết đúng chữ hoa (ôn tập); kể chuyện về Bác Hồ.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 25: Đất nước chúng mình,"- Nhận biết các biểu tượng quốc gia (Quốc kì, Quốc ca, Quốc huy)."
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 25: Đất nước chúng mình,- Viết đoạn văn giới thiệu về đất nước Việt Nam.
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 26: Trên các miền đất nước,"- Nhận biết vẻ đẹp đa dạng của các vùng miền (Bắc, Trung, Nam)."
+2,Tiếng Việt,HK2,Con người Việt Nam,Bài 26: Trên các miền đất nước,- Mở rộng vốn từ về địa danh và sản vật địa phương.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 27: Chuyện quả bầu,- Hiểu nguồn gốc chung của các dân tộc Việt Nam (anh em một nhà).
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 27: Chuyện quả bầu,- Viết đoạn văn về tình đoàn kết dân tộc.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 28: Khám phá đáy biển Trường Sa,- Hiểu vẻ đẹp và chủ quyền biển đảo Tổ quốc.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 28: Khám phá đáy biển Trường Sa,- Kích thích tình yêu biển đảo và ý thức bảo vệ chủ quyền.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 29: Hồ Gươm,- Tìm hiểu di tích lịch sử nổi tiếng của Thủ đô.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 29: Hồ Gươm,- Viết đoạn văn tả một danh lam thắng cảnh.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 30: Cánh đồng quê em,- Cảm nhận vẻ đẹp bình dị của quê hương.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 30: Cánh đồng quê em,- Viết đoạn văn thể hiện tình cảm với nơi mình sinh ra/lớn lên.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 31: Lớp học trên đường,- Hiểu về tinh thần hiếu học và vượt khó.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 31: Lớp học trên đường,"- Tổng kết, ôn tập các kĩ năng đọc hiểu."
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 32: Người Việt Nam,- Tự hào là người Việt Nam; tổng kết chủ đề.
+2,Tiếng Việt,HK2,Việt Nam quê hương em,Bài 32: Người Việt Nam,- Hoàn thiện kĩ năng viết đoạn văn ngắn (4-5 câu).
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,Bài 1: Ôn tập các số đến 100,"- Đọc, viết, so sánh và xếp thứ tự các số trong phạm vi 100. Nhận biết cấu tạo số (chục, đơn vị) và phân tích số thành tổng."
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,"Bài 2: Tia số. Số liền trước, số liền sau","- Nhận biết tia số và vị trí các số trên tia số. Xác định được số liền trước, số liền sau của một số cho trước."
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,"Bài 3: Các thành phần của phép cộng, phép trừ","- Nhận biết và gọi đúng tên các thành phần: Số hạng, Tổng (phép cộng); Số bị trừ, Số trừ, Hiệu (phép trừ). Biết tìm thành phần chưa biết trong các tình huống đơn giản."
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,"Bài 4: Hơn, kém nhau bao nhiêu","- Hiểu ý nghĩa của bài toán về nhiều hơn, ít hơn. Thực hiện được phép trừ để tìm phần chênh lệch giữa hai đại lượng."
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,"Bài 5: Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100","- Thực hiện thành thạo phép cộng, phép trừ không nhớ. Vận dụng giải các bài toán thực tế đơn giản liên quan đến phép cộng, trừ."
+2,Toán,HK1,Chủ đề 1: Ôn tập và bổ sung,Bài 6: Luyện tập chung,"- Củng cố kỹ năng tính toán, so sánh số và giải toán có lời văn đã học trong chủ đề 1."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 7: Phép cộng (qua 10) trong phạm vi 20,- Nắm được cách cộng qua 10 (làm tròn 10 rồi cộng tiếp). Thực hiện đúng các phép tính cộng có nhớ trong phạm vi 20.
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 8: Bảng cộng (qua 10),"- Tự lập được và ghi nhớ bảng cộng (qua 10). Vận dụng bảng cộng để tính nhẩm nhanh, chính xác."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20","Bài 9: Bài toán về thêm, bớt một số đơn vị","- Nhận diện bài toán về thêm (dùng phép cộng) và bớt (dùng phép trừ). Biết trình bày bài giải đầy đủ (lời giải, phép tính, đáp số)."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 10: Luyện tập chung,"- Ôn tập kĩ năng tính nhẩm cộng qua 10 và giải toán có lời văn về thêm, bớt."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 11: Phép trừ (qua 10) trong phạm vi 20,- Nắm được cách trừ qua 10 (tách số để trừ về tròn 10). Thực hiện đúng các phép tính trừ có nhớ trong phạm vi 20.
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 12: Bảng trừ (qua 10),"- Tự lập được và ghi nhớ bảng trừ (qua 10). Vận dụng bảng trừ để tính nhẩm nhanh, chính xác trong các bài toán."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20","Bài 13: Bài toán về nhiều hơn, ít hơn một số đơn vị","- Phân biệt và giải được bài toán ""nhiều hơn"" (thường dùng phép cộng) và ""ít hơn"" (thường dùng phép trừ)."
+2,Toán,HK1,"Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",Bài 14: Luyện tập chung,"- Hệ thống hóa kiến thức về phép cộng, trừ trong phạm vi 20. Rèn luyện kĩ năng giải toán có lời văn logic, chính xác."
+2,Toán,HK1,"Chủ đề 3: Làm quen với khối lượng, dung tích",Bài 15: Ki-lô-gam,"- Nhận biết đơn vị đo khối lượng kg. Biết sử dụng cân đĩa/cân đồng hồ để đo vật. Thực hiện các phép tính cộng, trừ với số đo khối lượng."
+2,Toán,HK1,"Chủ đề 3: Làm quen với khối lượng, dung tích",Bài 16: Lít,"- Nhận biết đơn vị đo dung tích lít (l). Nhận biết ca 1 lít, chai 1 lít. Thực hiện phép tính cộng, trừ với đơn vị lít trong tình huống thực tế."
+2,Toán,HK1,"Chủ đề 3: Làm quen với khối lượng, dung tích","Bài 17: Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít","- Biết ước lượng khối lượng và dung tích các vật quen thuộc. Thực hành cân, đong trong thực tế cuộc sống."
+2,Toán,HK1,"Chủ đề 3: Làm quen với khối lượng, dung tích",Bài 18: Luyện tập chung,"- Củng cố kĩ năng đo lường, so sánh và tính toán với đơn vị kg, l. Giải quyết các vấn đề thực tiễn liên quan đến cân, đong."
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 19: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số,"- Biết đặt tính rồi tính phép cộng có nhớ (dạng số có hai chữ số với một chữ số). Trình bày sạch đẹp, khoa học."
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 20: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số,- Thực hiện thành thạo phép cộng có nhớ trong phạm vi 100 (đặt tính). Vận dụng vào giải các bài toán thực tế.
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 21: Luyện tập chung,"- Rèn luyện tốc độ và độ chính xác khi thực hiện phép cộng có nhớ. Xử lý các bài toán điền số, tìm quy luật đơn giản."
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 22: Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số,"- Biết đặt tính rồi tính phép trừ có nhớ (mượn 1 chục). Hiểu bản chất của việc ""mượn"" và ""trả"" trong tính toán."
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 23: Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số,- Thực hiện thành thạo phép trừ có nhớ trong phạm vi 100. Kiểm tra lại kết quả phép tính.
+2,Toán,HK1,"Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",Bài 24: Luyện tập chung,"- Tổng hợp kĩ năng cộng, trừ có nhớ. Phát triển tư duy qua các bài toán đố, tính nhanh."
+2,Toán,HK1,Chủ đề 5: Làm quen với hình phẳng,"Bài 25: Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng","- Nhận diện và gọi đúng tên các yếu tố hình học cơ bản. Biết dùng thước thẳng để vẽ đoạn thẳng, đường thẳng và kiểm tra 3 điểm thẳng hàng."
+2,Toán,HK1,Chủ đề 5: Làm quen với hình phẳng,Bài 26: Đường gấp khúc. Hình tứ giác,- Nhận diện đường gấp khúc và hình tứ giác. Biết tính độ dài đường gấp khúc bằng cách cộng độ dài các đoạn thẳng thành phần.
+2,Toán,HK1,Chủ đề 5: Làm quen với hình phẳng,"Bài 27: Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng","- Phát triển tư duy hình học trực quan thông qua thao tác tay (gấp, cắt, xếp). Vẽ đoạn thẳng có độ dài cho trước chính xác."
+2,Toán,HK1,Chủ đề 5: Làm quen với hình phẳng,Bài 28: Luyện tập chung,"- Củng cố nhận biết hình học phẳng. Giải các bài toán đếm hình, xếp hình sáng tạo."
+2,Toán,HK1,"Chủ đề 6: Ngày - giờ, giờ - phút, ngày - tháng","Bài 29: Ngày - giờ, giờ - phút","- Nhận biết biểu tượng thời gian ngày, giờ. Biết xem đồng hồ khi kim phút chỉ số 12 (giờ đúng) và số 6 (giờ rưỡi) hoặc số 3, 9."
+2,Toán,HK1,"Chủ đề 6: Ngày - giờ, giờ - phút, ngày - tháng",Bài 30: Ngày - tháng,"- Biết xem lịch (tờ lịch ngày, lịch tháng). Nhận biết các ngày trong tuần, các tháng trong năm và số ngày trong tháng."
+2,Toán,HK1,"Chủ đề 6: Ngày - giờ, giờ - phút, ngày - tháng","Bài 31: Thực hành và trải nghiệm xem đồng hồ, xem lịch",- Vận dụng kiến thức thời gian để lập thời gian biểu cá nhân đơn giản. Giải quyết các tình huống thực tế liên quan đến giờ giấc.
+2,Toán,HK1,"Chủ đề 6: Ngày - giờ, giờ - phút, ngày - tháng",Bài 32: Luyện tập chung,- Ôn tập tổng hợp về thời gian. Rèn thói quen quý trọng thời gian và sắp xếp công việc hợp lý.
+2,Toán,HK1,Chủ đề 7: Ôn tập học kì 1,"Bài 33: Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",- Hệ thống hóa kỹ năng tính toán cộng trừ (có nhớ và không nhớ). Đảm bảo tốc độ tính và độ chính xác cao.
+2,Toán,HK1,Chủ đề 7: Ôn tập học kì 1,Bài 34: Ôn tập hình phẳng,"- Củng cố khả năng nhận diện hình, tính độ dài đường gấp khúc và ba điểm thẳng hàng."
+2,Toán,HK1,Chủ đề 7: Ôn tập học kì 1,Bài 35: Ôn tập đo lường,"- Ôn tập các đơn vị đo lường (kg, l, cm, dm) và thời gian (ngày, giờ, tháng)."
+2,Toán,HK1,Chủ đề 7: Ôn tập học kì 1,Bài 36: Ôn tập chung,"- Tổng kết kiến thức Học kì 1. Đánh giá năng lực tổng quát (tính toán, hình học, đo lường, giải toán)."
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 37: Phép nhân,"- Nhận biết ý nghĩa phép nhân là tổng các số hạng bằng nhau. Biết đọc, viết và thực hiện phép nhân từ hình ảnh trực quan."
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,"Bài 38: Thừa số, tích","- Gọi đúng tên các thành phần của phép nhân (Thừa số, Tích). Biết tìm kết quả phép nhân dựa trên phép cộng."
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 39: Bảng nhân 2,- Tự lập bảng nhân 2 và học thuộc lòng. Vận dụng bảng nhân 2 để tính nhẩm và giải toán.
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 40: Bảng nhân 5,- Tự lập bảng nhân 5 và học thuộc lòng. Nhận biết tính chất đặc biệt của tích trong bảng nhân 5 (tận cùng là 0 hoặc 5).
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 41: Phép chia,- Hiểu ý nghĩa phép chia là sự chia đều (thành các phần bằng nhau). Nhận biết quan hệ giữa phép nhân và phép chia.
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,"Bài 42: Số bị chia, số chia, thương","- Gọi đúng tên các thành phần của phép chia (Số bị chia, Số chia, Thương). Biết viết phép chia tương ứng từ tình huống thực tế."
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 43: Bảng chia 2,- Tự lập bảng chia 2 từ bảng nhân 2. Thực hiện tính nhẩm phép chia 2 chính xác.
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 44: Bảng chia 5,- Tự lập bảng chia 5 từ bảng nhân 5. Vận dụng giải các bài toán chia đều cho 5 phần hoặc xếp nhóm 5.
+2,Toán,HK2,Chủ đề 8: Phép nhân và phép chia,Bài 45: Luyện tập chung,"- Củng cố bảng nhân, bảng chia 2 và 5. Rèn luyện kĩ năng giải toán có lời văn liên quan đến nhân, chia."
+2,Toán,HK2,Chủ đề 9: Làm quen với hình khối,"Bài 46: Khối trụ, khối cầu","- Nhận dạng trực quan và gọi đúng tên Khối trụ, Khối cầu. Liên hệ được với các vật thật trong cuộc sống."
+2,Toán,HK2,Chủ đề 9: Làm quen với hình khối,Bài 47: Luyện tập chung,"- Củng cố khả năng nhận diện hình phẳng và hình khối. Phát triển tư duy không gian qua việc xếp hình, đếm hình."
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,"Bài 48: Đơn vị, chục, trăm, nghìn","- Nhận biết các hàng của số: đơn vị, chục, trăm, nghìn. Hiểu quan hệ giữa các hàng (10 đơn vị = 1 chục...)."
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,"Bài 49: Các số tròn trăm, tròn chục","- Đọc, viết thành thạo các số tròn trăm, tròn chục. Biết so sánh các số tròn trăm."
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,Bài 50: Số có ba chữ số,"- Đọc, viết đúng số có 3 chữ số. Phân tích được cấu tạo số (gồm mấy trăm, mấy chục, mấy đơn vị)."
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,"Bài 51: Viết số thành tổng các trăm, chục, đơn vị",- Biết phân tích một số thành tổng giá trị các hàng tương ứng. Củng cố hiểu biết về cấu tạo thập phân của số.
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,Bài 52: So sánh các số có ba chữ số,- Nắm vững quy tắc so sánh số có 3 chữ số (so sánh từ hàng trăm -> chục -> đơn vị). Sắp xếp được dãy số theo thứ tự.
+2,Toán,HK2,Chủ đề 10: Các số trong phạm vi 1000,Bài 53: Luyện tập chung,"- Ôn tập toàn diện về số học trong phạm vi 1000 (đọc, viết, so sánh, cấu tạo số)."
+2,Toán,HK2,Chủ đề 11: Độ dài và đơn vị đo độ dài. Tiền Việt Nam,Bài 54: Mét,- Nhận biết đơn vị đo độ dài mét (m). Biết mối quan hệ 1m = 10dm = 100cm. Biết dùng thước mét để đo thực tế.
+2,Toán,HK2,Chủ đề 11: Độ dài và đơn vị đo độ dài. Tiền Việt Nam,Bài 55: Ki-lô-mét,- Nhận biết đơn vị đo độ dài ki-lô-mét (km) dùng cho khoảng cách lớn. Biết 1km = 1000m.
+2,Toán,HK2,Chủ đề 11: Độ dài và đơn vị đo độ dài. Tiền Việt Nam,Bài 56: Giới thiệu tiền Việt Nam,"- Nhận biết các mệnh giá tiền giấy/polime thông dụng (phạm vi nhỏ). Biết thực hiện tính toán, trao đổi tiền đơn giản (mua bán giả định)."
+2,Toán,HK2,Chủ đề 11: Độ dài và đơn vị đo độ dài. Tiền Việt Nam,Bài 57: Thực hành và trải nghiệm đo độ dài,"- Thực hành đo độ dài sân trường, lớp học bằng thước dây/thước mét. Ước lượng độ dài tương đối chính xác."
+2,Toán,HK2,Chủ đề 11: Độ dài và đơn vị đo độ dài. Tiền Việt Nam,Bài 58: Luyện tập chung,"- Giải các bài toán thực tế liên quan đến đơn vị m, km và tiền tệ."
+2,Toán,HK2,"Chủ đề 12: Phép cộng, phép trừ trong phạm vi 1000",Bài 59: Phép cộng (không nhớ) trong phạm vi 1000,- Thực hiện đúng phép cộng các số có 3 chữ số (không nhớ). Biết đặt tính thẳng cột theo hàng.
+2,Toán,HK2,"Chủ đề 12: Phép cộng, phép trừ trong phạm vi 1000",Bài 60: Phép cộng (có nhớ) trong phạm vi 1000,- Thực hiện được phép cộng có nhớ (nhớ 1 lần từ hàng đơn vị sang chục hoặc chục sang trăm). Tính toán cẩn thận.
+2,Toán,HK2,"Chủ đề 12: Phép cộng, phép trừ trong phạm vi 1000",Bài 61: Phép trừ (không nhớ) trong phạm vi 1000,"- Thực hiện đúng phép trừ các số có 3 chữ số (không nhớ). Vận dụng giải toán tìm phần còn lại, tìm sự chênh lệch."
+2,Toán,HK2,"Chủ đề 12: Phép cộng, phép trừ trong phạm vi 1000",Bài 62: Phép trừ (có nhớ) trong phạm vi 1000,- Thực hiện được phép trừ có nhớ (mượn 1 lần). Hiểu quy tắc mượn và trả để không bị sai số.
+2,Toán,HK2,"Chủ đề 12: Phép cộng, phép trừ trong phạm vi 1000",Bài 63: Luyện tập chung,- Rèn luyện kĩ năng tính toán cộng trừ trong phạm vi 1000. Giải bài toán có lời văn liên quan đến số lớn.
+2,Toán,HK2,"Chủ đề 13: Làm quen với yếu tố thống kê, xác suất","Bài 64: Thu thập, phân loại, kiểm đếm số liệu","- Biết cách thu thập thông tin đơn giản, phân loại đối tượng và kiểm đếm số lượng từng loại."
+2,Toán,HK2,"Chủ đề 13: Làm quen với yếu tố thống kê, xác suất",Bài 65: Biểu đồ tranh,- Biết đọc và mô tả thông tin từ biểu đồ tranh đơn giản. Rút ra được nhận xét từ biểu đồ (cái nào nhiều nhất/ít nhất).
+2,Toán,HK2,"Chủ đề 13: Làm quen với yếu tố thống kê, xác suất","Bài 66: Chắc chắn, có thể, không thể","- Làm quen với khái niệm xác suất. Biết dùng từ ""chắc chắn"", ""có thể"", ""không thể"" để mô tả khả năng xảy ra của một sự kiện."
+2,Toán,HK2,"Chủ đề 13: Làm quen với yếu tố thống kê, xác suất","Bài 67: Thực hành và trải nghiệm thu thập, phân loại, kiểm đếm số liệu","- Thực hành thu thập số liệu thực tế trong lớp học (ví dụ: số bạn thích màu gì, môn thể thao gì) và trình bày kết quả."
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 68: Ôn tập các số trong phạm vi 1000,"Củng cố toàn bộ kiến thức về số học, so sánh, cấu tạo số đến"
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,"Bài 69: Ôn tập phép cộng, phép trừ",- Rèn luyện tính toán cộng trừ thành thạo (bao gồm cả các trường hợp có nhớ và không nhớ).
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,"Bài 70: Ôn tập phép nhân, phép chia","- Củng cố bảng nhân, chia 2 và 5. Vận dụng vào các bài toán gấp lên, giảm đi một số lần."
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 71: Ôn tập hình học,"- Hệ thống hóa kiến thức hình phẳng (tứ giác, 3 điểm thẳng hàng) và hình khối (trụ, cầu). Độ dài đường gấp khúc."
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 72: Ôn tập đo lường,"- Củng cố kỹ năng đổi đơn vị đo, xem lịch, xem đồng hồ và tính toán với tiền Việt Nam."
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 73: Ôn tập đo lường (tiếp),- Luyện tập giải quyết các bài toán thực tế tổng hợp liên quan đến đo lường.
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 74: Ôn tập kiểm đếm số liệu và lựa chọn khả năng,- Củng cố kiến thức về thống kê và xác suất.
+2,Toán,HK2,Chủ đề 14: Ôn tập cuối năm,Bài 75: Ôn tập chung,- Đánh giá tổng quát năng lực toán học cuối lớp 2. Chuẩn bị nền tảng lên lớp 3.
+5,Tin,,Chủ đề A: Máy tính và em,Những việc em có thể làm được nhờ máy tính,"– Nêu được ví dụ máy tính giúp giải trí, học tập, tìm kiếm, trao đổi thông tin, hợp tác với bạn bè vàtạo ra sản phẩm số theo ý tưởng của bản thân. – Thể hiện được mong muốn biết sử dụng máy tính thành thạo để làm được nhiều việc hơn."
+5,Tin,,Chủ đề B: Mạng máy tính và Internet,Tìm kiếm thông tin trên website,"– Tìm được trên website cho trước những thông tin phù hợp và có ích cho nhiệm vụ đặt ra. – Hợp tác, chia sẻ được thông tin với các bạn trong nhóm để hoàn thành công việc được giao."
+5,Tin,,"Chủ đề C: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",Tìm kiếm thông tin trong giải quyết vấn đề,"– Giải thích được sự cần thiết, tầm quan trọng của việc thu thập và tìm kiếm thông tin trong giải quyết vấn đề. – Tìm kiếm và chọn được thông tin phù hợp với vấn đề cần giải quyết. – Thể hiện được sự hợp tác với người khácđể giải quyết vấn đề cụ thể."
+5,Tin,,"Chủ đề C: Tổ chức lưu trữ, tìm kiếm và trao đổi thông tin",Cây thư mục và tìm tệp trên máy tính,– Tạo được các thư mục với cấu trúc cây hợp lí. – Sử dụng được công cụ tìm kiếm trên máy tính để tìm các thư mục và các tệp.
+5,Tin,,"Chủ đề D: Đạo đức, pháp luật và văn hoá trong môi trường số",Bản quyền nội dung thông tin,"– Giải thích được một số khái niệm liên quan đến bản quyền nội dung thông tin. – Nhận biết và giải thích sơ lược được một số vấn đề đạo đức và tính hợp lệ của việc truy cập nộidung, việc bảo mật thông tin. – Thể hiện được sự tôn trọng tính riêng tư và bản quyền nội dung thông tin. – Thể hiện được sự không đồng tình với hiện tượng sai trái, gian dối trong học tập và đời sống như xem thư riêng haysao chép tệp của bạn khi chưa được sự đồng ý,…"
+5,Tin,,Chủ đề E: Ứng dụng tin học,Thực hành soạn thảo văn bản,"– Thực hiện thành thạo các thao tác chọn, xoá, sao chép, di chuyển một đoạn văn bản. – Định dạng được kí tự để trình bày văn bản đẹp hơn: chọn kiểu, kích thước, màu sắc cho chữ. – Đưa được hình ảnh vào trong văn bản một cách thành thạo."
+5,Tin,,Chủ đề F: Giải quyết vấn đề với sự trợ giúp của máy tính,Chơi và khám phá trong môi trường lập trình trực quan,"– Nêu được ví dụ cụ thể mô tả các cấu trúctuần tự, lặp, rẽ nhánh và sử dụng được các cấu trúc điều khiển này trong một số chương trình đơn giản. – Sử dụng được biến nhớ và biểu thức trong một số chương trình đơn giản. – Hợp tác được theo nhóm để viết kịch bản và chương trình thể hiện kịch bản. – Chạy thử được chương trình."
