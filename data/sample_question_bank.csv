@@ -1,3 +1,3 @@
-﻿question_id,grade,subject,semester,topic,lesson,yccd,qtype,tt27_level,stem,options,answer,marking_guide,difficulty
-TIN3HK1_B1_MCQ_M1_001,3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 1: Thông tin là gì?,Nhận biết được thông tin trong đời sống.,MCQ,1,Thông tin là gì?,"[""Những điều ta biết được qua quan sát/trao đổi"", ""Chỉ là con số"", ""Chỉ là hình ảnh"", ""Chỉ là âm thanh""]",A,Chọn A.,M1
-TIN3HK1_B1_TL_M3_001,3,Tin,HK1,Chủ đề A1: Thông tin và xử lý thông tin,Bài 1: Thông tin là gì?,Vận dụng để nêu ví dụ thông tin phù hợp tình huống.,ESSAY,3,Hãy nêu 2 ví dụ về thông tin em nhận được trong một ngày đi học và giải thích vì sao đó là thông tin.,,Gợi ý: Ví dụ hợp lý + giải thích đúng.,Mỗi ví dụ đúng 0.5đ; giải thích hợp lý 0.5đ.,M3
+﻿question_id,grade,subject,semester,topic,lesson,yccd,qtype,tt27_level,stem,options,answer,marking_guide
+TIN3HK1_B1_MCQ_M1_001,3,Tin,HK1,Chủ đề A1,Bài 1,YCCĐ 1,MCQ,1,"Thông tin là gì?","[\"A\",\"B\",\"C\"]",A,"Chọn A."
+TIN3HK1_B1_ESSAY_M3_001,3,Tin,HK1,Chủ đề A1,Bài 1,YCCĐ 2,ESSAY,3,"Nêu 2 ví dụ về thông tin trong ngày đi học.",,,"Mỗi ví dụ đúng 0.5đ."
