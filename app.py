@@ -68,6 +68,56 @@ st.markdown(
 st.markdown("</div>", unsafe_allow_html=True)
 st.write("")
 
+
+# ---------------- API/AI (moved under title) ----------------
+with st.expander("⚙️ API/AI (để AI tạo câu hỏi) — mở để nhập key & test", expanded=False):
+    c1, c2, c3, c4 = st.columns([1.2, 2.2, 2.2, 1.2], gap="medium")
+    with c1:
+        mode_ui = st.selectbox("Chế độ", ["Tắt", "OpenAI-compatible", "AI Studio (Gemini)"], index=0, key="ai_mode_ui_top")
+        if mode_ui == "Tắt":
+            st.session_state["ai_mode"] = "Tắt"
+        elif mode_ui == "OpenAI-compatible":
+            st.session_state["ai_mode"] = "OpenAI-compatible"
+        else:
+            st.session_state["ai_mode"] = "Gemini"
+    with c2:
+        st.session_state["ai_api_key"] = st.text_input("API Key", type="password", value=st.session_state.get("ai_api_key",""), key="ai_key_top")
+    with c3:
+        if st.session_state["ai_mode"] == "OpenAI-compatible":
+            st.session_state["ai_base_url"] = st.text_input("Base URL", value=st.session_state.get("ai_base_url","https://api.openai.com"), key="ai_base_top")
+            st.session_state["ai_model"] = st.text_input("Model", value=st.session_state.get("ai_model","gpt-4o-mini"), key="ai_model_top")
+        elif st.session_state["ai_mode"] == "Gemini":
+            st.session_state["gemini_model"] = st.text_input("Gemini model", value=st.session_state.get("gemini_model","gemini-2.5-flash"), key="gem_model_top")
+        else:
+            st.caption("Bật AI để tool có thể tạo câu hỏi.")
+    with c4:
+        if st.button("✅ Test API", use_container_width=True):
+            try:
+                if st.session_state["ai_mode"] == "OpenAI-compatible":
+                    out = openai_compatible_generate(
+                        st.session_state.get("ai_base_url","https://api.openai.com"),
+                        st.session_state.get("ai_api_key",""),
+                        st.session_state.get("ai_model","gpt-4o-mini"),
+                        "Trả lời đúng 1 từ: OK",
+                        timeout=25
+                    )
+                elif st.session_state["ai_mode"] == "Gemini":
+                    out = gemini_ai_studio_generate(
+                        st.session_state.get("ai_api_key",""),
+                        st.session_state.get("gemini_model","gemini-2.5-flash"),
+                        "Trả lời đúng 1 từ: OK",
+                        timeout=25
+                    )
+                else:
+                    out = "AI đang tắt."
+                st.success(f"Kết quả: {str(out)[:120]}")
+            except Exception as e:
+                st.error(f"Test lỗi: {e}")
+
+status = "🟢 AI đang bật" if st.session_state.get("ai_mode") != "Tắt" else "⚪ AI đang tắt"
+st.caption(f"{status} — (Nếu muốn AI tạo câu, hãy mở expander ⚙️ ở trên để nhập key.)")
+
+
 # ---------------- Helpers ----------------
 DEFAULT_SUBJECTS = ["Tin","Toán","Tiếng Việt","Khoa học","Lịch sử - Địa lý","Đạo đức","Công nghệ","Âm nhạc","Mĩ thuật"]
 
@@ -224,7 +274,7 @@ def editor_df_to_matrix(mx: MatrixTemplate, df_ed: pd.DataFrame) -> MatrixTempla
     return mx
 
 # ---------------- Tabs ----------------
-tab_soande, tab_dulieu, tab_xuat, tab_ai = st.tabs(["🧩 Soạn đề", "📚 Dữ liệu", "📤 Xuất Word", "⚙️ AI (API)"])
+tab_soande, tab_dulieu, tab_xuat = st.tabs(["🧩 Soạn đề", "📚 Dữ liệu", "📤 Xuất Word"])
 
 # ================= TAB: DATA =================
 with tab_dulieu:
@@ -321,148 +371,247 @@ with tab_soande:
     with top[4]:
         total_points = st.number_input("Tổng điểm", min_value=1.0, max_value=20.0, value=10.0, step=0.25)
 
-    # ================== MATRIX EDITOR (if template exists) ==================
-    st.markdown("### Ma trận (GV chọn số câu theo TT27)")
+    
+    # ================== MATRIX (hidden by default) ==================
+    st.markdown("### Tạo đề theo ma trận (ẩn bảng — chỉ mở khi cần chỉnh)")
     mtx_path = pick_best_matrix_template(int(grade), subject, semester)
+
+    mx = None
     if not mtx_path:
-        st.info("Chưa có template ma trận cho lựa chọn hiện tại (tool vẫn soạn đề theo luồng Chủ đề → Bài → YCCĐ).")
-        mx = None
+        st.info("Không có template ma trận cho lựa chọn hiện tại. Bạn vẫn có thể soạn theo luồng Chủ đề → Bài → YCCĐ và dùng AI tạo câu.")
     else:
         try:
             mx = load_matrix_template(mtx_path, total_points=float(total_points))
-            sig = (os.path.basename(mtx_path), int(grade), norm_subject(subject), norm_semester(semester), float(total_points))
-            if st.session_state.get("matrix_sig") != sig:
-                st.session_state["matrix_sig"] = sig
-                st.session_state["matrix_editor_df"] = matrix_to_editor_df(mx)
         except Exception as e:
             mx = None
             st.error(f"Lỗi đọc ma trận: {e}")
 
-    if mx is not None and st.session_state.get("matrix_editor_df") is not None:
-        df_ed = st.session_state["matrix_editor_df"]
+    # Init editor df when switching grade/subject/semester or first load
+    sig = (int(grade), norm_subject(subject), norm_semester(semester), os.path.basename(mtx_path) if mtx_path else "")
+    if mx is not None:
+        if st.session_state.get("matrix_sig") != sig or st.session_state.get("matrix_editor_df") is None:
+            st.session_state["matrix_editor_df"] = matrix_to_editor_df(mx)
+            st.session_state["matrix_sig"] = sig
 
-        col_cfg = {
-            "TT": st.column_config.NumberColumn("TT", disabled=True),
-            "Chủ đề": st.column_config.TextColumn("Chủ đề", disabled=True),
-            "Bài": st.column_config.TextColumn("Bài", disabled=True),
-            "Số tiết": st.column_config.NumberColumn("Số tiết", disabled=True),
-        }
-        for q in QTYPE_ORDER:
-            for lv in LEVEL_ORDER:
-                col = qtype_level_label(q, lv)
-                col_cfg[col] = st.column_config.NumberColumn(col, min_value=0, max_value=50, step=1)
+    df_ed = st.session_state.get("matrix_editor_df")
+    df_new = df_ed
 
-        df_new = st.data_editor(
-            df_ed,
-            use_container_width=True,
-            height=360,
-            hide_index=True,
-            column_config=col_cfg,
-            key="matrix_editor",
-        )
-        st.session_state["matrix_editor_df"] = df_new
+    # Compact controls (no big table)
+    cc1, cc2, cc3, cc4, cc5 = st.columns([1.2, 1.2, 1.8, 1.8, 1.2], gap="small")
+    with cc1:
+        show_matrix = st.toggle("Hiện bảng ma trận", value=False)
+    with cc2:
+        ai_batch = int(st.number_input("AI tạo/lượt", min_value=0, max_value=50, value=10, step=1,
+                                       help="Để tránh lag/time-out, AI sẽ tạo tối đa N câu trống mỗi lần bấm."))
+    with cc3:
+        replace_by_matrix = st.button("⚡ Tạo mới theo ma trận", use_container_width=True, disabled=(mx is None or df_new is None))
+    with cc4:
+        append_by_matrix = st.button("➕ Thêm theo ma trận", use_container_width=True, disabled=(mx is None or df_new is None))
+    with cc5:
+        gen_ai_missing = st.button("✨ AI tạo tiếp", use_container_width=True, disabled=(ai_batch <= 0))
 
-        b1, b2, b3 = st.columns([1.2,1.2,2.6])
-        with b1:
-            replace_by_matrix = st.button("🧩 Tạo đề theo ma trận (ghi đè)", use_container_width=True)
-        with b2:
-            append_by_matrix = st.button("➕ Thêm theo ma trận", use_container_width=True)
-        with b3:
-            st.caption("Gợi ý: Tool sẽ ưu tiên lấy từ kho câu hỏi (nếu có). Nếu không có kho, sẽ tạo câu trống để bạn bấm AI tạo từng câu sau (tránh lag).")
+    # Optional: show editable matrix in expander
+    if show_matrix and mx is not None and df_ed is not None:
+        with st.expander("🧩 Bảng ma trận (GV chỉnh số câu theo ô) — có thể kéo ngang", expanded=True):
+            col_cfg = {
+                "TT": st.column_config.NumberColumn("TT", disabled=True),
+                "Chủ đề": st.column_config.TextColumn("Chủ đề", disabled=True),
+                "Bài": st.column_config.TextColumn("Bài", disabled=True),
+                "Số tiết": st.column_config.NumberColumn("Số tiết", disabled=True),
+            }
+            for q in QTYPE_ORDER:
+                for lv in LEVEL_ORDER:
+                    col = qtype_level_label(q, lv)
+                    col_cfg[col] = st.column_config.NumberColumn(col, min_value=0, step=1)
 
-        if replace_by_matrix or append_by_matrix:
-            # Apply editor counts back into matrix
-            mx = editor_df_to_matrix(mx, df_new)
+            df_new = st.data_editor(
+                df_ed,
+                use_container_width=True,
+                hide_index=True,
+                column_config=col_cfg,
+                height=420,
+            )
+            st.session_state["matrix_editor_df"] = df_new
 
-            if replace_by_matrix:
-                st.session_state["draft_items"] = []
-                st.session_state["used_question_ids"] = set()
+    def _build_items_from_matrix(mx_local: MatrixTemplate, df_local: pd.DataFrame, replace: bool):
+        # Apply edits to matrix
+        mx_local = editor_df_to_matrix(mx_local, df_local)
 
-            # Build plan items
-            filtered = cascade_filter(cat_prepped, int(grade), subject, semester)
-            # index yccd per (topic, lesson)
-            ymap = {}
-            if not filtered.empty:
-                for (t, l), gdf in filtered.groupby(["topic","lesson"]):
-                    ymap[(str(t), str(l))] = gdf["yccd"].dropna().astype(str).tolist()
+        if replace:
+            st.session_state["draft_items"] = []
+            st.session_state["used_question_ids"] = set()
 
-            bank: Bank | None = st.session_state["bank"]
-            bank_df = bank.filtered(int(grade), norm_subject(subject), norm_semester(semester)) if bank is not None else None
+        ensure_catalog_loaded()
+        filtered = cascade_filter(cat_prepped, int(grade), subject, semester)
 
-            def pick_from_bank(topic_: str, lesson_: str, qtype_: str, level_: int, yccd_: str):
-                if bank_df is None or bank_df.empty:
-                    return None, {}
-                sub = bank_df[
-                    (bank_df["topic"].astype(str)==str(topic_)) &
-                    (bank_df["lesson"].astype(str)==str(lesson_)) &
-                    (bank_df["qtype"].astype(str).str.upper()==qtype_) &
-                    (bank_df["tt27_level"].astype(int)==int(level_))
-                ]
-                if yccd_:
-                    sub2 = sub[sub["yccd"].astype(str)==str(yccd_)]
-                    if not sub2.empty:
-                        sub = sub2
-                if sub.empty:
-                    return None, {}
-                used = set(st.session_state.get("used_question_ids", set()))
-                for _, r in sub.iterrows():
-                    qid = str(r.get("question_id",""))
-                    if qid and qid not in used:
-                        used.add(qid)
-                        st.session_state["used_question_ids"] = used
-                        return qid, {
-                            "stem": str(r.get("stem","")),
-                            "options": str(r.get("options","")),
-                            "answer": str(r.get("answer","")),
-                            "marking_guide": str(r.get("marking_guide","")),
-                            "yccd": str(r.get("yccd","")),
-                        }
+        # index yccd per (topic, lesson)
+        ymap = {}
+        if not filtered.empty:
+            for (t, l), gdf in filtered.groupby(["topic","lesson"]):
+                ymap[(str(t), str(l))] = gdf["yccd"].dropna().astype(str).tolist()
+
+        bank: Bank | None = st.session_state["bank"]
+        bank_df = bank.filtered(int(grade), norm_subject(subject), norm_semester(semester)) if bank is not None else None
+
+        def pick_from_bank(topic_: str, lesson_: str, qtype_: str, level_: int, yccd_: str):
+            if bank_df is None or bank_df.empty:
                 return None, {}
+            sub = bank_df[
+                (bank_df["topic"].astype(str)==str(topic_)) &
+                (bank_df["lesson"].astype(str)==str(lesson_)) &
+                (bank_df["qtype"].astype(str).str.upper()==qtype_) &
+                (bank_df["tt27_level"].astype(int)==int(level_))
+            ]
+            if yccd_:
+                sub2 = sub[sub["yccd"].astype(str)==str(yccd_)]
+                if not sub2.empty:
+                    sub = sub2
+            if sub.empty:
+                return None, {}
+            used = set(st.session_state.get("used_question_ids", set()))
+            for _, r in sub.iterrows():
+                qid = str(r.get("question_id",""))
+                if qid and qid not in used:
+                    used.add(qid)
+                    st.session_state["used_question_ids"] = used
+                    return qid, {
+                        "stem": str(r.get("stem","")),
+                        "options": str(r.get("options","")),
+                        "answer": str(r.get("answer","")),
+                        "marking_guide": str(r.get("marking_guide","")),
+                        "yccd": str(r.get("yccd","")),
+                    }
+            return None, {}
 
-            pts = st.session_state["points_per_qtype"]
-            items = st.session_state["draft_items"]
-            next_qno = 1 if not items else max(int(x.get("qno",0)) for x in items) + 1
+        pts = st.session_state["points_per_qtype"]
+        items = st.session_state["draft_items"]
+        next_qno = 1 if not items else max(int(x.get("qno",0)) for x in items) + 1
 
-            added = 0
-            for lr in mx.lessons:
-                t = lr.topic
-                l = lr.lesson
-                ylist = ymap.get((str(t), str(l)), [])
-                yidx = 0
-                for q in QTYPE_ORDER:
-                    for lv in LEVEL_ORDER:
-                        cnt = int(lr.counts.get((q, lv), 0) or 0)
-                        for _ in range(cnt):
-                            yccd_pick = ""
-                            if ylist:
-                                yccd_pick = ylist[yidx % len(ylist)]
-                                yidx += 1
+        added = 0
+        for lr in mx_local.lessons:
+            t = lr.topic
+            l = lr.lesson
+            ylist = ymap.get((str(t), str(l)), [])
+            yidx = 0
+            for q in QTYPE_ORDER:
+                for lv in LEVEL_ORDER:
+                    cnt = int(lr.counts.get((q, lv), 0) or 0)
+                    for _ in range(cnt):
+                        yccd_pick = ""
+                        if ylist:
+                            yccd_pick = ylist[yidx % len(ylist)]
+                            yidx += 1
 
-                            qid, payload = pick_from_bank(t, l, q, lv, yccd_pick)
-                            stem = payload.get("stem","")
-                            options = payload.get("options","")
-                            answer = payload.get("answer","")
-                            guide = payload.get("marking_guide","")
+                        qid, payload = pick_from_bank(t, l, q, lv, yccd_pick)
+                        stem = payload.get("stem","")
+                        options = payload.get("options","")
+                        answer = payload.get("answer","")
+                        guide = payload.get("marking_guide","")
 
-                            items.append({
-                                "qno": next_qno,
-                                "topic": t,
-                                "lesson": l,
-                                "yccd": yccd_pick,
-                                "qtype": q,
-                                "level": int(lv),
-                                "points": float(pts.get(q, 0.25)),
-                                "question_id": qid,
-                                "stem": stem,
-                                "options": options,
-                                "answer": answer,
-                                "marking_guide": guide,
-                            })
-                            next_qno += 1
-                            added += 1
-            st.success(f"✅ Đã tạo {added} câu theo ma trận. (Câu trống bạn có thể bấm AI tạo từng câu sau để tránh lag).")
+                        items.append({
+                            "qno": next_qno,
+                            "topic": t,
+                            "lesson": l,
+                            "yccd": yccd_pick or payload.get("yccd",""),
+                            "qtype": q,
+                            "level": int(lv),
+                            "points": float(pts.get(q, 0.25)),
+                            "question_id": qid,
+                            "stem": stem,
+                            "options": options,
+                            "answer": answer,
+                            "marking_guide": guide,
+                        })
+                        next_qno += 1
+                        added += 1
 
-    # ================== Points per qtype ==================
+        st.session_state["draft_items"] = items
+        return added
+
+    def _ai_fill_missing(limit_n: int):
+        if limit_n <= 0:
+            return 0
+        mode = st.session_state.get("ai_mode","Tắt")
+        if mode == "Tắt":
+            st.warning("AI đang tắt. Mở ⚙️ API/AI dưới tiêu đề để bật và nhập key.")
+            return 0
+
+        items = st.session_state.get("draft_items", [])
+        missing_idx = [i for i,x in enumerate(items) if not str(x.get("stem","")).strip()]
+        if not missing_idx:
+            st.info("Không có câu trống để AI tạo.")
+            return 0
+
+        todo = missing_idx[:limit_n]
+        prog = st.progress(0.0)
+        done = 0
+
+        for k, i in enumerate(todo, start=1):
+            x = items[i]
+            qtype_ = x.get("qtype","MCQ")
+            lv = int(x.get("level",1))
+            pts_one = float(x.get("points",0.25))
+            lvl_name = LEVEL_NAME.get(int(lv), f"M{lv}")
+            prompt = f"""Hãy tạo 01 câu hỏi cho học sinh tiểu học (CTGDPT 2018, TT27).
+Lớp: {grade}
+Môn: {subject}
+Học kì: {semester}
+Chủ đề: {x.get('topic','')}
+Bài học: {x.get('lesson','')}
+YCCĐ: {x.get('yccd','') or '(tổng hợp)'}
+Dạng: {qtype_}
+Mức độ (TT27): {lvl_name}
+Điểm: {pts_one}
+
+Trả về JSON đúng cấu trúc:
+{{"stem":"...","options":["A...","B...","C...","D..."],"answer":"A","marking_guide":"..." }}
+Nếu không phải MCQ thì options = [] .
+Chỉ trả JSON, không thêm chữ khác."""
+            try:
+                if mode == "OpenAI-compatible":
+                    txt = openai_compatible_generate(
+                        base_url=st.session_state.get("ai_base_url","https://api.openai.com"),
+                        api_key=st.session_state.get("ai_api_key",""),
+                        model=st.session_state.get("ai_model","gpt-4o-mini"),
+                        prompt=prompt,
+                        timeout=45,
+                    )
+                else:
+                    txt = gemini_ai_studio_generate(
+                        api_key=st.session_state.get("ai_api_key",""),
+                        model=st.session_state.get("gemini_model","gemini-2.5-flash"),
+                        prompt=prompt,
+                        timeout=45,
+                    )
+                obj = json.loads(txt)
+                x["stem"] = obj.get("stem","")
+                opts = obj.get("options", [])
+                x["options"] = json.dumps(opts, ensure_ascii=False) if isinstance(opts, list) else str(opts)
+                x["answer"] = obj.get("answer","")
+                x["marking_guide"] = obj.get("marking_guide","")
+                if not x.get("question_id"):
+                    x["question_id"] = f"AI_{grade}_{norm_subject(subject)}_{norm_semester(semester)}_{qtype_}_M{lv}_{x.get('qno',0):03d}"
+                done += 1
+            except Exception as e:
+                # keep blank; continue
+                x["marking_guide"] = f"(AI lỗi: {e})"
+            prog.progress(k/len(todo))
+        st.session_state["draft_items"] = items
+        return done
+
+    if (replace_by_matrix or append_by_matrix) and mx is not None and df_new is not None:
+        added = _build_items_from_matrix(mx, df_new, replace=bool(replace_by_matrix))
+        st.success(f"✅ Đã tạo {added} dòng câu theo ma trận. (AI sẽ tạo nội dung theo lô để tránh lag.)")
+        if ai_batch > 0:
+            created = _ai_fill_missing(ai_batch)
+            if created:
+                st.success(f"✨ AI đã tạo {created} câu trong lượt này. Bạn có thể bấm 'AI tạo tiếp' để tạo thêm.")
+
+    if gen_ai_missing:
+        created = _ai_fill_missing(ai_batch)
+        if created:
+            st.success(f"✨ AI đã tạo {created} câu trong lượt này.")
+# ================== Points per qtype ==================
     st.markdown("### Điểm/1 câu (bước 0,25)")
     pts = st.session_state["points_per_qtype"]
     pcols = st.columns(5)
@@ -555,7 +704,7 @@ with tab_soande:
     def generate_with_ai():
         mode = st.session_state.get("ai_mode","Tắt")
         if mode == "Tắt":
-            raise AIError("AI đang tắt. Vào tab ⚙️ AI (API) để bật và nhập key.")
+            raise AIError("AI đang tắt. Mở mục ⚙️ API/AI dưới tiêu đề để bật và nhập key.")
         lvl_name = LEVEL_NAME.get(int(level), f"M{level}")
         prompt = f"""Hãy tạo 01 câu hỏi cho học sinh tiểu học (CTGDPT 2018, TT27).
 Lớp: {grade}
@@ -724,45 +873,3 @@ with tab_xuat:
                         st.error(f"Lỗi xuất đề: {e}")
 
 # ================= TAB: AI =================
-with tab_ai:
-    st.subheader("Cấu hình AI (API)")
-    st.caption("Bạn có thể ra đề 100% bằng AI (không cần kho). Kho câu hỏi chỉ giúp ổn định hơn.")
-
-    mode_ui = st.selectbox("Chế độ", ["Tắt", "OpenAI-compatible", "AI Studio (Gemini)"], index=0)
-    if mode_ui == "Tắt":
-        st.session_state["ai_mode"] = "Tắt"
-    elif mode_ui == "OpenAI-compatible":
-        st.session_state["ai_mode"] = "OpenAI-compatible"
-    else:
-        st.session_state["ai_mode"] = "Gemini"
-
-    st.session_state["ai_api_key"] = st.text_input("API Key", type="password", value=st.session_state.get("ai_api_key",""))
-
-    if st.session_state["ai_mode"] == "OpenAI-compatible":
-        st.session_state["ai_base_url"] = st.text_input("Base URL", value=st.session_state.get("ai_base_url","https://api.openai.com"))
-        st.session_state["ai_model"] = st.text_input("Model", value=st.session_state.get("ai_model","gpt-4o-mini"))
-    elif st.session_state["ai_mode"] == "Gemini":
-        st.session_state["gemini_model"] = st.text_input("Gemini model", value=st.session_state.get("gemini_model","gemini-2.5-flash"))
-
-    if st.button("✅ Test API", use_container_width=True):
-        try:
-            if st.session_state["ai_mode"] == "OpenAI-compatible":
-                out = openai_compatible_generate(
-                    st.session_state["ai_base_url"],
-                    st.session_state["ai_api_key"],
-                    st.session_state["ai_model"],
-                    "Trả lời đúng 1 từ: OK",
-                    timeout=25
-                )
-            elif st.session_state["ai_mode"] == "Gemini":
-                out = gemini_ai_studio_generate(
-                    st.session_state["ai_api_key"],
-                    st.session_state["gemini_model"],
-                    "Trả lời đúng 1 từ: OK",
-                    timeout=25
-                )
-            else:
-                out = "AI đang tắt."
-            st.success(f"Kết quả: {out[:120]}")
-        except Exception as e:
-            st.error(f"Test lỗi: {e}")
