@@ -1,1 +1,10 @@
+[theme]
+base="light"
+primaryColor="#3b82f6"
+backgroundColor="#ffffff"
+secondaryBackgroundColor="#f6f7fb"
+textColor="#0f172a"
+font="sans serif"
 
+[server]
+enableXsrfProtection=true
