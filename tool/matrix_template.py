@@ -31,24 +31,19 @@ QTYPE_COLS = {
     "ESSAY": ("S","T","U"),
 }
 
-def load_matrix_template(xlsx_path: str, total_points: float = 10.0, step: float = 0.25) -> MatrixTemplate:
+def load_matrix_template(xlsx_path: str, total_points: float = 10.0) -> MatrixTemplate:
     wb = openpyxl.load_workbook(xlsx_path, data_only=False)
     ws = wb["ma trận"] if "ma trận" in wb.sheetnames else wb[wb.sheetnames[0]]
     title = str(ws["C2"].value or "MA TRẬN").strip()
 
-    grade = None
-    subject = None
-    semester = None
-    t_up = title.upper()
+    grade = None; subject = None; semester = None
+    t = title.upper()
     for g in range(1, 6):
-        if f"LỚP {g}" in t_up:
+        if f"LỚP {g}" in t or f" {g} " in f" {t} ":
             grade = g
-    if "TIN" in t_up:
-        subject = "Tin"
-    if "HK1" in t_up or "HỌC KÌ I" in t_up:
-        semester = "HK1"
-    if "HK2" in t_up or "HỌC KÌ II" in t_up:
-        semester = "HK2"
+    if "TIN" in t: subject = "Tin"
+    if "HK1" in t or "HỌC KÌ I" in t or "HKI" in t: semester = "HK1"
+    if "HK2" in t or "HỌC KÌ II" in t or "HKII" in t: semester = "HK2"
 
     start_row = 7
     end_row = None
@@ -57,8 +52,7 @@ def load_matrix_template(xlsx_path: str, total_points: float = 10.0, step: float
         if isinstance(a, str) and "Tổng số câu" in a:
             end_row = r - 1
             break
-    if end_row is None:
-        end_row = ws.max_row
+    end_row = end_row or ws.max_row
 
     total_periods = 0
     for r in range(start_row, end_row + 1):
@@ -74,7 +68,6 @@ def load_matrix_template(xlsx_path: str, total_points: float = 10.0, step: float
             tt_int = int(tt)
         except Exception:
             continue
-
         topic = ws.cell(r, 2).value
         if topic:
             current_topic = str(topic).strip()
@@ -89,20 +82,11 @@ def load_matrix_template(xlsx_path: str, total_points: float = 10.0, step: float
                 counts[(qtype, level)] = safe_int(ws[f"{col_letter}{r}"].value, 0)
 
         lessons.append(LessonRow(
-            tt=tt_int,
-            topic=current_topic,
-            lesson=lesson,
-            periods=periods,
-            ratio_pct=ratio,
-            points_target=points_target,
-            counts=counts,
+            tt=tt_int, topic=current_topic, lesson=lesson, periods=periods,
+            ratio_pct=ratio, points_target=points_target, counts=counts
         ))
 
     return MatrixTemplate(
-        title=title,
-        grade=grade,
-        subject=subject,
-        semester=semester,
-        lessons=lessons,
-        total_points=float(total_points),
+        title=title, grade=grade, subject=subject, semester=semester,
+        lessons=lessons, total_points=float(total_points)
     )

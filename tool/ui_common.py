@@ -2,48 +2,38 @@ from __future__ import annotations
 import streamlit as st
 
 def inject_css() -> None:
-    st.markdown(
-        '''
-        <style>
-          .block-container { padding-top: 1.25rem; padding-bottom: 2rem; }
-          .app-card {
-            background: #ffffff;
-            border: 1px solid rgba(15,23,42,0.08);
-            border-radius: 16px;
-            padding: 16px 16px 8px 16px;
-            box-shadow: 0 6px 20px rgba(15,23,42,0.04);
-          }
-          .muted { color: rgba(15,23,42,0.65); font-size: 0.95rem; }
-          .pill {
-            display:inline-block; padding:4px 10px; border-radius:999px;
-            border: 1px solid rgba(15,23,42,0.12); background:#f6f7fb;
-            margin-right:6px; font-size: 12px;
-          }
-          .danger { color: #b91c1c; }
-          .ok { color: #166534; }
-        </style>
-        ''',
-        unsafe_allow_html=True,
-    )
+    st.markdown(r'''
+    <style>
+      /* Hide default multipage nav (prevents old pages from showing) */
+      div[data-testid="stSidebarNav"] { display: none; }
+      /* Hide the small "app" header in sidebar */
+      div[data-testid="stSidebarHeader"] { display: none; }
 
-def sidebar_settings() -> None:
-    st.sidebar.markdown("## ⚙️ Cấu hình")
-    with st.sidebar.expander("🔑 AI Studio (chưa dùng, để sẵn)", expanded=False):
-        st.caption("Chưa gọi AI. Chỉ lưu key để chuẩn bị triển khai sau.")
-        key = st.text_input("API Key", type="password", value=st.session_state.get("ai_api_key", ""))
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("Lưu key", use_container_width=True):
-                st.session_state["ai_api_key"] = key.strip()
-                st.success("Đã lưu (tạm trong session).")
-        with col2:
-            if st.button("Check", use_container_width=True):
-                if not key.strip():
-                    st.error("Chưa nhập key.")
-                elif len(key.strip()) < 10:
-                    st.warning("Key có vẻ quá ngắn (kiểm tra lại).")
-                else:
-                    st.success("OK (đã có key, chưa gọi API).")
+      .block-container { padding-top: 1.1rem; padding-bottom: 2rem; }
+      h1 { font-size: 2.2rem !important; }
+      h2 { font-size: 1.6rem !important; }
+      h3 { font-size: 1.25rem !important; }
+      label, .stMarkdown, .stText, .stCaption { font-size: 1.05rem; }
 
+      .app-hero {
+        background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+        border: 1px solid rgba(15,23,42,0.08);
+        border-radius: 18px;
+        padding: 18px 18px 12px 18px;
+        box-shadow: 0 10px 28px rgba(15,23,42,0.06);
+      }
+      .muted { color: rgba(15,23,42,0.70); font-size: 1.05rem; }
+      .pill {
+        display:inline-block; padding:6px 12px; border-radius:999px;
+        border: 1px solid rgba(15,23,42,0.12); background:#f6f7fb;
+        margin-right:8px; margin-bottom:8px; font-size: 14px;
+      }
+      .danger { color: #b91c1c; font-weight: 700; }
+      .ok { color: #166534; font-weight: 700; }
+    </style>
+    ''', unsafe_allow_html=True)
+
+def sidebar_brand() -> None:
+    st.sidebar.markdown("## 🧩 Tool HỖ TRỢ RA ĐỀ")
+    st.sidebar.caption("TT27: Biết=M1 • Hiểu=M2 • Vận dụng=M3 (khóa mức)")
     st.sidebar.markdown("---")
-    st.sidebar.caption("TT27: Biết=M1 • Hiểu=M2 • VD=M3 (khóa mức)")

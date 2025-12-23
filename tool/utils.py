@@ -3,7 +3,7 @@ from typing import List, Tuple
 
 QTYPE_ORDER = ["MCQ", "TF", "MATCH", "FILL", "ESSAY"]
 LEVEL_ORDER = [1, 2, 3]
-LEVEL_NAME = {1: "Biết (M1)", 2: "Hiểu (M2)", 3: "VD (M3)"}
+LEVEL_NAME = {1: "Biết (M1)", 2: "Hiểu (M2)", 3: "Vận dụng (M3)"}
 
 def round_to_step(x: float, step: float = 0.25) -> float:
     if step <= 0:
@@ -45,5 +45,6 @@ def parse_qtype_level(label: str) -> tuple[str, int]:
     if "(M2)" in label: return left, 2
     if "(M3)" in label: return left, 3
     for d in ["1","2","3"]:
-        if f"M{d}" in label: return left, int(d)
+        if f"M{d}" in label:
+            return left, int(d)
     return left, 1
